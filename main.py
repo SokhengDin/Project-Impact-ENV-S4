@@ -22,13 +22,15 @@ from langchain_community.vectorstores import FAISS
 
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+_openai_key = os.getenv("OPENAI_API_KEY")
+if _openai_key:
+    os.environ["OPENAI_API_KEY"] = _openai_key
 
 # llm = ChatOllama(model="qwen3.5:4b", temperature=0)
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0) if _openai_key else None
 
 # embeddings = OllamaEmbeddings(model="qwen3.5:4b")
-embeddings = OpenAIEmbeddings()
+embeddings = OpenAIEmbeddings() if _openai_key else None
 
 splitter = RecursiveCharacterTextSplitter(
     chunk_size    = 1000,
@@ -107,7 +109,7 @@ prompt = ChatPromptTemplate.from_messages([
     ),
 ])
 
-chain = prompt | llm.with_structured_output(ImpactAnalysis)
+chain = (prompt | llm.with_structured_output(ImpactAnalysis)) if llm else None
 
 
 def extract_impact_section(pdf_path: Path) -> str:
