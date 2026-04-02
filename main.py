@@ -170,6 +170,9 @@ def analyse_paper(pdf_path: Path) -> dict:
     impact_text    = impact_section or rag_context or full_text or "No impact statement found."
     found          = bool(impact_section or rag_context)
 
+    if chain is None:
+        raise RuntimeError("OPENAI_API_KEY is not set — cannot analyse papers.")
+
     result = chain.invoke({
         "title"      : pdf_path.stem,
         "impact_text": impact_text,

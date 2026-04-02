@@ -6,7 +6,7 @@
 <title>NeurIPS — Societal Impact Analysis</title>
 <script src="https://cdn.jsdelivr.net/npm/uplot@1.6.31/dist/uPlot.iife.min.js"></script>
 <link  href="https://cdn.jsdelivr.net/npm/uplot@1.6.31/dist/uPlot.min.css" rel="stylesheet" />
-<link  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+<link  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -37,7 +37,11 @@ body {
 header {
   border-bottom : 1px solid var(--border);
   padding       : 36px 56px 28px;
+  display       : flex;
+  justify-content: space-between;
+  align-items   : flex-end;
 }
+.header-left {}
 header h1 {
   font-family   : "Lora", serif;
   font-size     : 1.75rem;
@@ -53,9 +57,23 @@ header p span {
   font-weight : 500;
   color       : var(--text);
 }
+.header-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.header-stat {
+  text-align: center;
+  padding: 8px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  background: var(--surface);
+}
+.header-stat .hs-val { font-size: 1.3rem; font-weight: 600; line-height: 1.2; }
+.header-stat .hs-lbl { font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
 
 /* ── LAYOUT ── */
-main { max-width: 1280px; margin: 0 auto; padding: 44px 56px 80px; }
+main { max-width: 1320px; margin: 0 auto; padding: 44px 56px 80px; }
 
 .section-label {
   font-size      : .65rem;
@@ -84,7 +102,9 @@ main { max-width: 1280px; margin: 0 auto; padding: 44px 56px 80px; }
   box-shadow    : var(--shadow);
   position      : relative;
   overflow      : hidden;
+  transition    : transform .15s, box-shadow .15s;
 }
+.kpi:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,.08); }
 .kpi::before {
   content       : "";
   position      : absolute;
@@ -103,6 +123,8 @@ main { max-width: 1280px; margin: 0 auto; padding: 44px 56px 80px; }
 .kpi.q3 .val { color: var(--q3); }
 .kpi.q4 .val { color: var(--q4); }
 .kpi .sub   { font-size: .73rem; color: var(--muted); margin-top: 6px; }
+.kpi .sparkline { margin-top: 10px; }
+.kpi .sparkline svg { display: block; }
 
 /* ── CHART GRID ── */
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
@@ -146,6 +168,12 @@ main { max-width: 1280px; margin: 0 auto; padding: 44px 56px 80px; }
   flex-shrink     : 0;
 }
 .pie-legend-item .pct { margin-left: auto; font-weight: 600; font-size: .82rem; }
+
+/* ── DONUT ── */
+.donut-center-text {
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
 
 /* ── HORIZONTAL BAR ── */
 .hbar { margin-bottom: 12px; }
@@ -191,7 +219,13 @@ th {
   padding       : 8px 12px;
   border-bottom : 2px solid var(--border);
   white-space   : nowrap;
+  cursor        : pointer;
+  user-select   : none;
+  position      : relative;
 }
+th:hover { color: var(--text); }
+th .sort-arrow { font-size: .6rem; margin-left: 4px; opacity: .4; }
+th.sorted .sort-arrow { opacity: 1; color: var(--q4); }
 td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
 tr:hover td { background: var(--surface2); }
 
@@ -220,13 +254,157 @@ tr:hover td { background: var(--surface2); }
 /* ── IMPACT FOUND BADGE ── */
 .found-yes { color: #00b894; font-size: .7rem; font-weight: 600; }
 .found-no  { color: var(--muted); font-size: .7rem; }
+
+/* ── PAGINATION ── */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.pagination .page-info {
+  font-size: .76rem;
+  color: var(--muted);
+}
+.pagination .page-info span { font-weight: 600; color: var(--text); }
+.page-controls {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.page-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: .78rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .12s;
+  color: var(--text);
+}
+.page-btn:hover:not(:disabled) { background: var(--surface2); border-color: #ccc; }
+.page-btn:disabled { opacity: .3; cursor: default; }
+.page-btn.active { background: var(--text); color: #fff; border-color: var(--text); }
+.page-size-select {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .74rem;
+  color: var(--muted);
+}
+.page-size-select select {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: .74rem;
+  background: var(--bg);
+  cursor: pointer;
+}
+
+/* ── SEARCH ── */
+.table-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  gap: 12px;
+}
+.search-box {
+  position: relative;
+  flex: 0 0 260px;
+}
+.search-box input {
+  width: 100%;
+  padding: 7px 12px 7px 32px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: .78rem;
+  outline: none;
+  transition: border-color .15s;
+}
+.search-box input:focus { border-color: #aaa; }
+.search-box .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: .8rem;
+}
+.result-count {
+  font-size: .74rem;
+  color: var(--muted);
+}
+
+/* ── RADAR CANVAS ── */
+canvas { display: block; }
+
+/* ── CORRELATION HEATMAP ── */
+.heatmap-grid {
+  display: grid;
+  gap: 2px;
+}
+.heatmap-cell {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .68rem;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform .1s;
+}
+.heatmap-cell:hover { transform: scale(1.08); }
+.heatmap-label {
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── SUMMARY STATS ── */
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: .78rem;
+}
+.stat-row:last-child { border-bottom: none; }
+.stat-label { color: var(--muted); }
+.stat-value { font-weight: 600; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  header { padding: 24px 20px 20px; flex-direction: column; align-items: flex-start; gap: 12px; }
+  main { padding: 24px 20px 60px; }
+  .kpi-row { grid-template-columns: 1fr 1fr; }
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .header-right { flex-wrap: wrap; }
+}
 </style>
 </head>
 <body>
 
 <header>
-  <h1>NeurIPS — Societal Impact Analysis</h1>
-  <p id="sub">Loading data…</p>
+  <div class="header-left">
+    <h1>NeurIPS — Societal Impact Analysis</h1>
+    <p id="sub">Loading data…</p>
+  </div>
+  <div class="header-right" id="header-stats"></div>
 </header>
 
 <main>
@@ -234,10 +412,10 @@ tr:hover td { background: var(--surface2); }
   <!-- KPI -->
   <div class="section-label">Overview</div>
   <div class="kpi-row">
-    <div class="kpi q1"><div class="lbl">Q1 — Generic Phrase</div><div class="val" id="kpi-q1">—</div><div class="sub">papers with default statement</div></div>
-    <div class="kpi q2"><div class="lbl">Q2 — Positive Impact</div><div class="val" id="kpi-q2">—</div><div class="sub">papers with positive examples</div></div>
-    <div class="kpi q3"><div class="lbl">Q3 — Negative Impact</div><div class="val" id="kpi-q3">—</div><div class="sub">papers with negative examples</div></div>
-    <div class="kpi q4"><div class="lbl">Q4 — Positive &gt; Negative</div><div class="val" id="kpi-q4">—</div><div class="sub">net positive papers</div></div>
+    <div class="kpi q1"><div class="lbl">Q1 — Generic Phrase</div><div class="val" id="kpi-q1">—</div><div class="sub" id="kpi-q1-sub">papers with default statement</div><div class="sparkline" id="spark-q1"></div></div>
+    <div class="kpi q2"><div class="lbl">Q2 — Positive Impact</div><div class="val" id="kpi-q2">—</div><div class="sub" id="kpi-q2-sub">papers with positive examples</div><div class="sparkline" id="spark-q2"></div></div>
+    <div class="kpi q3"><div class="lbl">Q3 — Negative Impact</div><div class="val" id="kpi-q3">—</div><div class="sub" id="kpi-q3-sub">papers with negative examples</div><div class="sparkline" id="spark-q3"></div></div>
+    <div class="kpi q4"><div class="lbl">Q4 — Positive &gt; Negative</div><div class="val" id="kpi-q4">—</div><div class="sub" id="kpi-q4-sub">net positive papers</div><div class="sparkline" id="spark-q4"></div></div>
   </div>
 
   <!-- uPlot trend -->
@@ -247,20 +425,34 @@ tr:hover td { background: var(--surface2); }
     <div id="uplot-wrap"></div>
   </div>
 
-  <!-- Pie + per-year bars -->
-  <div class="section-label">Distribution</div>
-  <div class="grid-2">
-
+  <!-- Pie + Donut + Radar -->
+  <div class="section-label">Distribution &amp; Correlation</div>
+  <div class="grid-3">
     <div class="card">
       <h3>Overall YES / NO split — all questions</h3>
       <div id="pie-container"></div>
     </div>
-
     <div class="card">
       <h3>Impact section found in PDF</h3>
       <div id="pie-found"></div>
     </div>
+    <div class="card">
+      <h3>Question co-occurrence radar</h3>
+      <canvas id="radar-canvas" width="260" height="240"></canvas>
+    </div>
+  </div>
 
+  <!-- Correlation heatmap + summary stats -->
+  <div class="section-label">Correlation &amp; Summary</div>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Question co-occurrence heatmap</h3>
+      <div id="heatmap"></div>
+    </div>
+    <div class="card">
+      <h3>Summary statistics</h3>
+      <div id="summary-stats"></div>
+    </div>
   </div>
 
   <!-- Per-year grouped bars -->
@@ -276,7 +468,21 @@ tr:hover td { background: var(--surface2); }
   <div class="section-label">Stacked composition per year</div>
   <div class="card">
     <h3>All four questions — YES count stacked per year</h3>
-    <canvas id="stacked-canvas" height="220"></canvas>
+    <canvas id="stacked-canvas" height="240"></canvas>
+  </div>
+
+  <!-- Year-over-year delta -->
+  <div class="section-label">Year-over-year change</div>
+  <div class="card">
+    <h3>Δ YES rate compared to previous year (percentage points)</h3>
+    <canvas id="delta-canvas" height="200"></canvas>
+  </div>
+
+  <!-- Grouped bar: absolute counts -->
+  <div class="section-label">Absolute counts per year</div>
+  <div class="card">
+    <h3>YES count per question per year</h3>
+    <canvas id="grouped-canvas" height="220"></canvas>
   </div>
 
   <!-- Table -->
@@ -285,14 +491,24 @@ tr:hover td { background: var(--surface2); }
     <span class="flabel">Year:</span>
     <button class="fbtn active" data-year="all">All</button>
   </div>
+  <div class="table-toolbar">
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input type="text" id="search-input" placeholder="Search papers by title…" />
+    </div>
+    <div class="result-count" id="result-count"></div>
+  </div>
   <div class="table-wrap">
     <table>
       <thead>
         <tr>
-          <th>Year</th>
-          <th>Title</th>
-          <th>Impact found</th>
-          <th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th>
+          <th data-col="year">Year <span class="sort-arrow">▼</span></th>
+          <th data-col="title">Title <span class="sort-arrow">▼</span></th>
+          <th data-col="impact_found">Impact found <span class="sort-arrow">▼</span></th>
+          <th data-col="q1_default">Q1 <span class="sort-arrow">▼</span></th>
+          <th data-col="q2_positive">Q2 <span class="sort-arrow">▼</span></th>
+          <th data-col="q3_negative">Q3 <span class="sort-arrow">▼</span></th>
+          <th data-col="q4_more_positive">Q4 <span class="sort-arrow">▼</span></th>
           <th>Positive examples</th>
           <th>Negative examples</th>
         </tr>
@@ -300,19 +516,32 @@ tr:hover td { background: var(--surface2); }
       <tbody id="tbody"></tbody>
     </table>
   </div>
+  <div class="pagination" id="pagination"></div>
 
 </main>
 
 <script>
 let ALL = [];
+let currentPage = 1;
+let pageSize = 15;
+let sortCol = "year";
+let sortDir = "asc";
+let searchQuery = "";
+let filteredData = [];
 
 const Q1C = "#d63031", Q2C = "#00b894", Q3C = "#e17055", Q4C = "#0984e3";
+const KEYS = ["q1_default","q2_positive","q3_negative","q4_more_positive"];
+const LABELS = ["Q1 Generic","Q2 Positive","Q3 Negative","Q4 P>N"];
+const COLS = [Q1C, Q2C, Q3C, Q4C];
 
 async function load() {
   const res = await fetch("/data");
   ALL = await res.json();
+  filteredData = ALL;
   render(ALL);
   buildFilters(ALL);
+  setupSearch();
+  setupSort();
 }
 
 function pct(arr, key) {
@@ -328,20 +557,66 @@ function byYear(data) {
 
 function render(data) {
   const years = Object.keys(byYear(data)).sort();
+  filteredData = data;
+  currentPage = 1;
 
   document.getElementById("sub").innerHTML =
     `<span>${data.length}</span> papers &nbsp;·&nbsp; years: <span>${years.join(", ")}</span>`;
+
+  // Header stats
+  const foundCount = data.filter(r => r.impact_found).length;
+  document.getElementById("header-stats").innerHTML = `
+    <div class="header-stat"><div class="hs-val">${data.length}</div><div class="hs-lbl">Total papers</div></div>
+    <div class="header-stat"><div class="hs-val">${years.length}</div><div class="hs-lbl">Years</div></div>
+    <div class="header-stat"><div class="hs-val">${foundCount}</div><div class="hs-lbl">Impact found</div></div>
+  `;
 
   document.getElementById("kpi-q1").textContent = pct(data, "q1_default")       + "%";
   document.getElementById("kpi-q2").textContent = pct(data, "q2_positive")      + "%";
   document.getElementById("kpi-q3").textContent = pct(data, "q3_negative")      + "%";
   document.getElementById("kpi-q4").textContent = pct(data, "q4_more_positive") + "%";
 
+  // KPI sub counts
+  KEYS.forEach((k, i) => {
+    const count = data.filter(r => r[k]).length;
+    document.getElementById(`kpi-q${i+1}-sub`).textContent = `${count} of ${data.length} papers`;
+  });
+
+  renderSparklines(data);
   renderUPlot(data);
   renderPies(data);
+  renderRadar(data);
+  renderHeatmap(data);
+  renderSummaryStats(data);
   renderBars(data);
   renderStacked(data);
+  renderDelta(data);
+  renderGrouped(data);
   renderTable(data);
+}
+
+/* ── SPARKLINES ── */
+function renderSparklines(data) {
+  const map = byYear(data);
+  const years = Object.keys(map).sort();
+  if (years.length < 2) return;
+
+  KEYS.forEach((key, ki) => {
+    const vals = years.map(y => pct(map[y], key));
+    const el = document.getElementById(`spark-q${ki+1}`);
+    const w = 120, h = 28, pad = 2;
+    const mn = Math.min(...vals), mx = Math.max(...vals);
+    const range = mx - mn || 1;
+    const pts = vals.map((v, i) => {
+      const x = pad + (i / (vals.length - 1)) * (w - pad * 2);
+      const y = h - pad - ((v - mn) / range) * (h - pad * 2);
+      return `${x},${y}`;
+    });
+    el.innerHTML = `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+      <polyline points="${pts.join(' ')}" fill="none" stroke="${COLS[ki]}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity=".6"/>
+      <circle cx="${pts[pts.length-1].split(',')[0]}" cy="${pts[pts.length-1].split(',')[1]}" r="2.5" fill="${COLS[ki]}"/>
+    </svg>`;
+  });
 }
 
 /* ── uPlot ── */
@@ -359,28 +634,28 @@ function renderUPlot(data) {
 
   const opts = {
     width  : wrap.offsetWidth || 900,
-    height : 260,
+    height : 280,
     cursor : { show: true },
     scales : { x: { time: false }, y: { range: [0, 100] } },
     axes   : [
-      { values: (_, vs) => vs.map(v => years[v] ?? ""), size: 36 },
-      { values: (_, vs) => vs.map(v => v + "%"), size: 48 },
+      { values: (_, vs) => vs.map(v => years[v] ?? ""), size: 36, font: "11px Inter,sans-serif" },
+      { values: (_, vs) => vs.map(v => v + "%"), size: 48, font: "11px Inter,sans-serif", grid: { stroke: "#eee", width: 1 } },
     ],
     series : [
       {},
-      { label: "Q1 Generic",  stroke: Q1C, width: 2, points: { show: true, size: 6, fill: Q1C } },
-      { label: "Q2 Positive", stroke: Q2C, width: 2, points: { show: true, size: 6, fill: Q2C } },
-      { label: "Q3 Negative", stroke: Q3C, width: 2, points: { show: true, size: 6, fill: Q3C } },
-      { label: "Q4 P>N",      stroke: Q4C, width: 2, points: { show: true, size: 6, fill: Q4C } },
+      { label: "Q1 Generic",  stroke: Q1C, width: 2.5, points: { show: true, size: 7, fill: Q1C, stroke: "#fff", width: 2 } },
+      { label: "Q2 Positive", stroke: Q2C, width: 2.5, points: { show: true, size: 7, fill: Q2C, stroke: "#fff", width: 2 } },
+      { label: "Q3 Negative", stroke: Q3C, width: 2.5, points: { show: true, size: 7, fill: Q3C, stroke: "#fff", width: 2 } },
+      { label: "Q4 P>N",      stroke: Q4C, width: 2.5, points: { show: true, size: 7, fill: Q4C, stroke: "#fff", width: 2 } },
     ],
   };
 
   new uPlot(opts, [xs, q1, q2, q3, q4], wrap);
 }
 
-/* ── SVG Pie ── */
-function makePie(slices, el) {
-  const SIZE = 120, R = 52, cx = SIZE / 2, cy = SIZE / 2;
+/* ── SVG Donut ── */
+function makeDonut(slices, el, showCenter) {
+  const SIZE = 130, R = 52, IR = 30, cx = SIZE / 2, cy = SIZE / 2;
   const total = slices.reduce((s, d) => s + d.v, 0);
   if (!total) { el.innerHTML = `<p style="color:var(--muted);font-size:.8rem">No data</p>`; return; }
 
@@ -388,16 +663,18 @@ function makePie(slices, el) {
   let paths = "";
   slices.forEach(s => {
     const sweep = (s.v / total) * 2 * Math.PI;
-    const x1 = cx + R * Math.cos(angle);
-    const y1 = cy + R * Math.sin(angle);
+    const x1o = cx + R * Math.cos(angle), y1o = cy + R * Math.sin(angle);
+    const x1i = cx + IR * Math.cos(angle), y1i = cy + IR * Math.sin(angle);
     angle += sweep;
-    const x2 = cx + R * Math.cos(angle);
-    const y2 = cy + R * Math.sin(angle);
+    const x2o = cx + R * Math.cos(angle), y2o = cy + R * Math.sin(angle);
+    const x2i = cx + IR * Math.cos(angle), y2i = cy + IR * Math.sin(angle);
     const lg = sweep > Math.PI ? 1 : 0;
-    paths += `<path d="M${cx},${cy} L${x1},${y1} A${R},${R} 0 ${lg},1 ${x2},${y2} Z" fill="${s.c}" opacity=".92"/>`;
+    paths += `<path d="M${x1o},${y1o} A${R},${R} 0 ${lg},1 ${x2o},${y2o} L${x2i},${y2i} A${IR},${IR} 0 ${lg},0 ${x1i},${y1i} Z" fill="${s.c}" opacity=".88"/>`;
   });
 
-  const svg = `<svg width="${SIZE}" height="${SIZE}" viewBox="0 0 ${SIZE} ${SIZE}">${paths}</svg>`;
+  const centerText = showCenter ? `<text x="${cx}" y="${cy-4}" text-anchor="middle" class="donut-center-text" font-size="16" fill="var(--text)">${total}</text><text x="${cx}" y="${cy+12}" text-anchor="middle" font-size="8" fill="var(--muted)" font-family="Inter">TOTAL</text>` : '';
+
+  const svg = `<svg width="${SIZE}" height="${SIZE}" viewBox="0 0 ${SIZE} ${SIZE}">${paths}${centerText}</svg>`;
 
   const legend = slices.map(s => `
     <div class="pie-legend-item">
@@ -414,21 +691,163 @@ function renderPies(data) {
   const yesQ2 = data.filter(r =>  r.q2_positive).length;
   const yesQ3 = data.filter(r =>  r.q3_negative).length;
   const yesQ4 = data.filter(r =>  r.q4_more_positive).length;
-  const n     = data.length;
 
-  makePie([
+  makeDonut([
     { label: "Q1 Generic",  v: yesQ1, c: Q1C },
     { label: "Q2 Positive", v: yesQ2, c: Q2C },
     { label: "Q3 Negative", v: yesQ3, c: Q3C },
     { label: "Q4 P>N",      v: yesQ4, c: Q4C },
-  ], document.getElementById("pie-container"));
+  ], document.getElementById("pie-container"), false);
 
   const found    = data.filter(r => r.impact_found).length;
-  const notFound = n - found;
-  makePie([
+  const notFound = data.length - found;
+  makeDonut([
     { label: "Found",     v: found,    c: "#00b894" },
     { label: "Not found", v: notFound, c: "#e8e8e8" },
-  ], document.getElementById("pie-found"));
+  ], document.getElementById("pie-found"), true);
+}
+
+/* ── RADAR ── */
+function renderRadar(data) {
+  const canvas = document.getElementById("radar-canvas");
+  const ctx = canvas.getContext("2d");
+  const W = canvas.width, H = canvas.height;
+  const cx = W / 2, cy = H / 2 + 5, R = 85;
+  ctx.clearRect(0, 0, W, H);
+
+  const vals = KEYS.map(k => pct(data, k));
+  const n = vals.length;
+  const angleStep = (2 * Math.PI) / n;
+
+  // Grid
+  [.25, .5, .75, 1].forEach(f => {
+    ctx.beginPath();
+    for (let i = 0; i <= n; i++) {
+      const a = -Math.PI / 2 + i * angleStep;
+      const x = cx + R * f * Math.cos(a);
+      const y = cy + R * f * Math.sin(a);
+      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = "#e0e0e0";
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  });
+
+  // Axes
+  for (let i = 0; i < n; i++) {
+    const a = -Math.PI / 2 + i * angleStep;
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.lineTo(cx + R * Math.cos(a), cy + R * Math.sin(a));
+    ctx.strokeStyle = "#ddd";
+    ctx.stroke();
+  }
+
+  // Fill
+  ctx.beginPath();
+  vals.forEach((v, i) => {
+    const a = -Math.PI / 2 + i * angleStep;
+    const r = (v / 100) * R;
+    const x = cx + r * Math.cos(a);
+    const y = cy + r * Math.sin(a);
+    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  });
+  ctx.closePath();
+  ctx.fillStyle = "rgba(9,132,227,.12)";
+  ctx.fill();
+  ctx.strokeStyle = Q4C;
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  // Points + labels
+  vals.forEach((v, i) => {
+    const a = -Math.PI / 2 + i * angleStep;
+    const r = (v / 100) * R;
+    ctx.beginPath();
+    ctx.arc(cx + r * Math.cos(a), cy + r * Math.sin(a), 4, 0, Math.PI * 2);
+    ctx.fillStyle = COLS[i];
+    ctx.fill();
+    ctx.strokeStyle = "#fff";
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    const lx = cx + (R + 18) * Math.cos(a);
+    const ly = cy + (R + 18) * Math.sin(a);
+    ctx.fillStyle = "#555";
+    ctx.font = "bold 10px Inter,sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(`Q${i+1}`, lx, ly - 6);
+    ctx.font = "10px Inter,sans-serif";
+    ctx.fillText(`${v}%`, lx, ly + 6);
+  });
+}
+
+/* ── HEATMAP ── */
+function renderHeatmap(data) {
+  const el = document.getElementById("heatmap");
+  const n = data.length;
+  const matrix = [];
+
+  for (let i = 0; i < 4; i++) {
+    matrix[i] = [];
+    for (let j = 0; j < 4; j++) {
+      if (i === j) {
+        matrix[i][j] = 1;
+      } else {
+        const both = data.filter(r => r[KEYS[i]] && r[KEYS[j]]).length;
+        matrix[i][j] = n ? both / n : 0;
+      }
+    }
+  }
+
+  const size = 5;
+  const lbls = ["Q1","Q2","Q3","Q4"];
+  let html = `<div class="heatmap-grid" style="grid-template-columns: 36px repeat(4, 1fr); width: 280px;">`;
+  html += `<div></div>`;
+  lbls.forEach(l => { html += `<div class="heatmap-label">${l}</div>`; });
+
+  for (let i = 0; i < 4; i++) {
+    html += `<div class="heatmap-label">${lbls[i]}</div>`;
+    for (let j = 0; j < 4; j++) {
+      const v = matrix[i][j];
+      const pctVal = Math.round(v * 100);
+      const alpha = .15 + v * .75;
+      const bg = i === j ? `rgba(100,100,100,.08)` : `rgba(9,132,227,${alpha})`;
+      const color = (v > .5 && i !== j) ? '#fff' : 'var(--text)';
+      html += `<div class="heatmap-cell" style="background:${bg};color:${color}" title="Q${i+1}∩Q${j+1}: ${pctVal}%">${pctVal}%</div>`;
+    }
+  }
+  html += `</div>`;
+  el.innerHTML = html;
+}
+
+/* ── SUMMARY STATS ── */
+function renderSummaryStats(data) {
+  const el = document.getElementById("summary-stats");
+  const n = data.length;
+  const found = data.filter(r => r.impact_found).length;
+  const allYes = data.filter(r => KEYS.every(k => r[k])).length;
+  const allNo = data.filter(r => KEYS.every(k => !r[k])).length;
+  const anyPos = data.filter(r => r.q2_positive).length;
+  const anyNeg = data.filter(r => r.q3_negative).length;
+  const posOnly = data.filter(r => r.q2_positive && !r.q3_negative).length;
+  const negOnly = data.filter(r => !r.q2_positive && r.q3_negative).length;
+  const both = data.filter(r => r.q2_positive && r.q3_negative).length;
+  const avgQs = n ? (KEYS.reduce((s, k) => s + data.filter(r => r[k]).length, 0) / n).toFixed(1) : 0;
+
+  const stats = [
+    ["Total papers", n],
+    ["Impact section found", `${found} (${Math.round(found/n*100)}%)`],
+    ["All 4 questions YES", `${allYes} (${Math.round(allYes/n*100)}%)`],
+    ["All 4 questions NO", `${allNo} (${Math.round(allNo/n*100)}%)`],
+    ["Positive only (no negative)", `${posOnly}`],
+    ["Negative only (no positive)", `${negOnly}`],
+    ["Both positive & negative", `${both}`],
+    ["Avg questions YES per paper", avgQs],
+  ];
+
+  el.innerHTML = stats.map(([l, v]) => `<div class="stat-row"><span class="stat-label">${l}</span><span class="stat-value">${v}</span></div>`).join("");
 }
 
 /* ── Horizontal bars ── */
@@ -442,13 +861,11 @@ function hbar(label, pct, color) {
 function renderBars(data) {
   const map   = byYear(data);
   const years = Object.keys(map).sort();
-  const keys  = ["q1_default","q2_positive","q3_negative","q4_more_positive"];
   const ids   = ["bar-q1","bar-q2","bar-q3","bar-q4"];
-  const cols  = [Q1C, Q2C, Q3C, Q4C];
 
-  keys.forEach((key, i) => {
+  KEYS.forEach((key, i) => {
     document.getElementById(ids[i]).innerHTML =
-      years.map(y => hbar(y, pct(map[y], key), cols[i])).join("");
+      years.map(y => hbar(y, pct(map[y], key), COLS[i])).join("");
   });
 }
 
@@ -460,60 +877,169 @@ function renderStacked(data) {
   canvas.width = canvas.parentElement.offsetWidth - 48;
   const ctx    = canvas.getContext("2d");
   const W      = canvas.width, H = canvas.height;
-  const pad    = { l: 40, r: 20, t: 20, b: 36 };
-  const cols   = [Q1C, Q2C, Q3C, Q4C];
-  const keys   = ["q1_default","q2_positive","q3_negative","q4_more_positive"];
-  const labels = ["Q1","Q2","Q3","Q4"];
+  const pad    = { l: 44, r: 20, t: 24, b: 36 };
 
   ctx.clearRect(0, 0, W, H);
 
   const maxVal = Math.max(...years.map(y =>
-    keys.reduce((s, k) => s + map[y].filter(r => r[k]).length, 0)
+    KEYS.reduce((s, k) => s + map[y].filter(r => r[k]).length, 0)
   ));
 
   const bW     = Math.min(60, (W - pad.l - pad.r) / years.length * .55);
   const gap    = (W - pad.l - pad.r) / years.length;
   const chartH = H - pad.t - pad.b;
 
-  // grid lines
-  ctx.strokeStyle = "#e8e8e8";
-  ctx.lineWidth   = 1;
+  ctx.strokeStyle = "#eee"; ctx.lineWidth = 1;
   for (let i = 0; i <= 4; i++) {
     const y = pad.t + chartH - (i / 4) * chartH;
     ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(W - pad.r, y); ctx.stroke();
-    ctx.fillStyle = "#aaa"; ctx.font = "10px Inter,sans-serif";
-    ctx.fillText(Math.round(maxVal * i / 4), 2, y + 3);
+    ctx.fillStyle = "#aaa"; ctx.font = "10px Inter,sans-serif"; ctx.textAlign = "right";
+    ctx.fillText(Math.round(maxVal * i / 4), pad.l - 6, y + 3);
   }
 
   years.forEach((yr, xi) => {
     const x  = pad.l + xi * gap + gap / 2 - bW / 2;
     let base  = H - pad.b;
 
-    keys.forEach((key, ki) => {
+    KEYS.forEach((key, ki) => {
       const count = map[yr].filter(r => r[key]).length;
-      const bH    = (count / maxVal) * chartH;
-      ctx.fillStyle = cols[ki];
-      ctx.fillRect(x, base - bH, bW, bH);
+      const bH    = maxVal ? (count / maxVal) * chartH : 0;
+      ctx.fillStyle = COLS[ki];
+      ctx.beginPath();
+      ctx.roundRect ? ctx.roundRect(x, base - bH, bW, bH, ki === KEYS.length - 1 ? [3,3,0,0] : 0) : ctx.rect(x, base - bH, bW, bH);
+      ctx.fill();
       base -= bH;
     });
 
-    // year label
     ctx.fillStyle = "#555"; ctx.font = "11px Inter,sans-serif";
     ctx.textAlign = "center";
     ctx.fillText(yr, x + bW / 2, H - pad.b + 16);
   });
 
-  // legend
-  const lx = W - pad.r - labels.length * 70;
-  labels.forEach((lbl, i) => {
-    ctx.fillStyle = cols[i];
-    ctx.fillRect(lx + i * 70, 4, 10, 10);
+  const lx = W - pad.r - LABELS.length * 80;
+  LABELS.forEach((lbl, i) => {
+    ctx.fillStyle = COLS[i];
+    ctx.fillRect(lx + i * 80, 6, 10, 10);
     ctx.fillStyle = "#555"; ctx.font = "10px Inter,sans-serif"; ctx.textAlign = "left";
-    ctx.fillText(lbl, lx + i * 70 + 14, 13);
+    ctx.fillText(lbl.split(" ")[0], lx + i * 80 + 14, 15);
   });
 }
 
-/* ── Table ── */
+/* ── Year-over-year delta ── */
+function renderDelta(data) {
+  const map = byYear(data);
+  const years = Object.keys(map).sort();
+  if (years.length < 2) return;
+
+  const canvas = document.getElementById("delta-canvas");
+  canvas.width = canvas.parentElement.offsetWidth - 48;
+  const ctx = canvas.getContext("2d");
+  const W = canvas.width, H = canvas.height;
+  const pad = { l: 48, r: 20, t: 20, b: 36 };
+  ctx.clearRect(0, 0, W, H);
+
+  const deltas = [];
+  for (let yi = 1; yi < years.length; yi++) {
+    const row = { year: years[yi] };
+    KEYS.forEach(k => {
+      row[k] = pct(map[years[yi]], k) - pct(map[years[yi-1]], k);
+    });
+    deltas.push(row);
+  }
+
+  const allVals = deltas.flatMap(d => KEYS.map(k => d[k]));
+  const maxAbs = Math.max(Math.abs(Math.min(...allVals)), Math.abs(Math.max(...allVals)), 10);
+  const chartH = H - pad.t - pad.b;
+  const midY = pad.t + chartH / 2;
+  const gap = (W - pad.l - pad.r) / deltas.length;
+  const bW = Math.min(12, gap / 6);
+
+  // Zero line
+  ctx.strokeStyle = "#ccc"; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(pad.l, midY); ctx.lineTo(W - pad.r, midY); ctx.stroke();
+
+  // Grid
+  [-maxAbs, -maxAbs/2, maxAbs/2, maxAbs].forEach(v => {
+    const y = midY - (v / maxAbs) * (chartH / 2);
+    ctx.strokeStyle = "#f0f0f0";
+    ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(W - pad.r, y); ctx.stroke();
+    ctx.fillStyle = "#aaa"; ctx.font = "9px Inter,sans-serif"; ctx.textAlign = "right";
+    ctx.fillText((v > 0 ? "+" : "") + Math.round(v), pad.l - 6, y + 3);
+  });
+
+  deltas.forEach((d, xi) => {
+    const cx = pad.l + xi * gap + gap / 2;
+    KEYS.forEach((k, ki) => {
+      const v = d[k];
+      const x = cx + (ki - 1.5) * (bW + 2);
+      const bH = Math.abs(v) / maxAbs * (chartH / 2);
+      const y = v >= 0 ? midY - bH : midY;
+      ctx.fillStyle = COLS[ki];
+      ctx.globalAlpha = .85;
+      ctx.fillRect(x, y, bW, bH);
+      ctx.globalAlpha = 1;
+    });
+    ctx.fillStyle = "#555"; ctx.font = "11px Inter,sans-serif"; ctx.textAlign = "center";
+    ctx.fillText(d.year, cx, H - pad.b + 16);
+  });
+}
+
+/* ── Grouped bar: absolute counts ── */
+function renderGrouped(data) {
+  const map = byYear(data);
+  const years = Object.keys(map).sort();
+
+  const canvas = document.getElementById("grouped-canvas");
+  canvas.width = canvas.parentElement.offsetWidth - 48;
+  const ctx = canvas.getContext("2d");
+  const W = canvas.width, H = canvas.height;
+  const pad = { l: 44, r: 20, t: 20, b: 36 };
+  ctx.clearRect(0, 0, W, H);
+
+  const maxVal = Math.max(...years.flatMap(y => KEYS.map(k => map[y].filter(r => r[k]).length)), 1);
+  const chartH = H - pad.t - pad.b;
+  const gap = (W - pad.l - pad.r) / years.length;
+  const bW = Math.min(14, gap / 6);
+
+  ctx.strokeStyle = "#eee"; ctx.lineWidth = 1;
+  for (let i = 0; i <= 4; i++) {
+    const y = pad.t + chartH - (i / 4) * chartH;
+    ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(W - pad.r, y); ctx.stroke();
+    ctx.fillStyle = "#aaa"; ctx.font = "10px Inter,sans-serif"; ctx.textAlign = "right";
+    ctx.fillText(Math.round(maxVal * i / 4), pad.l - 6, y + 3);
+  }
+
+  years.forEach((yr, xi) => {
+    const cx = pad.l + xi * gap + gap / 2;
+    KEYS.forEach((k, ki) => {
+      const count = map[yr].filter(r => r[k]).length;
+      const bH = (count / maxVal) * chartH;
+      const x = cx + (ki - 1.5) * (bW + 2);
+      ctx.fillStyle = COLS[ki];
+      ctx.globalAlpha = .85;
+      ctx.fillRect(x, pad.t + chartH - bH, bW, bH);
+      ctx.globalAlpha = 1;
+
+      // Value on top
+      if (bH > 12) {
+        ctx.fillStyle = COLS[ki]; ctx.font = "bold 8px Inter,sans-serif"; ctx.textAlign = "center";
+        ctx.fillText(count, x + bW / 2, pad.t + chartH - bH - 4);
+      }
+    });
+    ctx.fillStyle = "#555"; ctx.font = "11px Inter,sans-serif"; ctx.textAlign = "center";
+    ctx.fillText(yr, cx, H - pad.b + 16);
+  });
+
+  // Legend
+  const lx = W - pad.r - LABELS.length * 80;
+  LABELS.forEach((lbl, i) => {
+    ctx.fillStyle = COLS[i]; ctx.fillRect(lx + i * 80, 6, 10, 10);
+    ctx.fillStyle = "#555"; ctx.font = "10px Inter,sans-serif"; ctx.textAlign = "left";
+    ctx.fillText(lbl, lx + i * 80 + 14, 15);
+  });
+}
+
+/* ── Table with pagination & sorting ── */
 function pill(v) {
   return v ? `<span class="pill yes">YES</span>` : `<span class="pill no">NO</span>`;
 }
@@ -525,9 +1051,33 @@ function cleanTitle(t) {
   return t.replace(/NeurIPS-\d{4}-/, "").replaceAll("-", " ");
 }
 
+function getFilteredSorted(data) {
+  let d = data;
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    d = d.filter(r => cleanTitle(r.title).toLowerCase().includes(q));
+  }
+  d = [...d].sort((a, b) => {
+    let av = a[sortCol], bv = b[sortCol];
+    if (typeof av === "boolean") { av = av ? 1 : 0; bv = bv ? 1 : 0; }
+    if (typeof av === "string") { av = av.toLowerCase(); bv = bv.toLowerCase(); }
+    if (av < bv) return sortDir === "asc" ? -1 : 1;
+    if (av > bv) return sortDir === "asc" ? 1 : -1;
+    return 0;
+  });
+  return d;
+}
+
 function renderTable(data) {
-  document.getElementById("tbody").innerHTML =
-    [...data].sort((a, b) => String(a.year).localeCompare(String(b.year))).map(r => `
+  const sorted = getFilteredSorted(data);
+  const totalPages = Math.ceil(sorted.length / pageSize) || 1;
+  if (currentPage > totalPages) currentPage = totalPages;
+  const start = (currentPage - 1) * pageSize;
+  const page = sorted.slice(start, start + pageSize);
+
+  document.getElementById("result-count").textContent = `Showing ${start + 1}–${Math.min(start + pageSize, sorted.length)} of ${sorted.length} papers`;
+
+  document.getElementById("tbody").innerHTML = page.map(r => `
     <tr>
       <td><b>${r.year}</b></td>
       <td style="max-width:260px;line-height:1.45">${cleanTitle(r.title)}</td>
@@ -539,6 +1089,104 @@ function renderTable(data) {
       <td style="max-width:200px">${tags(r.positive_examples)}</td>
       <td style="max-width:200px">${tags(r.negative_examples)}</td>
     </tr>`).join("");
+
+  renderPagination(sorted.length, totalPages);
+
+  // Update sort arrows
+  document.querySelectorAll("th[data-col]").forEach(th => {
+    th.classList.toggle("sorted", th.dataset.col === sortCol);
+    const arrow = th.querySelector(".sort-arrow");
+    if (th.dataset.col === sortCol) {
+      arrow.textContent = sortDir === "asc" ? "▲" : "▼";
+    } else {
+      arrow.textContent = "▼";
+    }
+  });
+}
+
+function renderPagination(total, totalPages) {
+  const el = document.getElementById("pagination");
+  if (totalPages <= 1 && total <= pageSize) {
+    el.innerHTML = `<div class="page-info"><span>${total}</span> papers</div><div></div>`;
+    return;
+  }
+
+  let pages = [];
+  const maxVisible = 7;
+  if (totalPages <= maxVisible) {
+    for (let i = 1; i <= totalPages; i++) pages.push(i);
+  } else {
+    pages.push(1);
+    if (currentPage > 3) pages.push("…");
+    const start = Math.max(2, currentPage - 1);
+    const end = Math.min(totalPages - 1, currentPage + 1);
+    for (let i = start; i <= end; i++) pages.push(i);
+    if (currentPage < totalPages - 2) pages.push("…");
+    pages.push(totalPages);
+  }
+
+  el.innerHTML = `
+    <div class="page-info">Page <span>${currentPage}</span> of <span>${totalPages}</span> &nbsp;·&nbsp; <span>${total}</span> papers</div>
+    <div class="page-controls">
+      <button class="page-btn" onclick="goPage(1)" ${currentPage===1?'disabled':''}>«</button>
+      <button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage===1?'disabled':''}>‹</button>
+      ${pages.map(p => p === "…"
+        ? `<span style="padding:0 4px;color:var(--muted)">…</span>`
+        : `<button class="page-btn ${p===currentPage?'active':''}" onclick="goPage(${p})">${p}</button>`
+      ).join("")}
+      <button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage===totalPages?'disabled':''}>›</button>
+      <button class="page-btn" onclick="goPage(${totalPages})" ${currentPage===totalPages?'disabled':''}>»</button>
+      <div class="page-size-select">
+        <span>Per page:</span>
+        <select onchange="changePageSize(this.value)">
+          ${[10,15,25,50,100].map(s => `<option value="${s}" ${s===pageSize?'selected':''}>${s}</option>`).join("")}
+        </select>
+      </div>
+    </div>`;
+}
+
+function goPage(p) {
+  const sorted = getFilteredSorted(filteredData);
+  const totalPages = Math.ceil(sorted.length / pageSize) || 1;
+  currentPage = Math.max(1, Math.min(p, totalPages));
+  renderTable(filteredData);
+}
+
+function changePageSize(v) {
+  pageSize = parseInt(v);
+  currentPage = 1;
+  renderTable(filteredData);
+}
+
+/* ── Search ── */
+function setupSearch() {
+  const input = document.getElementById("search-input");
+  let debounce;
+  input.addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      searchQuery = input.value.trim();
+      currentPage = 1;
+      renderTable(filteredData);
+    }, 200);
+  });
+}
+
+/* ── Sort ── */
+function setupSort() {
+  document.querySelectorAll("th[data-col]").forEach(th => {
+    th.addEventListener("click", () => {
+      const col = th.dataset.col;
+      if (sortCol === col) {
+        sortDir = sortDir === "asc" ? "desc" : "asc";
+      } else {
+        sortCol = col;
+        sortDir = "asc";
+      }
+      currentPage = 1;
+      renderTable(filteredData);
+    });
+  });
 }
 
 /* ── Year filter ── */
@@ -555,15 +1203,18 @@ function buildFilters(data) {
     wrap.querySelectorAll(".fbtn").forEach(b => b.classList.remove("active"));
     e.target.classList.add("active");
     const y = e.target.dataset.year;
-    render(y === "all" ? ALL : ALL.filter(r => r.year == y));
+    searchQuery = "";
+    document.getElementById("search-input").value = "";
+    filteredData = y === "all" ? ALL : ALL.filter(r => r.year == y);
+    render(filteredData);
   });
 }
 
 window.addEventListener("resize", () => {
-  const active = document.querySelector(".fbtn.active");
-  const y = active?.dataset.year;
-  renderUPlot(y === "all" || !y ? ALL : ALL.filter(r => r.year == y));
-  renderStacked(y === "all" || !y ? ALL : ALL.filter(r => r.year == y));
+  renderUPlot(filteredData);
+  renderStacked(filteredData);
+  renderDelta(filteredData);
+  renderGrouped(filteredData);
 });
 
 load();
