@@ -1,0 +1,17 @@
+{
+  "title": "02902_Generalization_on_the_Unseen_Logic_Reasoning_and_Degree_Curriculum",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The introduction of the Degree-Curriculum algorithm which improves the efficiency of learning monomials by incrementing supports, potentially leading to better educational tools in AI.",
+    "The paper addresses the challenge of out-of-distribution generalization, which can enhance the robustness of AI systems in real-world applications."
+  ],
+  "negative_examples": [
+    "The min-degree bias may impede the learning of symmetric solutions, which could limit the effectiveness of AI in tasks requiring symmetry or compositionality.",
+    "The paper suggests that the min-degree bias can make length generalization difficult, which may hinder the performance of AI systems in tasks that require understanding of longer or more complex inputs."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "02912_On_Path_to_Multimodal_Generalist_General-Level_and_General-Bench",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Strict compliance with privacy regulations, ensuring no personally identifiable information (PII) is used.",
+    "Fair compensation for human annotators, promoting ethical labor practices.",
+    "Active measures to analyze and mitigate biases related to gender, ethnicity, and language."
+  ],
+  "negative_examples": [
+    "Potential biases in AI systems that may not be completely eradicated.",
+    "Challenges in ensuring complete fairness and representation in the dataset."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "02744_Equivariant_Architectures_for_Learning_in_Deep_Weight_Spaces",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "DWSNets can adapt pre-trained networks to new domains, improving their applicability in various tasks.",
+    "The architecture shows advantages in tasks such as INR classification and adapting networks to new domains, indicating potential for broader applications in machine learning."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

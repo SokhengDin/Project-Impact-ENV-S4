@@ -1,0 +1,17 @@
+{
+  "title": "07481_Position_A_Safe_Harbor_for_AI_Evaluation_and_Red_Teaming",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Fostering wider participation in AI evaluation will require firms to remove disincentives and favoritism in researcher access.",
+    "Implementation of safe harbors would likely shape future interactions between AI safety researchers and generative AI companies positively, leading to more mature guardrails around AI systems."
+  ],
+  "negative_examples": [
+    "Malicious actors might take advantage of vulnerabilities publicly shared by researchers if companies are unable to patch fixes within the disclosure window.",
+    "Malicious actors might try to abuse the safe harbor protections for their own misconduct."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

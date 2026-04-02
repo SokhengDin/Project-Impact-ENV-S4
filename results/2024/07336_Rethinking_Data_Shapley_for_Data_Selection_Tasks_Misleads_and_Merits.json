@@ -1,0 +1,14 @@
+{
+  "title": "07336_Rethinking_Data_Shapley_for_Data_Selection_Tasks_Misleads_and_Merits",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances understanding of data selection strategies",
+    "Potentially improves performance of ML applications"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

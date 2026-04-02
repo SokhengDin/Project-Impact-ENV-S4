@@ -1,0 +1,14 @@
+{
+  "title": "00730_Gaussian_Process_Priors_for_Systems_of_Linear_Partial_Differential_Equations_with_Constant_Coefficients",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed EPGP method allows for the incorporation of physical knowledge into machine learning models, which can lead to more accurate predictions in various physical systems.",
+    "The method improves upon existing techniques in terms of computation time and precision, potentially leading to more efficient simulations in fields like physics and engineering."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

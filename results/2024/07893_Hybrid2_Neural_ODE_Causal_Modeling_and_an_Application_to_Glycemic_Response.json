@@ -1,0 +1,17 @@
+{
+  "title": "07893_Hybrid2_Neural_ODE_Causal_Modeling_and_an_Application_to_Glycemic_Response",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Ranking an expert-provided list of possible interventions that are assumed to be safe alternatives",
+    "Potentially improving clinical decision-making in type 1 diabetes management"
+  ],
+  "negative_examples": [
+    "Risk of clinicians relying on the system's recommendations blindly",
+    "Potential for life-threatening hypoglycemia if too much insulin is recommended"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

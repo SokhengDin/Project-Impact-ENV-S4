@@ -1,0 +1,30 @@
+{
+  "reponses_questions": {
+    "q1": "0",
+    "q2": "oui",
+    "q3": "safety,misuse",
+    "q4": "oui",
+    "q5": "aucune",
+    "q6": "aucun",
+    "q7": "aucun"
+  },
+  "analyse_impacts": {
+    "has_meaningful_impact": true,
+    "justification_valid": true,
+    "positive_impacts": [
+      "safety",
+      "red-teaming",
+      "steering"
+    ],
+    "negative_impacts": [
+      "misuse",
+      "harmful-generation"
+    ],
+    "themes": [
+      "safety",
+      "misuse"
+    ],
+    "topic_impact_link": true,
+    "impact_quality_score": 4
+  }
+}

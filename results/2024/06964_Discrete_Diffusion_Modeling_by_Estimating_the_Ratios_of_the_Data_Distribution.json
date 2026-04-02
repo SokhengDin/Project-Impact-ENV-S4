@@ -1,0 +1,13 @@
+{
+  "title": "06964_Discrete_Diffusion_Modeling_by_Estimating_the_Ratios_of_the_Data_Distribution",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "Potential ethical questions related to bias, toxicity, and fake content in natural language generation."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

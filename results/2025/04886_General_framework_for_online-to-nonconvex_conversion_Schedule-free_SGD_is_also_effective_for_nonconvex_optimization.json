@@ -1,0 +1,11 @@
+{
+  "title": "04886_General_framework_for_online-to-nonconvex_conversion_Schedule-free_SGD_is_also_effective_for_nonconvex_optimization",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

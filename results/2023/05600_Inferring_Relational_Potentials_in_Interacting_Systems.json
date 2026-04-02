@@ -1,0 +1,17 @@
+{
+  "title": "05600_Inferring_Relational_Potentials_in_Interacting_Systems",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Understanding interactions across agents in a trajectory is fundamental to explain their present behavior and predict their future.",
+    "Applications such as molecular dynamics modeling or autonomous vehicles, which have a huge impact on our lives."
+  ],
+  "negative_examples": [
+    "Our approach may capture the implicit biases present in data.",
+    "Potential threat of attacks to systems that rely on interpretable models, which can be more easily targeted than those which are opaque."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

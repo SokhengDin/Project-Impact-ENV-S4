@@ -1,0 +1,17 @@
+{
+  "title": "02569_Human-Timescale_Adaptation_in_an_Open-Ended_Task_Space",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "AdA demonstrates human-timescale adaptation, which could enhance the efficiency of AI systems in real-world applications, such as robotics and automation.",
+    "The ability of AdA to adapt quickly to new tasks can lead to more effective AI agents in various fields, including healthcare, where rapid adaptation to new medical data can improve patient outcomes."
+  ],
+  "negative_examples": [
+    "The potential for misuse of adaptive AI agents in harmful ways, such as in surveillance or autonomous weapons.",
+    "The risk of job displacement as AI agents become capable of performing tasks traditionally done by humans, particularly in sectors like manufacturing and service industries."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

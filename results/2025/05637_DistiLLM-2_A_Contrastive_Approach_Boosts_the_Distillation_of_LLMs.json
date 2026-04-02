@@ -1,0 +1,15 @@
+{
+  "title": "05637_DistiLLM-2_A_Contrastive_Approach_Boosts_the_Distillation_of_LLMs",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "High-performed reference model for RLHF can contribute to building safe AI.",
+    "DISTILLM-2 can enhance the performance of quantized LLMs, making them competitive with original models.",
+    "Improves inference speed of LLMs, benefiting systems that utilize diverse models."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

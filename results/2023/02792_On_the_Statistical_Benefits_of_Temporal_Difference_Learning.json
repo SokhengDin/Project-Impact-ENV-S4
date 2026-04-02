@@ -1,0 +1,17 @@
+{
+  "title": "02792_On_the_Statistical_Benefits_of_Temporal_Difference_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Temporal difference learning (TD) can vastly outperform direct estimation methods like Monte Carlo (MC), leading to more accurate predictions in reinforcement learning applications.",
+    "TD's benefits are enhanced for advantage estimation, which can significantly improve decision-making processes in various fields such as healthcare and robotics."
+  ],
+  "negative_examples": [
+    "If the conversion probability among users who visit the checkout page depends strongly on which page design they saw, the Markov property does not hold and TD is biased, leading to potential misestimations.",
+    "The choice of state representation can lead to severe approximation errors if too much past information is retained, negating the benefits of TD."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

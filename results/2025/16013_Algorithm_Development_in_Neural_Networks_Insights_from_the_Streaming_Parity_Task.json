@@ -1,0 +1,13 @@
+{
+  "title": "16013_Algorithm_Development_in_Neural_Networks_Insights_from_the_Streaming_Parity_Task",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Increases understanding of deep learning which may lead to advancements in the field of Machine Learning."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

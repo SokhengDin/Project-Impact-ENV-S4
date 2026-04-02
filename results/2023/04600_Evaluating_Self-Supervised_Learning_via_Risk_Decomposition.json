@@ -1,0 +1,17 @@
+{
+  "title": "04600_Evaluating_Self-Supervised_Learning_via_Risk_Decomposition",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The proposed SSL risk decomposition provides valuable insights for designing and using self-supervised learning models, which can lead to improved performance in various applications such as computer vision tasks.",
+    "The analysis of 169 pretrained SSL models and the effect of 30 design choices helps researchers and practitioners make informed decisions, potentially leading to advancements in the field."
+  ],
+  "negative_examples": [
+    "The paper highlights that some design choices trade off components, which could lead to suboptimal performance in specific settings, potentially causing inefficiencies in model deployment.",
+    "The findings suggest that the most important source of error in modern SSL is probe generalization, which could lead to models that do not generalize well in real-world applications, raising concerns about reliability."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

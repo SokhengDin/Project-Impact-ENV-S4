@@ -1,0 +1,14 @@
+{
+  "title": "04138_GibbsDDRM_A_Partially_Collapsed_Gibbs_Sampler_for_Solving_Blind_Inverse_Problems_with_Denoising_Diffusion_Restoration",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "GibbsDDRM achieves high performance on blind image deblurring, which can enhance image quality in various applications such as photography and medical imaging.",
+    "The method also performs well in vocal dereverberation, improving audio quality for applications in music and communication."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

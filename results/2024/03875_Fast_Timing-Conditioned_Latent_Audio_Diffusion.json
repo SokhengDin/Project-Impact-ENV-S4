@@ -1,0 +1,19 @@
+{
+  "title": "03875_Fast_Timing-Conditioned_Latent_Audio_Diffusion",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Significant improvement in assisting humans with audio production tasks",
+    "Capability to generate variable-length, long-form stereo music and sound effects based on text descriptions",
+    "Enriching creativity for artists and content creators"
+  ],
+  "negative_examples": [
+    "Reflection of biases present in the training data",
+    "Concerns about appropriateness for cultures underrepresented in the training dataset",
+    "Importance of careful consideration and collaboration with stakeholders"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

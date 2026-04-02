@@ -1,0 +1,13 @@
+{
+  "title": "07532_Controlling_Underestimation_Bias_in_Constrained_Reinforcement_Learning_for_Safe_Exploration",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Facilitates safer and more efficient deployment of RL in domains such as large language models, autonomous driving, and robotics."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

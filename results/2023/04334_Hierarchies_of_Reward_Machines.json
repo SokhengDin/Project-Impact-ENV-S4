@@ -1,0 +1,14 @@
+{
+  "title": "04334_Hierarchies_of_Reward_Machines",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Hierarchies of Reward Machines (HRMs) enable faster convergence in reinforcement learning tasks, which can lead to more efficient AI systems that can be applied in various domains such as robotics and automation.",
+    "The proposed curriculum-based method for learning HRMs from traces allows for the decomposition of complex tasks into simpler subtasks, making it easier to tackle long-horizon and sparse reward tasks."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

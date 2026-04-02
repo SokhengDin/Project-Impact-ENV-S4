@@ -1,0 +1,17 @@
+{
+  "title": "12577_AdaSplash_Adaptive_Sparse_Flash_Attention",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improved efficiency of ADASPLASH for large-scale NLP applications",
+    "Reduction of computational costs through adaptive sparse attention"
+  ],
+  "negative_examples": [
+    "Potential reflection of biases in training data when integrated into decision-making models",
+    "Concerns about fairness and transparency in high-stakes applications"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

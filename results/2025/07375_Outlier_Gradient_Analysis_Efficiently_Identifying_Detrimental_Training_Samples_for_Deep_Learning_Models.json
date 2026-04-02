@@ -1,0 +1,19 @@
+{
+  "title": "07375_Outlier_Gradient_Analysis_Efficiently_Identifying_Detrimental_Training_Samples_for_Deep_Learning_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enabling influence estimation for deep models allows practitioners to assess whether training samples are beneficial or detrimental to performance.",
+    "Can make models more interpretable and performant.",
+    "Paves the way for significant positive societal impact, especially with the increased adoption of larger and deeper neural networks such as LLMs."
+  ],
+  "negative_examples": [
+    "Outlier analysis algorithms have a fundamental limitation of how to specify the budget for outlier detection, which is a non-trivial hyperparameter optimization problem.",
+    "Outlier gradient analysis might not be as useful if the data is very high quality and there are no outlying gradient samples.",
+    "There are limitations to the proposed approaches that can be overcome in future work."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "08675_Monitoring_AI-Modified_Content_at_Scale_A_Case_Study_on_the_Impact_of_ChatGPT_on_AI_Conference_Peer_Reviews",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Provides a method for the study of LLM use at scale.",
+    "Inspires further social analysis and productive community reflection.",
+    "Aims to inform policy decisions about LLM use in information ecosystems."
+  ],
+  "negative_examples": [
+    "Potential ramifications of LLM use to scientific publishing.",
+    "Acknowledges several limitations in the study that could impact its findings."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

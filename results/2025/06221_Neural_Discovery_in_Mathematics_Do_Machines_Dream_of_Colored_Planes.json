@@ -1,0 +1,15 @@
+{
+  "title": "06221_Neural_Discovery_in_Mathematics_Do_Machines_Dream_of_Colored_Planes",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enables researchers to explore problem spaces more broadly and deeply than traditional methods allow.",
+    "Provides tools for intuition-driven discovery that retain interpretability while accelerating progress.",
+    "Potential to transform diverse fields that require navigating hybrid discrete-continuous solution spaces, such as materials science and network optimization."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

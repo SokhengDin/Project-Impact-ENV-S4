@@ -1,0 +1,14 @@
+{
+  "title": "02592_LSEnet_Lorentz_Structural_Entropy_Neural_Network_for_Deep_Graph_Clustering",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Bridging structural entropy of information theory and deep learning can lead to advancements in data analysis and clustering techniques.",
+    "The new objective function for deep graph clustering may improve the accuracy and efficiency of clustering without needing a predefined number of clusters."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "03603_Uncertain_Evidence_in_Probabilistic_Models_and_Stochastic_Simulators",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves Bayesian inference methods by providing guidelines on how to account for uncertain evidence, which can enhance decision-making in various fields such as physics and astronomy.",
+    "Facilitates better interpretation of uncertain evidence in probabilistic models, potentially leading to more accurate scientific measurements and predictions."
+  ],
+  "negative_examples": [
+    "Misinterpretations of uncertain evidence can lead to vastly different inference results, which may result in incorrect conclusions in scientific research.",
+    "The paper highlights that practitioners outside the field of statistics may misinterpret uncertain evidence, leading to erroneous applications in real-world scenarios."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

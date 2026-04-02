@@ -1,0 +1,14 @@
+{
+  "title": "00409_VersaPRM_Multi-Domain_Process_Reward_Model_via_Synthetic_Reasoning_Data",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "Potential for LLMs to be used in unethical ways, such as spreading misinformation or manipulating public opinion",
+    "Inadvertent contribution to misuse of technology without robust safeguards in training and inference. "
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

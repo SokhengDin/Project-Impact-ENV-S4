@@ -1,0 +1,14 @@
+{
+  "title": "05792_ABKD_Pursuing_a_Proper_Allocation_of_the_Probability_Mass_in_Knowledge_Distillation_via_alpha-beta-Divergence",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the field of knowledge distillation (KD) which enables knowledge transfer between different models.",
+    "Theoretical insights into mode-covering and mode-seeking behaviors in KD can lead to more effective distillation objectives."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

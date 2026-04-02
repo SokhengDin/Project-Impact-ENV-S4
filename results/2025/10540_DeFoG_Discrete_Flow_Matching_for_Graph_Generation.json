@@ -1,0 +1,16 @@
+{
+  "title": "10540_DeFoG_Discrete_Flow_Matching_for_Graph_Generation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances graph generation under a flexible framework",
+    "Applications in drug discovery and diagnostic technologies"
+  ],
+  "negative_examples": [
+    "Potential negative societal or ethical impacts in biomedical and chemical research"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

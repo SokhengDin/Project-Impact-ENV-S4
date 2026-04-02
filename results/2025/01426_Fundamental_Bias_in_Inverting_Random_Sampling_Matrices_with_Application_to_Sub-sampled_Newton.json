@@ -1,0 +1,14 @@
+{
+  "title": "01426_Fundamental_Bias_in_Inverting_Random_Sampling_Matrices_with_Application_to_Sub-sampled_Newton",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the field of machine learning (ML) and random numerical linear algebra (RandNLA)",
+    "Reduces the theory-practice gap, making it easier to identify and mitigate unintended negative impacts"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

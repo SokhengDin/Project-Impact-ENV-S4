@@ -1,0 +1,17 @@
+{
+  "title": "06238_Which_Features_are_Learnt_by_Contrastive_Learning_On_the_Role_of_Simplicity_Bias_in_Class_Collapse_and_Feature_Suppressi",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The paper provides a unified theoretical framework to understand feature learning in contrastive learning, which can lead to improved representation quality in machine learning models, potentially benefiting various applications such as image classification and natural language processing.",
+    "The findings suggest practical solutions to feature suppression, such as increasing embedding dimensionality and improving data augmentations, which can enhance the performance of machine learning systems."
+  ],
+  "negative_examples": [
+    "The paper highlights the risk of class collapse in supervised contrastive learning, where subclasses within a class may become indistinguishable, leading to poor classification performance at the subclass level.",
+    "Feature suppression in unsupervised contrastive learning can occur, where easier but class-irrelevant features suppress the learning of harder class-relevant features, deteriorating the generalizability of the obtained representations."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

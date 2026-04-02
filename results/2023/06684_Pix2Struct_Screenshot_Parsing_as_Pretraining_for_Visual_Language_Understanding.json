@@ -1,0 +1,14 @@
+{
+  "title": "06684_Pix2Struct_Screenshot_Parsing_as_Pretraining_for_Visual_Language_Understanding",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Pix2Struct achieves state-of-the-art results in six out of nine tasks across four domains: documents, illustrations, user interfaces, and natural images, which can enhance accessibility and understanding of visual information.",
+    "The model simplifies the process of visually-situated language understanding, potentially benefiting applications in education, user interface design, and accessibility for visually impaired users."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

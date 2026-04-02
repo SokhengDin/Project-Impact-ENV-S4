@@ -1,0 +1,11 @@
+{
+  "title": "13863_All-Purpose_Mean_Estimation_over_R_Optimal_Sub-Gaussianity_with_Outlier_Robustness_and_Low_Moments_Performance",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

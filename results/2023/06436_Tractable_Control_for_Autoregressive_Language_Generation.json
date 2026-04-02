@@ -1,0 +1,14 @@
+{
+  "title": "06436_Tractable_Control_for_Autoregressive_Language_Generation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "GeLaTo achieves state-of-the-art performance on challenging benchmarks for constrained text generation, ensuring that generated text satisfies complex lexical constraints, which can improve the quality of automated content generation in various applications such as summarization and creative writing.",
+    "The framework opens up new avenues for controlling large language models, potentially leading to more reliable and contextually appropriate text generation in applications like customer service and content creation."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

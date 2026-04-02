@@ -1,0 +1,14 @@
+{
+  "title": "06282_Active_Ranking_of_Experts_Based_on_their_Performances_in_Many_Tasks",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The paper discusses applications in recommender systems, which can enhance user experience by providing personalized recommendations for films, music, and books.",
+    "The ranking of experts based on their performance can lead to better decision-making in various fields, such as sports analytics, improving the quality of player evaluations."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

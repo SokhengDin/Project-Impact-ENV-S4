@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NeurIPS — Societal Impact Analysis</title>
+<script src="https://cdn.jsdelivr.net/npm/uplot@1.6.31/dist/uPlot.iife.min.js"></script>
+<link  href="https://cdn.jsdelivr.net/npm/uplot@1.6.31/dist/uPlot.min.css" rel="stylesheet" />
+<link  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg        : #ffffff;
+  --surface   : #fafafa;
+  --surface2  : #f4f4f4;
+  --border    : #e8e8e8;
+  --text      : #111111;
+  --muted     : #888888;
+  --q1        : #d63031;
+  --q2        : #00b894;
+  --q3        : #e17055;
+  --q4        : #0984e3;
+  --r         : 8px;
+  --shadow    : 0 1px 6px rgba(0,0,0,.06);
+}
+
+body {
+  font-family    : "Inter", sans-serif;
+  background     : var(--bg);
+  color          : var(--text);
+  font-size      : 14px;
+  line-height    : 1.6;
+}
+
+/* ── HEADER ── */
+header {
+  border-bottom : 1px solid var(--border);
+  padding       : 36px 56px 28px;
+}
+header h1 {
+  font-family   : "Lora", serif;
+  font-size     : 1.75rem;
+  font-weight   : 600;
+  letter-spacing: -.4px;
+  margin-bottom : 6px;
+}
+header p {
+  font-size : .82rem;
+  color     : var(--muted);
+}
+header p span {
+  font-weight : 500;
+  color       : var(--text);
+}
+
+/* ── LAYOUT ── */
+main { max-width: 1280px; margin: 0 auto; padding: 44px 56px 80px; }
+
+.section-label {
+  font-size      : .65rem;
+  font-weight    : 600;
+  text-transform : uppercase;
+  letter-spacing : .12em;
+  color          : var(--muted);
+  margin-bottom  : 16px;
+  margin-top     : 48px;
+  padding-bottom : 10px;
+  border-bottom  : 1px solid var(--border);
+}
+
+/* ── KPI ── */
+.kpi-row {
+  display               : grid;
+  grid-template-columns : repeat(4, 1fr);
+  gap                   : 16px;
+  margin-bottom         : 8px;
+}
+.kpi {
+  border        : 1px solid var(--border);
+  border-radius : var(--r);
+  padding       : 22px 24px 18px;
+  background    : var(--surface);
+  box-shadow    : var(--shadow);
+  position      : relative;
+  overflow      : hidden;
+}
+.kpi::before {
+  content       : "";
+  position      : absolute;
+  top           : 0; left: 0; right: 0;
+  height        : 3px;
+}
+.kpi.q1::before { background: var(--q1); }
+.kpi.q2::before { background: var(--q2); }
+.kpi.q3::before { background: var(--q3); }
+.kpi.q4::before { background: var(--q4); }
+
+.kpi .lbl   { font-size: .68rem; font-weight: 600; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); margin-bottom: 8px; }
+.kpi .val   { font-size: 2.4rem; font-weight: 300; letter-spacing: -1px; line-height: 1; }
+.kpi.q1 .val { color: var(--q1); }
+.kpi.q2 .val { color: var(--q2); }
+.kpi.q3 .val { color: var(--q3); }
+.kpi.q4 .val { color: var(--q4); }
+.kpi .sub   { font-size: .73rem; color: var(--muted); margin-top: 6px; }
+
+/* ── CHART GRID ── */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+
+.card {
+  background    : var(--surface);
+  border        : 1px solid var(--border);
+  border-radius : var(--r);
+  padding       : 24px;
+  box-shadow    : var(--shadow);
+}
+.card h3 {
+  font-size     : .78rem;
+  font-weight   : 500;
+  color         : var(--muted);
+  margin-bottom : 18px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+/* ── SVG PIE ── */
+.pie-wrap {
+  display         : flex;
+  align-items     : center;
+  gap             : 20px;
+}
+.pie-wrap svg { flex-shrink: 0; }
+.pie-legend { flex: 1; }
+.pie-legend-item {
+  display         : flex;
+  align-items     : center;
+  gap             : 8px;
+  font-size       : .78rem;
+  margin-bottom   : 8px;
+}
+.pie-dot {
+  width           : 10px;
+  height          : 10px;
+  border-radius   : 50%;
+  flex-shrink     : 0;
+}
+.pie-legend-item .pct { margin-left: auto; font-weight: 600; font-size: .82rem; }
+
+/* ── HORIZONTAL BAR ── */
+.hbar { margin-bottom: 12px; }
+.hbar-head { display: flex; justify-content: space-between; font-size: .76rem; color: var(--muted); margin-bottom: 4px; }
+.hbar-head .hbar-val { font-weight: 600; color: var(--text); }
+.hbar-track { background: var(--border); border-radius: 4px; height: 8px; }
+.hbar-fill  { height: 8px; border-radius: 4px; transition: width .5s cubic-bezier(.4,0,.2,1); }
+
+/* ── uPlot overrides ── */
+.uplot-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); padding: 24px; box-shadow: var(--shadow); }
+.uplot-card h3 { font-size: .78rem; font-weight: 500; color: var(--muted); margin-bottom: 18px; text-transform: uppercase; letter-spacing: .06em; }
+.u-legend { font-size: .72rem !important; }
+
+/* ── STACKED YEAR BARS (canvas) ── */
+canvas.year-canvas { display: block; width: 100%; }
+
+/* ── FILTERS ── */
+.filters { display: flex; gap: 6px; margin-bottom: 18px; flex-wrap: wrap; align-items: center; }
+.filters .flabel { font-size: .74rem; color: var(--muted); margin-right: 4px; }
+.fbtn {
+  padding      : 4px 14px;
+  border       : 1px solid var(--border);
+  border-radius: 20px;
+  font-size    : .74rem;
+  background   : var(--bg);
+  cursor       : pointer;
+  font-family  : inherit;
+  transition   : all .15s;
+  font-weight  : 500;
+}
+.fbtn:hover, .fbtn.active { background: var(--text); color: #fff; border-color: var(--text); }
+
+/* ── TABLE ── */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+th {
+  text-align    : left;
+  font-size     : .64rem;
+  font-weight   : 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color         : var(--muted);
+  padding       : 8px 12px;
+  border-bottom : 2px solid var(--border);
+  white-space   : nowrap;
+}
+td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+tr:hover td { background: var(--surface2); }
+
+.pill {
+  display      : inline-block;
+  padding      : 2px 9px;
+  border-radius: 20px;
+  font-size    : .68rem;
+  font-weight  : 600;
+  border       : 1px solid;
+}
+.yes { color: #00b894; border-color: #00b894; background: #f0fdf9; }
+.no  { color: #d63031; border-color: #d63031; background: #fff5f5; }
+
+.tag {
+  display      : inline-block;
+  padding      : 2px 7px;
+  border-radius: 4px;
+  font-size    : .67rem;
+  background   : var(--surface2);
+  border       : 1px solid var(--border);
+  margin       : 2px 2px 2px 0;
+  line-height  : 1.5;
+}
+
+/* ── IMPACT FOUND BADGE ── */
+.found-yes { color: #00b894; font-size: .7rem; font-weight: 600; }
+.found-no  { color: var(--muted); font-size: .7rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>NeurIPS — Societal Impact Analysis</h1>
+  <p id="sub">Loading data…</p>
+</header>
+
+<main>
+
+  <!-- KPI -->
+  <div class="section-label">Overview</div>
+  <div class="kpi-row">
+    <div class="kpi q1"><div class="lbl">Q1 — Generic Phrase</div><div class="val" id="kpi-q1">—</div><div class="sub">papers with default statement</div></div>
+    <div class="kpi q2"><div class="lbl">Q2 — Positive Impact</div><div class="val" id="kpi-q2">—</div><div class="sub">papers with positive examples</div></div>
+    <div class="kpi q3"><div class="lbl">Q3 — Negative Impact</div><div class="val" id="kpi-q3">—</div><div class="sub">papers with negative examples</div></div>
+    <div class="kpi q4"><div class="lbl">Q4 — Positive &gt; Negative</div><div class="val" id="kpi-q4">—</div><div class="sub">net positive papers</div></div>
+  </div>
+
+  <!-- uPlot trend -->
+  <div class="section-label">Trend over years</div>
+  <div class="uplot-card">
+    <h3>YES rate per question across years (%)</h3>
+    <div id="uplot-wrap"></div>
+  </div>
+
+  <!-- Pie + per-year bars -->
+  <div class="section-label">Distribution</div>
+  <div class="grid-2">
+
+    <div class="card">
+      <h3>Overall YES / NO split — all questions</h3>
+      <div id="pie-container"></div>
+    </div>
+
+    <div class="card">
+      <h3>Impact section found in PDF</h3>
+      <div id="pie-found"></div>
+    </div>
+
+  </div>
+
+  <!-- Per-year grouped bars -->
+  <div class="section-label">Per-year breakdown</div>
+  <div class="grid-2">
+    <div class="card"><h3>Q1 — Generic phrase (%)</h3><div id="bar-q1"></div></div>
+    <div class="card"><h3>Q2 — Positive impact (%)</h3><div id="bar-q2"></div></div>
+    <div class="card"><h3>Q3 — Negative impact (%)</h3><div id="bar-q3"></div></div>
+    <div class="card"><h3>Q4 — Positive &gt; Negative (%)</h3><div id="bar-q4"></div></div>
+  </div>
+
+  <!-- Stacked year canvas -->
+  <div class="section-label">Stacked composition per year</div>
+  <div class="card">
+    <h3>All four questions — YES count stacked per year</h3>
+    <canvas id="stacked-canvas" height="220"></canvas>
+  </div>
+
+  <!-- Table -->
+  <div class="section-label">Papers</div>
+  <div class="filters">
+    <span class="flabel">Year:</span>
+    <button class="fbtn active" data-year="all">All</button>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Title</th>
+          <th>Impact found</th>
+          <th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th>
+          <th>Positive examples</th>
+          <th>Negative examples</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+</main>
+
+<script>
+let ALL = [];
+
+const Q1C = "#d63031", Q2C = "#00b894", Q3C = "#e17055", Q4C = "#0984e3";
+
+async function load() {
+  const res = await fetch("/data");
+  ALL = await res.json();
+  render(ALL);
+  buildFilters(ALL);
+}
+
+function pct(arr, key) {
+  if (!arr.length) return 0;
+  return Math.round(arr.filter(r => r[key]).length / arr.length * 100);
+}
+
+function byYear(data) {
+  const m = {};
+  data.forEach(r => { (m[r.year] = m[r.year] || []).push(r); });
+  return m;
+}
+
+function render(data) {
+  const years = Object.keys(byYear(data)).sort();
+
+  document.getElementById("sub").innerHTML =
+    `<span>${data.length}</span> papers &nbsp;·&nbsp; years: <span>${years.join(", ")}</span>`;
+
+  document.getElementById("kpi-q1").textContent = pct(data, "q1_default")       + "%";
+  document.getElementById("kpi-q2").textContent = pct(data, "q2_positive")      + "%";
+  document.getElementById("kpi-q3").textContent = pct(data, "q3_negative")      + "%";
+  document.getElementById("kpi-q4").textContent = pct(data, "q4_more_positive") + "%";
+
+  renderUPlot(data);
+  renderPies(data);
+  renderBars(data);
+  renderStacked(data);
+  renderTable(data);
+}
+
+/* ── uPlot ── */
+function renderUPlot(data) {
+  const map   = byYear(data);
+  const years = Object.keys(map).sort();
+  const xs    = years.map((_, i) => i);
+  const q1    = years.map(y => pct(map[y], "q1_default"));
+  const q2    = years.map(y => pct(map[y], "q2_positive"));
+  const q3    = years.map(y => pct(map[y], "q3_negative"));
+  const q4    = years.map(y => pct(map[y], "q4_more_positive"));
+
+  const wrap = document.getElementById("uplot-wrap");
+  wrap.innerHTML = "";
+
+  const opts = {
+    width  : wrap.offsetWidth || 900,
+    height : 260,
+    cursor : { show: true },
+    scales : { x: { time: false }, y: { range: [0, 100] } },
+    axes   : [
+      { values: (_, vs) => vs.map(v => years[v] ?? ""), size: 36 },
+      { values: (_, vs) => vs.map(v => v + "%"), size: 48 },
+    ],
+    series : [
+      {},
+      { label: "Q1 Generic",  stroke: Q1C, width: 2, points: { show: true, size: 6, fill: Q1C } },
+      { label: "Q2 Positive", stroke: Q2C, width: 2, points: { show: true, size: 6, fill: Q2C } },
+      { label: "Q3 Negative", stroke: Q3C, width: 2, points: { show: true, size: 6, fill: Q3C } },
+      { label: "Q4 P>N",      stroke: Q4C, width: 2, points: { show: true, size: 6, fill: Q4C } },
+    ],
+  };
+
+  new uPlot(opts, [xs, q1, q2, q3, q4], wrap);
+}
+
+/* ── SVG Pie ── */
+function makePie(slices, el) {
+  const SIZE = 120, R = 52, cx = SIZE / 2, cy = SIZE / 2;
+  const total = slices.reduce((s, d) => s + d.v, 0);
+  if (!total) { el.innerHTML = `<p style="color:var(--muted);font-size:.8rem">No data</p>`; return; }
+
+  let angle = -Math.PI / 2;
+  let paths = "";
+  slices.forEach(s => {
+    const sweep = (s.v / total) * 2 * Math.PI;
+    const x1 = cx + R * Math.cos(angle);
+    const y1 = cy + R * Math.sin(angle);
+    angle += sweep;
+    const x2 = cx + R * Math.cos(angle);
+    const y2 = cy + R * Math.sin(angle);
+    const lg = sweep > Math.PI ? 1 : 0;
+    paths += `<path d="M${cx},${cy} L${x1},${y1} A${R},${R} 0 ${lg},1 ${x2},${y2} Z" fill="${s.c}" opacity=".92"/>`;
+  });
+
+  const svg = `<svg width="${SIZE}" height="${SIZE}" viewBox="0 0 ${SIZE} ${SIZE}">${paths}</svg>`;
+
+  const legend = slices.map(s => `
+    <div class="pie-legend-item">
+      <div class="pie-dot" style="background:${s.c}"></div>
+      <span>${s.label}</span>
+      <span class="pct">${Math.round(s.v / total * 100)}%</span>
+    </div>`).join("");
+
+  el.innerHTML = `<div class="pie-wrap">${svg}<div class="pie-legend">${legend}</div></div>`;
+}
+
+function renderPies(data) {
+  const yesQ1 = data.filter(r =>  r.q1_default).length;
+  const yesQ2 = data.filter(r =>  r.q2_positive).length;
+  const yesQ3 = data.filter(r =>  r.q3_negative).length;
+  const yesQ4 = data.filter(r =>  r.q4_more_positive).length;
+  const n     = data.length;
+
+  makePie([
+    { label: "Q1 Generic",  v: yesQ1, c: Q1C },
+    { label: "Q2 Positive", v: yesQ2, c: Q2C },
+    { label: "Q3 Negative", v: yesQ3, c: Q3C },
+    { label: "Q4 P>N",      v: yesQ4, c: Q4C },
+  ], document.getElementById("pie-container"));
+
+  const found    = data.filter(r => r.impact_found).length;
+  const notFound = n - found;
+  makePie([
+    { label: "Found",     v: found,    c: "#00b894" },
+    { label: "Not found", v: notFound, c: "#e8e8e8" },
+  ], document.getElementById("pie-found"));
+}
+
+/* ── Horizontal bars ── */
+function hbar(label, pct, color) {
+  return `<div class="hbar">
+    <div class="hbar-head"><span>${label}</span><span class="hbar-val">${pct}%</span></div>
+    <div class="hbar-track"><div class="hbar-fill" style="width:${pct}%;background:${color}"></div></div>
+  </div>`;
+}
+
+function renderBars(data) {
+  const map   = byYear(data);
+  const years = Object.keys(map).sort();
+  const keys  = ["q1_default","q2_positive","q3_negative","q4_more_positive"];
+  const ids   = ["bar-q1","bar-q2","bar-q3","bar-q4"];
+  const cols  = [Q1C, Q2C, Q3C, Q4C];
+
+  keys.forEach((key, i) => {
+    document.getElementById(ids[i]).innerHTML =
+      years.map(y => hbar(y, pct(map[y], key), cols[i])).join("");
+  });
+}
+
+/* ── Stacked canvas ── */
+function renderStacked(data) {
+  const map    = byYear(data);
+  const years  = Object.keys(map).sort();
+  const canvas = document.getElementById("stacked-canvas");
+  canvas.width = canvas.parentElement.offsetWidth - 48;
+  const ctx    = canvas.getContext("2d");
+  const W      = canvas.width, H = canvas.height;
+  const pad    = { l: 40, r: 20, t: 20, b: 36 };
+  const cols   = [Q1C, Q2C, Q3C, Q4C];
+  const keys   = ["q1_default","q2_positive","q3_negative","q4_more_positive"];
+  const labels = ["Q1","Q2","Q3","Q4"];
+
+  ctx.clearRect(0, 0, W, H);
+
+  const maxVal = Math.max(...years.map(y =>
+    keys.reduce((s, k) => s + map[y].filter(r => r[k]).length, 0)
+  ));
+
+  const bW     = Math.min(60, (W - pad.l - pad.r) / years.length * .55);
+  const gap    = (W - pad.l - pad.r) / years.length;
+  const chartH = H - pad.t - pad.b;
+
+  // grid lines
+  ctx.strokeStyle = "#e8e8e8";
+  ctx.lineWidth   = 1;
+  for (let i = 0; i <= 4; i++) {
+    const y = pad.t + chartH - (i / 4) * chartH;
+    ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(W - pad.r, y); ctx.stroke();
+    ctx.fillStyle = "#aaa"; ctx.font = "10px Inter,sans-serif";
+    ctx.fillText(Math.round(maxVal * i / 4), 2, y + 3);
+  }
+
+  years.forEach((yr, xi) => {
+    const x  = pad.l + xi * gap + gap / 2 - bW / 2;
+    let base  = H - pad.b;
+
+    keys.forEach((key, ki) => {
+      const count = map[yr].filter(r => r[key]).length;
+      const bH    = (count / maxVal) * chartH;
+      ctx.fillStyle = cols[ki];
+      ctx.fillRect(x, base - bH, bW, bH);
+      base -= bH;
+    });
+
+    // year label
+    ctx.fillStyle = "#555"; ctx.font = "11px Inter,sans-serif";
+    ctx.textAlign = "center";
+    ctx.fillText(yr, x + bW / 2, H - pad.b + 16);
+  });
+
+  // legend
+  const lx = W - pad.r - labels.length * 70;
+  labels.forEach((lbl, i) => {
+    ctx.fillStyle = cols[i];
+    ctx.fillRect(lx + i * 70, 4, 10, 10);
+    ctx.fillStyle = "#555"; ctx.font = "10px Inter,sans-serif"; ctx.textAlign = "left";
+    ctx.fillText(lbl, lx + i * 70 + 14, 13);
+  });
+}
+
+/* ── Table ── */
+function pill(v) {
+  return v ? `<span class="pill yes">YES</span>` : `<span class="pill no">NO</span>`;
+}
+function tags(arr) {
+  if (!arr || !arr.length) return `<span style="color:var(--muted)">—</span>`;
+  return arr.map(t => `<span class="tag">${t}</span>`).join("");
+}
+function cleanTitle(t) {
+  return t.replace(/NeurIPS-\d{4}-/, "").replaceAll("-", " ");
+}
+
+function renderTable(data) {
+  document.getElementById("tbody").innerHTML =
+    [...data].sort((a, b) => String(a.year).localeCompare(String(b.year))).map(r => `
+    <tr>
+      <td><b>${r.year}</b></td>
+      <td style="max-width:260px;line-height:1.45">${cleanTitle(r.title)}</td>
+      <td>${r.impact_found ? `<span class="found-yes">✓ found</span>` : `<span class="found-no">—</span>`}</td>
+      <td>${pill(r.q1_default)}</td>
+      <td>${pill(r.q2_positive)}</td>
+      <td>${pill(r.q3_negative)}</td>
+      <td>${pill(r.q4_more_positive)}</td>
+      <td style="max-width:200px">${tags(r.positive_examples)}</td>
+      <td style="max-width:200px">${tags(r.negative_examples)}</td>
+    </tr>`).join("");
+}
+
+/* ── Year filter ── */
+function buildFilters(data) {
+  const years = [...new Set(data.map(r => r.year))].sort();
+  const wrap  = document.querySelector(".filters");
+  years.forEach(y => {
+    const b = document.createElement("button");
+    b.className = "fbtn"; b.dataset.year = y; b.textContent = y;
+    wrap.appendChild(b);
+  });
+  wrap.addEventListener("click", e => {
+    if (!e.target.matches(".fbtn")) return;
+    wrap.querySelectorAll(".fbtn").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    const y = e.target.dataset.year;
+    render(y === "all" ? ALL : ALL.filter(r => r.year == y));
+  });
+}
+
+window.addEventListener("resize", () => {
+  const active = document.querySelector(".fbtn.active");
+  const y = active?.dataset.year;
+  renderUPlot(y === "all" || !y ? ALL : ALL.filter(r => r.year == y));
+  renderStacked(y === "all" || !y ? ALL : ALL.filter(r => r.year == y));
+});
+
+load();
+</script>
+</body>
+</html>

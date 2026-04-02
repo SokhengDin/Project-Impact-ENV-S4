@@ -1,0 +1,14 @@
+{
+  "title": "01740_Patch-level_Routing_in_Mixture-of-Experts_is_Provably_Sample-efficient_for_Convolutional_Neural_Networks",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "pMoE reduces training and inference costs while maintaining test accuracy, leading to more efficient use of computational resources in deep learning applications.",
+    "pMoE can avoid learning spurious correlations, which enhances the robustness of models in real-world applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

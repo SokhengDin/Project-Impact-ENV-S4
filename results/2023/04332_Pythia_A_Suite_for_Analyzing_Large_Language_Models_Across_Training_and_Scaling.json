@@ -1,0 +1,17 @@
+{
+  "title": "04332_Pythia_A_Suite_for_Analyzing_Large_Language_Models_Across_Training_and_Scaling",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Facilitates research in areas such as reducing gender bias in language models.",
+    "Provides public access to a suite of language models for scientific research, enabling novel insights into LLMs and their training dynamics."
+  ],
+  "negative_examples": [
+    "Potential for bias amplification as language models may reflect and amplify biases present in their training data.",
+    "Risk of misuse in generating misleading or harmful content due to the capabilities of large language models."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

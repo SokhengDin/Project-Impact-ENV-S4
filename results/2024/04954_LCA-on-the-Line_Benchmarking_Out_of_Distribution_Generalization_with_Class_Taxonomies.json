@@ -1,0 +1,16 @@
+{
+  "title": "04954_LCA-on-the-Line_Benchmarking_Out_of_Distribution_Generalization_with_Class_Taxonomies",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances understanding of model generalization mechanisms"
+  ],
+  "negative_examples": [
+    "Potential misuse in guiding adversarial attacks that reduce the generalization capabilities of existing models",
+    "Need for robust, secure model development and implementation of ethical guidelines for deploying this knowledge"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

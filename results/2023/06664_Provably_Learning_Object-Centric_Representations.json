@@ -1,0 +1,14 @@
+{
+  "title": "06664_Provably_Learning_Object-Centric_Representations",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves generalization abilities of machine learning models by learning object-centric representations, which can enhance cognitive abilities such as compositional generalization and causal reasoning.",
+    "Lays the groundwork for developing more effective learning methods in unsupervised object-centric representation learning."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

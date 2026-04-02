@@ -1,0 +1,14 @@
+{
+  "title": "01303_ViP_A_Differentially_Private_Foundation_Model_for_Computer_Vision",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Developing scalable privacy-preserving methods for training large foundation models",
+    "Mitigating real-world privacy risks in AI through differential privacy mechanisms"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

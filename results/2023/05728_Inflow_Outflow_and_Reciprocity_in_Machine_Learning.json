@@ -1,0 +1,17 @@
+{
+  "title": "05728_Inflow_Outflow_and_Reciprocity_in_Machine_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The framework proposed can help ensure that individuals contributing data to machine learning models also benefit from them, promoting fairness in data usage.",
+    "In healthcare applications, models built from pooled data can predict disease risks, benefiting individuals who contribute their health data."
+  ],
+  "negative_examples": [
+    "In federated learning, entities may worry that contributing data will benefit competitors who do not contribute as much, leading to potential unfairness.",
+    "The paper discusses that individuals with large outflows and small inflows could be compensated, which implies a risk of creating inequities in data contribution and benefit."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "04724_Quantile_Credit_Assignment",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "QCA and HQCA significantly outperform prior state-of-the-art methods on a range of extremely difficult credit assignment problems, leading to faster policy improvement in reinforcement learning.",
+    "The proposed algorithms improve data efficiency in high-variance environments, enabling agents to have robust performance."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

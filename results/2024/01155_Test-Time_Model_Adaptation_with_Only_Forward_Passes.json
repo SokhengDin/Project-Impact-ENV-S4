@@ -1,0 +1,18 @@
+{
+  "title": "01155_Test-Time_Model_Adaptation_with_Only_Forward_Passes",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Broaden the applicability of machine learning models in real-world scenarios",
+    "Facilitate deployment on mobile computing, edge devices, and embedded systems",
+    "Democratize the benefits of AI technology",
+    "Promote more sustainable machine learning practices by reducing computational overhead",
+    "Lower energy consumption in machine learning deployments",
+    "Enhance data privacy and security by enabling local model adaptation"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

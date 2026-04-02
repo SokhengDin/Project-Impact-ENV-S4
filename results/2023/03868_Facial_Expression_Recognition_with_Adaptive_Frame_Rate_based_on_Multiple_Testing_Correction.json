@@ -1,0 +1,19 @@
+{
+  "title": "03868_Facial_Expression_Recognition_with_Adaptive_Frame_Rate_based_on_Multiple_Testing_Correction",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improvement of trustworthiness in decision-making by maintaining only one hyper-parameter (false acceptance rate)",
+    "Faster decision-making in facial expression recognition (2-40 times lower running time)",
+    "Applicability with arbitrary neural network models without the need to re-train these models"
+  ],
+  "negative_examples": [
+    "Potential misuse in surveillance or privacy invasion due to facial recognition technology",
+    "Dependence on the number of frames T to predict facial expressions, which may limit adaptability in real-time scenarios",
+    "Risk of bias in emotion recognition due to ambiguous labeling in datasets"
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

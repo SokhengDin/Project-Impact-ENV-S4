@@ -1,0 +1,18 @@
+{
+  "title": "03617_Data_Feedback_Loops_Model-driven_Amplification_of_Dataset_Biases",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Proposes an intervention to help mitigate and stabilize unstable feedback systems in machine learning models.",
+    "Demonstrates that models exhibiting sampling-like behavior are more stable and faithful, potentially leading to better model performance."
+  ],
+  "negative_examples": [
+    "Data feedback loops can selectively amplify certain biases, making it harder to tune models to be unbiased.",
+    "The utility of the internet as a data source may decrease rapidly as model outputs replace human annotations, leading to a degradation of data quality.",
+    "Bias amplification in model predictions can exacerbate existing societal biases, such as gender bias in visual role-labeling tasks."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

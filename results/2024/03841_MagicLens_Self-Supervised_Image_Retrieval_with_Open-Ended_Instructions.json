@@ -1,0 +1,17 @@
+{
+  "title": "03841_MagicLens_Self-Supervised_Image_Retrieval_with_Open-Ended_Instructions",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enables a wide range of search scenarios",
+    "Provides users with more accurate search results"
+  ],
+  "negative_examples": [
+    "MagicLens’ ability to understand image relationships could still be misused for inappropriate image searches",
+    "Need for careful consideration and mitigation strategies to address misuse risks"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

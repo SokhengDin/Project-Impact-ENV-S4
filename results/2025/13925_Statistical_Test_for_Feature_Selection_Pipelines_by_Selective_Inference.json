@@ -1,0 +1,14 @@
+{
+  "title": "13925_Statistical_Test_for_Feature_Selection_Pipelines_by_Selective_Inference",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhances the reliability of AI",
+    "Potential to broadly influence the machine learning community"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

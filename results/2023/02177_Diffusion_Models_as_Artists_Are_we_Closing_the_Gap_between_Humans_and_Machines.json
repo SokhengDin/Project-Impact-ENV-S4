@@ -1,0 +1,17 @@
+{
+  "title": "02177_Diffusion_Models_as_Artists_Are_we_Closing_the_Gap_between_Humans_and_Machines",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Diffusion models have significantly improved the quality of machine-generated drawings, providing a better approximation of human drawing ability compared to previous models like VAEs and GANs.",
+    "The study suggests that these models can be used in clinical settings for evaluating emotional trauma and developmental disorders, leveraging drawing as a diagnostic tool."
+  ],
+  "negative_examples": [
+    "The remaining gap between human and machine-generated drawings may lead to a lack of originality in machine outputs, potentially stifling creativity in artistic fields.",
+    "There is a risk that the technology could be misused to create deceptive or misleading content that could be indistinguishable from human-created art."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

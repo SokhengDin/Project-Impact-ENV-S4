@@ -1,0 +1,17 @@
+{
+  "title": "05760_A_Study_of_Global_and_Episodic_Bonuses_for_Exploration_in_Contextual_MDPs",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Efficient exploration reduces sample complexity, making real-world application more feasible.",
+    "Applications in video games, virtual reality, autonomous driving, robotics, and healthcare."
+  ],
+  "negative_examples": [
+    "Exploration methods can potentially cause harm if deployed in the real world without appropriate safety measures.",
+    "Seeking out novel states may lead to unpredicted behavior."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

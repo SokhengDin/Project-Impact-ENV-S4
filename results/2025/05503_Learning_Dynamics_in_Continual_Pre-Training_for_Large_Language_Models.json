@@ -1,0 +1,16 @@
+{
+  "title": "05503_Learning_Dynamics_in_Continual_Pre-Training_for_Large_Language_Models",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhances foundation large language models to specific downstream domains or tasks",
+    "Provides a scaling law to quantitatively describe the learning dynamics of CPT processes",
+    "Optimizes training hyper-parameters for balancing general and downstream performance",
+    "Predicts the loss curve dynamics"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

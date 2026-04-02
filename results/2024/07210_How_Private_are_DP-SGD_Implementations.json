@@ -1,0 +1,13 @@
+{
+  "title": "07210_How_Private_are_DP-SGD_Implementations",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Increases awareness among practitioners of DP about the gaps in privacy analysis related to batch sampling."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

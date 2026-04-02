@@ -1,0 +1,14 @@
+{
+  "title": "04897_Exponential_Smoothing_for_Off-Policy_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed exponential smoothing method improves the performance of off-policy learning (OPL) in decision-making tasks, which can lead to better recommendations in various applications such as online advertising and personalized content delivery.",
+    "The paper demonstrates favorable performance through a set of learning tasks, indicating potential improvements in systems that rely on off-policy learning."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

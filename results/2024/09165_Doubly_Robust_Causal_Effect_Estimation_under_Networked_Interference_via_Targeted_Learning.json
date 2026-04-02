@@ -1,0 +1,14 @@
+{
+  "title": "09165_Doubly_Robust_Causal_Effect_Estimation_under_Networked_Interference_via_Targeted_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Application in decision-making in marketing",
+    "Preventive measure study in epidemiology"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "03276_Tight_Data_Access_Bounds_for_Private_Top-k_Selection",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The algorithm provides a sublinear data access cost for private top-k selection, which can enhance the efficiency of data analytics systems while maintaining client privacy.",
+    "The work contributes to the field of differential privacy, which is crucial for protecting sensitive data in various applications such as healthcare and finance."
+  ],
+  "negative_examples": [
+    "The paper discusses the potential for misuse of differential privacy techniques, which could lead to privacy risks if not implemented correctly.",
+    "There is a risk that the algorithms could be used in ways that compromise individual privacy, especially if the privacy parameters are not set appropriately."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

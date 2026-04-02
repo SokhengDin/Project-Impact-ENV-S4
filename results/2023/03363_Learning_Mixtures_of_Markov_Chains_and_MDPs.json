@@ -1,0 +1,14 @@
+{
+  "title": "03363_Learning_Mixtures_of_Markov_Chains_and_MDPs",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The algorithm can efficiently cluster a mixture of time series data, which has applications in various fields such as psychology, economics, automobile sensing, biology, and neuroscience.",
+    "The method provides end-to-end performance guarantees, achieving high accuracy in clustering MDPs, which can improve decision-making processes in real-world applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

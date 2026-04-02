@@ -1,0 +1,15 @@
+{
+  "title": "01046_Hiera_A_Hierarchical_Vision_Transformer_without_the_Bells-and-Whistles",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Hiera is significantly faster both at inference and during training, which can lead to reduced energy consumption in computational tasks.",
+    "Hiera outperforms state-of-the-art models on various image and video recognition tasks, potentially improving the efficiency of applications in fields like healthcare and security.",
+    "The simplicity of Hiera allows for easier deployment in real-world applications, making advanced vision transformer technology more accessible."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

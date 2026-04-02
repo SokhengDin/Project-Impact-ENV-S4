@@ -1,0 +1,17 @@
+{
+  "title": "04007_Towards_Theoretical_Understanding_of_Inverse_Reinforcement_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The paper aims to improve the understanding of inverse reinforcement learning (IRL), which can lead to better interpretability of expert behavior in various applications, such as healthcare and autonomous systems.",
+    "The ability to retrieve a representation of the expert's reward can enhance the training of artificial agents, making them more effective in real-world tasks."
+  ],
+  "negative_examples": [
+    "The ambiguity in the choice of the reward function in IRL can lead to misinterpretations of expert behavior, potentially resulting in harmful decisions in critical applications like healthcare or autonomous driving.",
+    "The paper discusses the risk of multiple reward functions explaining the same behavior, which could lead to inconsistent or biased outcomes in AI systems."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

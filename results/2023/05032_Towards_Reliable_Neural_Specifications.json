@@ -1,0 +1,17 @@
+{
+  "title": "05032_Towards_Reliable_Neural_Specifications",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances in deep neural networks (DNNs) have brought a wide societal impact in many domains such as transportation, healthcare, finance, e-commerce, and education.",
+    "Achieving trustworthy AI has attracted much attention of the research community, which can lead to safer AI systems."
+  ],
+  "negative_examples": [
+    "Concerns about errors in AI software and their susceptibility to cyber-attacks.",
+    "The challenge of verification and validation of AI systems raises risks regarding AI system safety."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

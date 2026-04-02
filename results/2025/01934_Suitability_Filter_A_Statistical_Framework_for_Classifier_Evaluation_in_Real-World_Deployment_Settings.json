@@ -1,0 +1,19 @@
+{
+  "title": "01934_Suitability_Filter_A_Statistical_Framework_for_Classifier_Evaluation_in_Real-World_Deployment_Settings",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves the robustness and fairness of machine learning models by offering tools to assess their suitability without requiring ground-truth labels.",
+    "Enhances trustworthiness in automated systems especially in safety-critical deployment contexts.",
+    "Potential to improve fairness by enabling consistent performance evaluation across diverse subpopulations."
+  ],
+  "negative_examples": [
+    "Assumes access to well-calibrated prediction correctness estimators, which might not hold in all scenarios, potentially leading to incorrect evaluations.",
+    "Improper parameter choices or misinterpretations of results could exacerbate existing biases in datasets or models.",
+    "Misuse or overreliance on automated evaluation frameworks without human oversight could have adverse effects."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

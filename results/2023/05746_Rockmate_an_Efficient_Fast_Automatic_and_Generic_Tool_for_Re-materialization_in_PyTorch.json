@@ -1,0 +1,14 @@
+{
+  "title": "05746_Rockmate_an_Efficient_Fast_Automatic_and_Generic_Tool_for_Re-materialization_in_PyTorch",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Rockmate reduces memory consumption for training deep neural networks by a factor of 2 to 5, allowing for larger models to be trained on limited hardware resources.",
+    "The tool is open source, promoting accessibility and collaboration in the AI research community, which can lead to broader societal benefits."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

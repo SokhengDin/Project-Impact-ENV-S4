@@ -1,0 +1,11 @@
+{
+  "title": "05748_ExCP_Extreme_LLM_Checkpoint_Compression_via_Weight-Momentum_Joint_Shrinking",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

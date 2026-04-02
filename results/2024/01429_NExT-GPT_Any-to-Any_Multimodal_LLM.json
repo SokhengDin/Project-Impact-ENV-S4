@@ -1,0 +1,17 @@
+{
+  "title": "01429_NExT-GPT_Any-to-Any_Multimodal_LLM",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Prioritizing data privacy by following social media platform terms and obtaining user consent when necessary.",
+    "Striving for a representative and fair dataset that does not favor or disfavor any particular group or perspective."
+  ],
+  "negative_examples": [
+    "May produce low-quality or hallucinated content that could be harmful.",
+    "Users are cautioned to interpret results carefully and adhere to licensing rules, with commercial use prohibited."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

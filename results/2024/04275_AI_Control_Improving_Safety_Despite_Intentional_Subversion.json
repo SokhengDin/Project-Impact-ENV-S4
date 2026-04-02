@@ -1,0 +1,16 @@
+{
+  "title": "04275_AI_Control_Improving_Safety_Despite_Intentional_Subversion",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Control evaluations could help assess the safety of protocols."
+  ],
+  "negative_examples": [
+    "Control evaluations could produce overoptimistic safety estimates due to limitations.",
+    "Caution is recommended when using control evaluations for real deployments."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

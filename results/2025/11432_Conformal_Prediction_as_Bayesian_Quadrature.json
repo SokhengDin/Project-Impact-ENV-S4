@@ -1,0 +1,16 @@
+{
+  "title": "11432_Conformal_Prediction_as_Bayesian_Quadrature",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The algorithm informs deployment decisions of black-box predictive systems in safety-critical applications, potentially improving safety outcomes."
+  ],
+  "negative_examples": [
+    "If assumptions are violated, guarantees may no longer hold, leading to potential risks in deployment decisions.",
+    "Improper monitoring to detect distribution shift could result in unsafe predictions in critical applications."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

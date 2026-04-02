@@ -1,0 +1,15 @@
+{
+  "title": "04619_Efficient_RL_via_Disentangled_Environment_and_Agent_Representations",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "SEAR's performance on learning representations for multi-task learning is not fully clear, indicating potential limitations in its application.",
+    "SEAR has not yet been tested on real-world environments, which raises concerns about its practical applicability and effectiveness.",
+    "SEAR does not provide any benefit over other approaches when the robot is not visible in the input image, which could limit its usability in certain scenarios."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

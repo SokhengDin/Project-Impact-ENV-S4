@@ -1,0 +1,14 @@
+{
+  "title": "05871_Graphically_Structured_Diffusion_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The framework automates the reasoning required to create approximate solutions to tasks such as sorting, Sudoku solving, and binary-continuous matrix factorization, which can enhance efficiency in algorithm development.",
+    "GSDM can generalize well to larger problem sizes than it was trained on, indicating its potential for scalability in real-world applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

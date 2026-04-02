@@ -1,0 +1,17 @@
+{
+  "title": "04043_HETAL_Efficient_Privacy-preserving_Transfer_Learning_with_Homomorphic_Encryption",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "HETAL protects the client’s privacy in training tasks for transfer learning by encrypting the client data using homomorphic encryption, which addresses data privacy concerns in machine learning as a service settings.",
+    "The proposed method achieves almost the same accuracy as non-encrypted training while ensuring data privacy, which can enhance trust in machine learning applications."
+  ],
+  "negative_examples": [
+    "The server may attempt to learn all possible information from legitimately received messages, posing a risk of data leakage despite encryption.",
+    "The reliance on homomorphic encryption may lead to increased computational costs and energy consumption, which could be a concern in large-scale applications."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

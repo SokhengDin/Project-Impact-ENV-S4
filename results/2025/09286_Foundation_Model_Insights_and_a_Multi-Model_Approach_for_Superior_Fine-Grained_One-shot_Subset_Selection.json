@@ -1,0 +1,18 @@
+{
+  "title": "09286_Foundation_Model_Insights_and_a_Multi-Model_Approach_for_Superior_Fine-Grained_One-shot_Subset_Selection",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves data efficiency in machine learning by leveraging multiple foundation models for one-shot subset selection",
+    "Benefits fine-grained classification scenarios",
+    "Lowers barriers to deploying high-performing models in low-resource or underrepresented domains"
+  ],
+  "negative_examples": [
+    "Careful consideration is needed to avoid reinforcing dataset biases",
+    "Unintentionally omitting critical minority samples"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

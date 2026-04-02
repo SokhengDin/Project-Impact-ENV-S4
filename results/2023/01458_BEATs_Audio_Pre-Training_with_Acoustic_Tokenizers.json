@@ -1,0 +1,17 @@
+{
+  "title": "01458_BEATs_Audio_Pre-Training_with_Acoustic_Tokenizers",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Achieves state-of-the-art results across various audio classification benchmarks, improving audio understanding capabilities.",
+    "Facilitates future work of audio pre-training and multi-modality pre-training, potentially benefiting various applications in audio processing."
+  ],
+  "negative_examples": [
+    "The iterative pre-training process results in a linear increase in computational overhead, which could limit accessibility for some researchers.",
+    "Relies solely on the AudioSet-2M dataset for pre-training, which is limited in terms of audio and speech coverage, potentially leading to biases in model performance."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

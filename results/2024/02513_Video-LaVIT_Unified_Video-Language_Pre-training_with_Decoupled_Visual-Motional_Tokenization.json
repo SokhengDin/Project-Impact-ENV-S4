@@ -1,0 +1,15 @@
+{
+  "title": "02513_Video-LaVIT_Unified_Video-Language_Pre-training_with_Decoupled_Visual-Motional_Tokenization",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances the pre-training of large multi-modal models in both performance and efficiency."
+  ],
+  "negative_examples": [
+    "Reasoning and generative capabilities should be treated carefully."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

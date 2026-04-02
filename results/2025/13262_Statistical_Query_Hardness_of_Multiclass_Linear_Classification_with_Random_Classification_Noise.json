@@ -1,0 +1,11 @@
+{
+  "title": "13262_Statistical_Query_Hardness_of_Multiclass_Linear_Classification_with_Random_Classification_Noise",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

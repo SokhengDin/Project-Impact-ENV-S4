@@ -1,0 +1,16 @@
+{
+  "title": "07556_Expressivity_and_Generalization_Fragment-Biases_for_Molecular_GNNs",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Predicting the properties of molecules which can aid in drug discovery."
+  ],
+  "negative_examples": [
+    "Methods can sometimes be used for harmful purposes.",
+    "Might help to discover or create dangerous substances."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

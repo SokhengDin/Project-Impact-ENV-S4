@@ -1,0 +1,19 @@
+{
+  "title": "03652_AlphaFold_Meets_Flow_Matching_for_Generating_Protein_Ensembles",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Impact on drug discovery",
+    "Advancement in protein design",
+    "Positive outcomes in human health",
+    "Contributions to energy and economic development"
+  ],
+  "negative_examples": [
+    "Potential for negative applications in biotechnology",
+    "Risks associated with misuse of biotechnology"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "03790_Differentially_Private_Hierarchical_Clustering_with_Provable_Approximation_Guarantees",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The algorithms proposed provide differentially private hierarchical clustering, which can protect sensitive user data in applications like social networks and bioinformatics.",
+    "The work addresses the need for privacy-preserving algorithms in hierarchical clustering, which is crucial for handling sensitive data."
+  ],
+  "negative_examples": [
+    "The algorithms may still exhibit significant additive error, which could lead to inaccurate clustering results, potentially affecting decision-making processes.",
+    "The strong lower bounds on the performance of differentially private algorithms indicate that there may be limitations in their effectiveness, which could lead to privacy risks if not properly managed."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

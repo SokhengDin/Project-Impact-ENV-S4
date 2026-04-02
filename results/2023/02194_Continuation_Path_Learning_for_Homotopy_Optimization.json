@@ -1,0 +1,15 @@
+{
+  "title": "02194_Continuation_Path_Learning_for_Homotopy_Optimization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed model can generate solutions for any intermediate subproblem in real time, which is desirable for many real-world applications.",
+    "CPL can achieve promising performances on various problems, including non-convex optimization, noisy regression, and neural combinatorial optimization.",
+    "CPL can improve the generalization performance for a neural combinatorial optimization solver, such as in the traveling salesman problem."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

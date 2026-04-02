@@ -1,0 +1,15 @@
+{
+  "title": "06009_Spherical_Fourier_Neural_Operators_Learning_Stable_Dynamics_on_the_Sphere",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The SFNO has important implications for machine learning-based simulation of climate dynamics that could eventually help accelerate our response to climate change.",
+    "The proposed method enables long-term weather forecasting significantly more accessible, allowing predictions for an entire year to be computed within 13 minutes on a single GPU.",
+    "The SFNO architecture has predictive skill comparable to state-of-the-art models in numerical weather prediction, which can improve climate prediction and adaptation efforts."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

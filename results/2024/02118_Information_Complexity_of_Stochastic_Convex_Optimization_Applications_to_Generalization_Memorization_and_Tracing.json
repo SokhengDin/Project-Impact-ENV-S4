@@ -1,0 +1,14 @@
+{
+  "title": "02118_Information_Complexity_of_Stochastic_Convex_Optimization_Applications_to_Generalization_Memorization_and_Tracing",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Builds upon the community’s understanding of generalization error for machine learning methods",
+    "May lead to further improvements in our understanding, methodologies and applications of machine learning and AI."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

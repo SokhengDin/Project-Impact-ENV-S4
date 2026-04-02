@@ -1,0 +1,20 @@
+{
+  "title": "13597_SWE-Lancer_Can_Frontier_LLMs_Earn_1_Million_from_Real-World_Freelance_Software_Engineering",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances productivity in software engineering",
+    "Expands access to high-quality engineering capabilities",
+    "Reduces barriers to technological progress"
+  ],
+  "negative_examples": [
+    "Shifts labor demand for entry-level and freelance software engineers",
+    "Model autonomy risk in self-improvement",
+    "Automatically generated code may contain security flaws",
+    "Potential disruption of existing features or deviation from industry best practices"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "05144_Position_On_the_Societal_Impact_of_Open_Foundation_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Distributing decision-making power",
+    "Reducing market concentration",
+    "Increasing innovation",
+    "Accelerating science",
+    "Enabling transparency"
+  ],
+  "negative_examples": [
+    "Misuse risks such as disinformation and biosecurity threats",
+    "Cybersecurity risks including automated vulnerability detection",
+    "Non-consensual intimate imagery (NCII) creation",
+    "Potential for algorithmic monoculture leading to systemic risks"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

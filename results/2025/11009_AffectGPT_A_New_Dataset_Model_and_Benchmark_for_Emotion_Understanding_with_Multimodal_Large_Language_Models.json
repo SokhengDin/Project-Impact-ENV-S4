@@ -1,0 +1,13 @@
+{
+  "title": "11009_AffectGPT_A_New_Dataset_Model_and_Benchmark_for_Emotion_Understanding_with_Multimodal_Large_Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhances human-computer interaction experience through emotion understanding."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

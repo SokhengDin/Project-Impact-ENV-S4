@@ -1,0 +1,16 @@
+{
+  "title": "02712_Rényi_Neural_Processes",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "improve the robustness of generative models",
+    "enable reliable machine learning algorithms"
+  ],
+  "negative_examples": [
+    "recovering facial photos from incomplete images for fraudulent scams"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

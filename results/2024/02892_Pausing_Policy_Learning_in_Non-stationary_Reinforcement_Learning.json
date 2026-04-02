@@ -1,0 +1,14 @@
+{
+  "title": "02892_Pausing_Policy_Learning_in_Non-stationary_Reinforcement_Learning",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Narrowing the gap between simulation-based RL and its real-world applications",
+    "Demonstrating the advantages of pausing policy learning in continual learning settings"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

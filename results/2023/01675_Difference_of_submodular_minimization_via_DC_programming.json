@@ -1,0 +1,14 @@
+{
+  "title": "01675_Difference_of_submodular_minimization_via_DC_programming",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed algorithms outperform existing baselines on applications such as speech corpus selection and feature selection, which can enhance machine learning applications in speech recognition and data analysis.",
+    "The work contributes to the field of machine learning by providing efficient algorithms for minimizing the difference of submodular functions, which can lead to better decision-making processes in various applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

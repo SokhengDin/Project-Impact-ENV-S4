@@ -1,0 +1,14 @@
+{
+  "title": "00779_ReferSplat_Referring_Segmentation_in_3D_Gaussian_Splatting",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances research in the field of Machine Learning",
+    "Enables better scene diversity and representation learning"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

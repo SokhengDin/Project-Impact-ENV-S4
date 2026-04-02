@@ -1,0 +1,11 @@
+{
+  "title": "14743_Emergence_in_non-neural_models_grokking_modular_arithmetic_via_average_gradient_outer_product",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

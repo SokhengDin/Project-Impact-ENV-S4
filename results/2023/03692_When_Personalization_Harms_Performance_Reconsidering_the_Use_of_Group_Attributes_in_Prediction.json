@@ -1,0 +1,17 @@
+{
+  "title": "03692_When_Personalization_Harms_Performance_Reconsidering_the_Use_of_Group_Attributes_in_Prediction",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Formal conditions to ensure the fair use of group attributes in prediction tasks can improve model performance for specific groups.",
+    "The study highlights the need to evaluate fair use when personalizing models, which can lead to better health outcomes in clinical applications."
+  ],
+  "negative_examples": [
+    "Personalization with group attributes can inadvertently reduce performance at a group level, leading to worse decisions and health outcomes.",
+    "Inaccurate predictions due to fair use violations may inflict harm, especially in clinical applications where they can lead to worse health outcomes."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

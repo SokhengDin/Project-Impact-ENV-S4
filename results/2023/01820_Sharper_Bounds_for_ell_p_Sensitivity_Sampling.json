@@ -1,0 +1,14 @@
+{
+  "title": "01820_Sharper_Bounds_for_ell_p_Sensitivity_Sampling",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves sample complexity for structured matrices in machine learning, which can lead to more efficient algorithms in various applications such as regression and clustering.",
+    "Sensitivity sampling techniques can enhance the performance of machine learning models by ensuring that important data points are retained, thus improving prediction accuracy."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

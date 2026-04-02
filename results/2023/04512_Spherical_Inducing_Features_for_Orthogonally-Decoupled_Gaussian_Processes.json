@@ -1,0 +1,14 @@
+{
+  "title": "04512_Spherical_Inducing_Features_for_Orthogonally-Decoupled_Gaussian_Processes",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves predictive performance in Gaussian processes, which can enhance decision-making in fields like healthcare and finance.",
+    "Provides a more scalable approach to Gaussian processes, making them applicable to larger datasets and real-world problems."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

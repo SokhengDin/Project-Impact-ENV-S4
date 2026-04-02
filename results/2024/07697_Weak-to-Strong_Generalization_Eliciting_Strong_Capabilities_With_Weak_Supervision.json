@@ -1,0 +1,16 @@
+{
+  "title": "07697_Weak-to-Strong_Generalization_Eliciting_Strong_Capabilities_With_Weak_Supervision",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improving our ability to steer and align future AI systems to ensure models are safe."
+  ],
+  "negative_examples": [
+    "Alignment techniques can be used to align models with values that are harmful to society.",
+    "General advancements in Machine Learning can have societal consequences."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

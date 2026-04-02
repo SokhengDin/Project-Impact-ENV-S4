@@ -1,0 +1,14 @@
+{
+  "title": "00042_Learning_GFlowNets_From_Partial_Episodes_For_Improved_Convergence_And_Stability",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "SubTB(𝜆) improves convergence of GFlowNets in previously studied environments, allowing for faster learning and better performance in tasks such as molecule generation and sequence generation.",
+    "SubTB(𝜆) enables training of GFlowNets in environments with longer action sequences and sparser reward landscapes, which can lead to advancements in fields like drug discovery and biological sequence design."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

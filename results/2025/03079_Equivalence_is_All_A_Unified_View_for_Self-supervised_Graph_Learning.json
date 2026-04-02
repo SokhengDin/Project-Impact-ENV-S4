@@ -1,0 +1,11 @@
+{
+  "title": "03079_Equivalence_is_All_A_Unified_View_for_Self-supervised_Graph_Learning",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "06368_An_Improved_Clique-Picking_Algorithm_for_Counting_Markov_Equivalent_DAGs_via_Super_Cliques_Transfer",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Facilitates more efficient causal discovery and decision-making processes",
+    "Improves the feasibility of real-world applications such as automated causal inference in healthcare",
+    "Contributes to policy-making and artificial intelligence systems"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

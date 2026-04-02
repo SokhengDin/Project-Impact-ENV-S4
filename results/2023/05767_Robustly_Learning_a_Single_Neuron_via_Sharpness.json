@@ -1,0 +1,14 @@
+{
+  "title": "05767_Robustly_Learning_a_Single_Neuron_via_Sharpness",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The algorithm provides a constant-factor approximate learner for the problem of agnostically learning a single neuron, which can improve machine learning applications in various fields such as healthcare and finance.",
+    "The results apply to a broad family of monotone activations, potentially enhancing the performance of neural networks in real-world applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

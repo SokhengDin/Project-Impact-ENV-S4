@@ -1,0 +1,18 @@
+{
+  "title": "04267_APT_Adaptive_Pruning_and_Tuning_Pretrained_Language_Models_for_Efficient_Training_and_Inference",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "APT significantly reduces training and inference costs",
+    "contributes to lower resource consumption for a wide range of applications",
+    "could have a positive environmental impact"
+  ],
+  "negative_examples": [
+    "might lead to potential model misuse due to lower resource requirements",
+    "might inherit existing issues in language models, for example, biases in training data"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

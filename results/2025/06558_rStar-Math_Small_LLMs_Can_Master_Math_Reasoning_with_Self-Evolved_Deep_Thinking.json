@@ -1,0 +1,14 @@
+{
+  "title": "06558_rStar-Math_Small_LLMs_Can_Master_Math_Reasoning_with_Self-Evolved_Deep_Thinking",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Applications in education",
+    "Automated problem-solving"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "01285_Genie_Generative_Interactive_Environments",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enables people to generate their own game-like experiences",
+    "Allows children to design and step into their own imagined worlds",
+    "Empowers relevant industries to utilize Genie for next generation of playable world development"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

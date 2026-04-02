@@ -1,0 +1,14 @@
+{
+  "title": "02496_Dynamic_Regularized_Sharpness_Aware_Minimization_in_Federated_Learning_Approaching_Global_Consistency_and_Smooth_Landsca",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed FedSMOO algorithm improves the performance of federated learning (FL) by ensuring global consistency and generalization, which can enhance the effectiveness of collaborative machine learning across diverse datasets.",
+    "FedSMOO achieves a faster convergence rate and higher generalization accuracy, particularly in scenarios with high data heterogeneity, which can lead to better model performance in real-world applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

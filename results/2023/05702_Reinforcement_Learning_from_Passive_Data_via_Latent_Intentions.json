@@ -1,0 +1,14 @@
+{
+  "title": "05702_Reinforcement_Learning_from_Passive_Data_via_Latent_Intentions",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The approach learns from passive data by modeling intentions, which can lead to more efficient learning for RL agents.",
+    "The ability to learn from diverse passive data sources, such as human videos and YouTube videos, can enhance the generalization of RL agents in various applications, including human-assistive robots and dialogue agents."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

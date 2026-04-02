@@ -1,0 +1,17 @@
+{
+  "title": "03818_Mu2SLAM_Multitask_Multilingual_Speech_and_Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Establishes a new state-of-the-art for models trained on public datasets, improving translation accuracy by 1.9 BLEU points on xx-en and 1.1 BLEU points on en-xx, which can enhance communication across languages.",
+    "Improves performance on multilingual text understanding tasks, getting closer to the performance of existing models, thus potentially benefiting global communication and understanding."
+  ],
+  "negative_examples": [
+    "Potential for misuse in generating misleading or harmful content due to the capabilities of the model in understanding and generating text and speech.",
+    "Risk of bias amplification if the model is trained on biased datasets, which could lead to unfair treatment of certain language groups or demographics."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

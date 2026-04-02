@@ -1,0 +1,11 @@
+{
+  "title": "05477_LoRA_Training_Provably_Converges_to_a_Low-Rank_Global_Minimum_Or_It_Fails_Loudly_But_it_Probably_Wont_Fail",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

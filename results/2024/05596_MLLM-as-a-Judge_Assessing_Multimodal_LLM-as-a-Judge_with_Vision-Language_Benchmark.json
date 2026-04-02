@@ -1,0 +1,17 @@
+{
+  "title": "05596_MLLM-as-a-Judge_Assessing_Multimodal_LLM-as-a-Judge_with_Vision-Language_Benchmark",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Establishes a benchmark to improve MLLMs' alignment with human cognitive processes.",
+    "Aims to create more ethically principled and socially beneficial MLLM systems."
+  ],
+  "negative_examples": [
+    "Bias in human annotation and MLLMs.",
+    "Potential for biased judgments due to the limitations of current MLLM systems."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "05169_Tighter_Lower_Bounds_for_Shuffling_SGD_Random_Permutations_and_Beyond",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The paper presents tighter lower bounds for without-replacement stochastic gradient descent (SGD), which can lead to faster convergence rates in machine learning applications, potentially improving efficiency in various fields such as healthcare and finance.",
+    "By optimizing SGD algorithms, the research can enhance the performance of machine learning models, which can be applied to improve decision-making processes in critical areas like climate modeling and resource management."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

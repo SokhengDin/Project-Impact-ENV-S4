@@ -1,0 +1,14 @@
+{
+  "title": "01631_Returning_The_Favour_When_Regression_Benefits_From_Probabilistic_Causal_Knowledge",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves predictive performance in regression tasks by incorporating probabilistic causal knowledge from directed acyclic graphs (DAGs).",
+    "Demonstrates performance gains in climate science applications, particularly in estimating aerosol radiative forcing, which is critical for understanding climate change."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

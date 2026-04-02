@@ -1,0 +1,16 @@
+{
+  "title": "07673_ACE_Off-Policy_Actor-Critic_with_Causality-Aware_Entropy_Regularization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Boosts the efficiency of exploration in reinforcement learning by harnessing causal influences on rewards.",
+    "Empowers RL agents to escape local optima with agility, mirroring human cognitive processes."
+  ],
+  "negative_examples": [
+    "Navigating the need for stringent safety measures to curb risky behaviors during exploration in real-world environments."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

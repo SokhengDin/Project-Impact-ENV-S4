@@ -1,0 +1,14 @@
+{
+  "title": "06792_Taming_graph_kernels_with_random_features",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Substantial computational gains for smaller graphs, improving efficiency in graph kernel applications.",
+    "Facilitates the use of graph kernels in larger networks, making advanced machine learning techniques more accessible."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

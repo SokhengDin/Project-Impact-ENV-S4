@@ -1,0 +1,14 @@
+{
+  "title": "04738_Second-Order_Optimization_with_Lazy_Hessians",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed lazy Hessian updates significantly reduce the overall arithmetic complexity of second-order optimization schemes, making them more efficient for solving difficult ill-conditioned problems.",
+    "The methods developed can be applied to a wide range of convex and non-convex optimization problems, potentially benefiting various fields such as machine learning and operations research."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

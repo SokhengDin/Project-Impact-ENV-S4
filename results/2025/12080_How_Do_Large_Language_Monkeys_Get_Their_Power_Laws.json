@@ -1,0 +1,19 @@
+{
+  "title": "12080_How_Do_Large_Language_Monkeys_Get_Their_Power_Laws",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Helps organizations forecast compute requirements accurately",
+    "Informs trade-offs between model size, inference costs, and performance targets",
+    "Aims to develop more efficient and reliable AI systems"
+  ],
+  "negative_examples": [
+    "Advances in language model capabilities can have broad societal impacts",
+    "Potential for misuse of language models",
+    "Risk of increased inference costs leading to resource allocation issues"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

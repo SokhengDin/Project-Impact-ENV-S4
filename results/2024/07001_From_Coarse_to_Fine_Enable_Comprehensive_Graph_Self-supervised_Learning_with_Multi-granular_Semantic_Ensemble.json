@@ -1,0 +1,15 @@
+{
+  "title": "07001_From_Coarse_to_Fine_Enable_Comprehensive_Graph_Self-supervised_Learning_with_Multi-granular_Semantic_Ensemble",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Increases the generalization ability of current graph SSL methods across different downstream applications.",
+    "Helps in the research on the explainability of the graph learning community.",
+    "Provides a more precise and understandable depiction for each graph instance."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

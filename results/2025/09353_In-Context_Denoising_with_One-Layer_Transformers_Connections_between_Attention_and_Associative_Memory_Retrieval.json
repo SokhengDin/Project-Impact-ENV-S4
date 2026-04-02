@@ -1,0 +1,11 @@
+{
+  "title": "09353_In-Context_Denoising_with_One-Layer_Transformers_Connections_between_Attention_and_Associative_Memory_Retrieval",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

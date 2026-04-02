@@ -1,0 +1,11 @@
+{
+  "title": "02194_Improved_Regret_Analysis_in_Gaussian_Process_Bandits_Optimality_for_Noiseless_Reward_RKHS_norm_and_Non-Stationary_Varian",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

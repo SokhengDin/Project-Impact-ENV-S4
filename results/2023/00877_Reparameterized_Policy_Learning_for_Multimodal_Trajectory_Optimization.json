@@ -1,0 +1,17 @@
+{
+  "title": "00877_Reparameterized_Policy_Learning_for_Multimodal_Trajectory_Optimization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The method can help agents evade local optima in tasks with dense rewards and solve challenging sparse-reward environments by incorporating an object-centric intrinsic reward.",
+    "RPG consistently outperforms previous approaches across a range of tasks, demonstrating its effectiveness in exploration and optimization in continuous control problems."
+  ],
+  "negative_examples": [
+    "The intrinsic reward design relies on assumptions regarding the recognition of objects and their spatial positioning, which may be unsuitable in environments with unidentified objects.",
+    "Learning the world model typically results in a slower pace of gradient updates, which could hinder performance in real-time applications."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

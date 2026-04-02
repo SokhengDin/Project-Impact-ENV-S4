@@ -1,0 +1,14 @@
+{
+  "title": "08483_Less_is_More_on_the_Over-Globalizing_Problem_in_Graph_Transformers",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhancing social network recommendations",
+    "Reducing traffic network congestion"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

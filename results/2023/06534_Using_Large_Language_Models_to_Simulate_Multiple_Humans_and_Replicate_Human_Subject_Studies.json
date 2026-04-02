@@ -1,0 +1,17 @@
+{
+  "title": "06534_Using_Large_Language_Models_to_Simulate_Multiple_Humans_and_Replicate_Human_Subject_Studies",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "TEs may inform the design of costly experiments, potentially leading to more efficient research methodologies.",
+    "TEs provide insight into human behaviors captured in AI systems, which can improve the understanding of AI's capabilities."
+  ],
+  "negative_examples": [
+    "Unrealistic models of human numerical knowledge and accuracy may lead to misinterpretations of AI capabilities.",
+    "Ethical considerations, limitations, and risks associated with TEs are discussed, indicating potential negative implications."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

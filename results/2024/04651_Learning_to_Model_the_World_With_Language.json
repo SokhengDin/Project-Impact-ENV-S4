@@ -1,0 +1,11 @@
+{
+  "title": "04651_Learning_to_Model_the_World_With_Language",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

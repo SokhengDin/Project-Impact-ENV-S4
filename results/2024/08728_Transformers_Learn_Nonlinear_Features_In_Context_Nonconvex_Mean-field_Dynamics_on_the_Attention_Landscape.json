@@ -1,0 +1,18 @@
+{
+  "title": "08728_Transformers_Learn_Nonlinear_Features_In_Context_Nonconvex_Mean-field_Dynamics_on_the_Attention_Landscape",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Better understanding of reasoning capabilities of large language models",
+    "Facilitates development of more transparent AI systems",
+    "Promotes socially beneficial AI systems"
+  ],
+  "negative_examples": [
+    "Ethical issues such as AI privacy",
+    "Concerns regarding fairness and accountability in AI systems"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

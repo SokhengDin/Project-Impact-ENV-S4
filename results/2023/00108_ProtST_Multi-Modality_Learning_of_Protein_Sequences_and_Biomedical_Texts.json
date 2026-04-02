@@ -1,0 +1,14 @@
+{
+  "title": "00108_ProtST_Multi-Modality_Learning_of_Protein_Sequences_and_Biomedical_Texts",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhances protein sequence pre-training and understanding by biomedical texts, which can improve drug discovery and healthcare applications.",
+    "Enables zero-shot protein classification and functional protein retrieval from large-scale databases without any function annotation, increasing efficiency in biomedical research."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

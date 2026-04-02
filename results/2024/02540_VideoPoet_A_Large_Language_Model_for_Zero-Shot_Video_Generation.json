@@ -1,0 +1,17 @@
+{
+  "title": "02540_VideoPoet_A_Large_Language_Model_for_Zero-Shot_Video_Generation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances human creativity through video generation",
+    "Introduces a new tool for video generation"
+  ],
+  "negative_examples": [
+    "Potential for misuse in creating deceptive or harmful content such as misinformation or deepfakes",
+    "Ethical concerns regarding adherence to ethical standards and avoiding harmful stereotypes"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

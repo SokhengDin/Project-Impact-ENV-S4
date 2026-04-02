@@ -1,0 +1,14 @@
+{
+  "title": "00032_Learning-Rate-Free_Learning_by_D-Adaptation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "D-Adaptation matches or exceeds the performance of hand-tuned learning rates across a broad range of machine learning problems, including large-scale vision and language problems.",
+    "The method is highly effective across diverse machine learning applications, improving the efficiency of training models without the need for hyper-parameter tuning."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

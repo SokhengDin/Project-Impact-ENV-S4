@@ -1,0 +1,11 @@
+{
+  "title": "07212_Sanity_Checking_Causal_Representation_Learning_on_a_Simple_Real-World_System",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

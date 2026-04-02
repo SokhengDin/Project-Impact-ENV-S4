@@ -1,0 +1,17 @@
+{
+  "title": "05940_OMPO_A_Unified_Framework_for_RL_under_Policy_and_Dynamics_Shifts",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Potential implications for real-world applications in robotics",
+    "Advances research in off-policy/offline RL, meta-RL, multi-task RL, and sim-to-real transfer"
+  ],
+  "negative_examples": [
+    "Uncertainty in the reasonable definition of reward",
+    "Brittleness of RL training process"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

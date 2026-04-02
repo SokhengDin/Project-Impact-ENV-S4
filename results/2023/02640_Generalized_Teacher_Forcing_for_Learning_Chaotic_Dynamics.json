@@ -1,0 +1,14 @@
+{
+  "title": "02640_Generalized_Teacher_Forcing_for_Learning_Chaotic_Dynamics",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed method allows for faithful reconstruction of chaotic dynamical systems, which can lead to better predictions in fields such as climate dynamics and epidemiology.",
+    "The algorithm is highly interpretable, enabling rigorous scientific and mathematical analysis of complex systems like the brain and social networks."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

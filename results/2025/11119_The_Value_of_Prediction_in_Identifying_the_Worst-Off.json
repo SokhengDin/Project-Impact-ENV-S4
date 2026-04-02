@@ -1,0 +1,17 @@
+{
+  "title": "11119_The_Value_of_Prediction_in_Identifying_the_Worst-Off",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Helps public agencies allocate limited resources more effectively to target the most vulnerable populations.",
+    "Encourages the incorporation of fairness, transparency, and accountability measures in predictive modeling."
+  ],
+  "negative_examples": [
+    "Formalizing complex institutional processes may omit important real-world details, risking biases or misalignments.",
+    "Small design changes in resource-constrained contexts can disproportionately affect marginalized communities."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

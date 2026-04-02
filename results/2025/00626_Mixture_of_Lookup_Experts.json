@@ -1,0 +1,16 @@
+{
+  "title": "00626_Mixture_of_Lookup_Experts",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances LLMs which can improve accessibility in various applications."
+  ],
+  "negative_examples": [
+    "Concerns around bias in LLMs.",
+    "Concerns around misinformation propagated by LLMs."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

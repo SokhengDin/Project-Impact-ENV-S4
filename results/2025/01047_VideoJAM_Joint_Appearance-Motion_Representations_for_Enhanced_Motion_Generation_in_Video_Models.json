@@ -1,0 +1,16 @@
+{
+  "title": "01047_VideoJAM_Joint_Appearance-Motion_Representations_for_Enhanced_Motion_Generation_in_Video_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances motion modeling in video generation, empowering models to understand and represent the world more faithfully."
+  ],
+  "negative_examples": [
+    "Potential for misuse in content generation, a concern widely discussed within the research community.",
+    "Does not introduce any specific risks that were not already present in previous advancements."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

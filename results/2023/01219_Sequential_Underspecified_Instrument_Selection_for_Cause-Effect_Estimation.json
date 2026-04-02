@@ -1,0 +1,17 @@
+{
+  "title": "01219_Sequential_Underspecified_Instrument_Selection_for_Cause-Effect_Estimation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The proposed methods can help in understanding cause-effect relationships in high-dimensional systems, such as the influence of gut microbiome on health and disease, which can lead to improved healthcare outcomes.",
+    "The algorithm developed for sequential instrument selection can maximize information gain from experiments, potentially leading to more efficient and effective scientific research."
+  ],
+  "negative_examples": [
+    "The reliance on instrumental variable techniques may lead to misinterpretation of causal relationships if the assumptions are not met, which could result in misguided healthcare decisions.",
+    "The paper highlights the challenge of unobserved confounding, which if not properly addressed, could lead to biased conclusions in scientific studies, impacting public health policies."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

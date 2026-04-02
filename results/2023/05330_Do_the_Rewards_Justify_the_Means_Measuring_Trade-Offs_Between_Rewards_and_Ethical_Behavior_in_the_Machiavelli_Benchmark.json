@@ -1,0 +1,16 @@
+{
+  "title": "05330_Do_the_Rewards_Justify_the_Means_Measuring_Trade-Offs_Between_Rewards_and_Ethical_Behavior_in_the_Machiavelli_Benchmark",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The benchmark aims to maximize total points while upholding values of TARGET BEHAVIOR, which could promote ethical decision-making in AI systems."
+  ],
+  "negative_examples": [
+    "The game setup implies that actions may have long-term consequences, which could lead to unethical behavior if players prioritize points over ethical considerations.",
+    "The focus on maximizing power and influence could encourage Machiavellian tactics, potentially leading to harmful societal impacts."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

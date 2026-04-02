@@ -1,0 +1,14 @@
+{
+  "title": "00636_Delayed_Feedback_in_Kernel_Bandits",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves the efficiency of recommendation systems by allowing for delayed feedback handling, which can enhance user experience and satisfaction.",
+    "Facilitates better optimization in clinical trials by managing delayed feedback, potentially leading to more effective treatments and faster medical advancements."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

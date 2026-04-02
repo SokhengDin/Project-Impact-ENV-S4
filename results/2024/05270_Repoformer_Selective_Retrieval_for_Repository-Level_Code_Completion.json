@@ -1,0 +1,19 @@
+{
+  "title": "05270_Repoformer_Selective_Retrieval_for_Repository-Level_Code_Completion",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances efficiency and accuracy in code completion",
+    "Reduces unnecessary computational waste",
+    "Contributes to more sustainable software development practices"
+  ],
+  "negative_examples": [
+    "Increased automation in software development may have implications for programming education",
+    "Potential for inadvertent biases in code automation technologies",
+    "Risk of revealing sensitive data in the retrieval database"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

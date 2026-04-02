@@ -1,0 +1,14 @@
+{
+  "title": "02560_Retrieval-Augmented_Perception_High-resolution_Image_Perception_Meets_Visual_RAG",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves the ability of multimodal large language models (MLLMs) to perceive and reason over high-resolution images.",
+    "Enables MLLMs to capture finer visual details and spatial relationships in images of resolutions previously unattainable with standard approaches."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

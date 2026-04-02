@@ -1,0 +1,1514 @@
+[
+  {
+    "title": "00409_VersaPRM_Multi-Domain_Process_Reward_Model_via_Synthetic_Reasoning_Data",
+    "q1_default": false,
+    "q2_positive": false,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [
+      "Potential for LLMs to be used in unethical ways, such as spreading misinformation or manipulating public opinion",
+      "Inadvertent contribution to misuse of technology without robust safeguards in training and inference. "
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "00579_AutoGFM_Automated_Graph_Foundation_Model_with_Adaptive_Architecture_Customization",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "00626_Mixture_of_Lookup_Experts",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Advances LLMs which can improve accessibility in various applications."
+    ],
+    "negative_examples": [
+      "Concerns around bias in LLMs.",
+      "Concerns around misinformation propagated by LLMs."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "00643_From_Weight-Based_to_State-Based_Fine-Tuning_Further_Memory_Reduction_on_LoRA_with_Parallel_Control",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "00715_STAIR_Improving_Safety_Alignment_with_Introspective_Reasoning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Advances the safety alignment of LLMs, mitigating societal and ethical risks."
+    ],
+    "negative_examples": [
+      "Involves ethically sensitive issues like jailbreak attacks, which have potential societal consequences."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "00779_ReferSplat_Referring_Segmentation_in_3D_Gaussian_Splatting",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances research in the field of Machine Learning",
+      "Enables better scene diversity and representation learning"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01047_VideoJAM_Joint_Appearance-Motion_Representations_for_Enhanced_Motion_Generation_in_Video_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Advances motion modeling in video generation, empowering models to understand and represent the world more faithfully."
+    ],
+    "negative_examples": [
+      "Potential for misuse in content generation, a concern widely discussed within the research community.",
+      "Does not introduce any specific risks that were not already present in previous advancements."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01274_Multi-agent_Architecture_Search_via_Agentic_Supernet",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enables fine-grained resource allocation tailored to query difficulty and domain",
+      "Significantly improves efficiency while maintaining high-quality outputs",
+      "Potential to democratize access to intelligent automation across diverse applications, including education, research, and industry"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01374_Normalizing_Flows_are_Capable_Generative_Models",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01426_Fundamental_Bias_in_Inverting_Random_Sampling_Matrices_with_Application_to_Sub-sampled_Newton",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the field of machine learning (ML) and random numerical linear algebra (RandNLA)",
+      "Reduces the theory-practice gap, making it easier to identify and mitigate unintended negative impacts"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01439_What_Limits_Virtual_Agent_Application_OmniBench_A_Scalable_Multi-Dimensional_Benchmark_for_Essential_Virtual_Agent_Capab",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01637_Exploring_and_Mitigating_Adversarial_Manipulation_of_Voting-Based_Leaderboards",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improving the security and reliability of interactive evaluation platforms",
+      "Encouraging the development of countermeasures to improve robustness",
+      "Maintaining platform integrity and user trust",
+      "Encouraging the community to adopt stronger safeguards in the design and evaluation of similar systems"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01638_On_Differential_Privacy_for_Adaptively_Solving_Search_Problems_via_Sketching",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Efficiency improvement in machine learning tasks",
+      "Reduction in carbon emission"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01904_Blink_of_an_eye_a_simple_theory_for_feature_localization_in_generative_models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Insights about jailbreaks could lead to better alignment strategies and training methods."
+    ],
+    "negative_examples": [
+      "Describes a theory for jailbreaks which could impact model safety in the future."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01917_Partition_First_Embed_Later_Laplacian-Based_Feature_Partitioning_for_Refined_Embedding_and_Visualization_of_High-Dimensi",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01934_Suitability_Filter_A_Statistical_Framework_for_Classifier_Evaluation_in_Real-World_Deployment_Settings",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves the robustness and fairness of machine learning models by offering tools to assess their suitability without requiring ground-truth labels.",
+      "Enhances trustworthiness in automated systems especially in safety-critical deployment contexts.",
+      "Potential to improve fairness by enabling consistent performance evaluation across diverse subpopulations."
+    ],
+    "negative_examples": [
+      "Assumes access to well-calibrated prediction correctness estimators, which might not hold in all scenarios, potentially leading to incorrect evaluations.",
+      "Improper parameter choices or misinterpretations of results could exacerbate existing biases in datasets or models.",
+      "Misuse or overreliance on automated evaluation frameworks without human oversight could have adverse effects."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "01940_CollabLLM_From_Passive_Responders_to_Active_Collaborators",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Makes AI more user- and human-centric, yielding a positive societal impact.",
+      "Increases the adoption of AI in safety-critical scenarios, such as medical decision-making tasks.",
+      "COLLABLLM seeks to clarify user intent, creating opportunities to detect misuse."
+    ],
+    "negative_examples": [
+      "Concerns may arise regarding users with malevolent goals.",
+      "Malicious users might obscure their true intentions to bypass safeguards.",
+      "Potential for misuse if the AI fails to accurately identify unsafe behavior."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02194_Improved_Regret_Analysis_in_Gaussian_Process_Bandits_Optimality_for_Noiseless_Reward_RKHS_norm_and_Non-Stationary_Varian",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02325_Can_MLLMs_Reason_in_Multimodality_EMMA_An_Enhanced_MultiModal_ReAsoning_Benchmark",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improved multimodal reasoning could enhance AI applications in science, engineering, and education, enabling more effective problem-solving and decision-making.",
+      "EMMA sets a new standard for evaluating multimodal reasoning, driving future research toward more advanced AI systems."
+    ],
+    "negative_examples": [
+      "Persistent gaps in current models’ ability to perform fine-grained visual reasoning, limiting their reliability in high-stakes applications.",
+      "Manual selection may introduce unintended biases in question formulation and domain representation.",
+      "Potential for misuse in generating deceptive or misleading visual content, raising ethical concerns."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02505_Navigating_Semantic_Drift_in_Task-Agnostic_Class-Incremental_Learning",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02560_Retrieval-Augmented_Perception_High-resolution_Image_Perception_Meets_Visual_RAG",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves the ability of multimodal large language models (MLLMs) to perceive and reason over high-resolution images.",
+      "Enables MLLMs to capture finer visual details and spatial relationships in images of resolutions previously unattainable with standard approaches."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02603_Flowing_Datasets_with_Wasserstein_over_Wasserstein_Gradient_Flows",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02657_Model_Immunization_from_a_Condition_Number_Perspective",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the field of Machine Learning and Optimization",
+      "Makes AI safer through model immunization"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02712_Rényi_Neural_Processes",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "improve the robustness of generative models",
+      "enable reliable machine learning algorithms"
+    ],
+    "negative_examples": [
+      "recovering facial photos from incomplete images for fraudulent scams"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02877_Sundial_A_Family_of_Highly_Capable_Time_Series_Foundation_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Facilitates out-of-the-box forecasting for various applications such as energy planning, weather forecasting, and financial risk prevention.",
+      "Enhances the reliability of decision-making and streamlines the forecasting pipeline for practitioners.",
+      "Provides a trillion-level time series dataset (TimeBench) beneficial to the research community."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "02912_On_Path_to_Multimodal_Generalist_General-Level_and_General-Bench",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Strict compliance with privacy regulations, ensuring no personally identifiable information (PII) is used.",
+      "Fair compensation for human annotators, promoting ethical labor practices.",
+      "Active measures to analyze and mitigate biases related to gender, ethnicity, and language."
+    ],
+    "negative_examples": [
+      "Potential biases in AI systems that may not be completely eradicated.",
+      "Challenges in ensuring complete fairness and representation in the dataset."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03079_Equivalence_is_All_A_Unified_View_for_Self-supervised_Graph_Learning",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03286_LoRA-One_One-Step_Full_Gradient_Could_Suffice_for_Fine-Tuning_Large_Language_Models_Provably_and_Efficiently",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the field of Machine Learning through theoretical understanding of low-rank adapters and parameter-efficient fine-tuning."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03388_Network_Sparsity_Unlocks_the_Scaling_Potential_of_Deep_Reinforcement_Learning",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03490_Inductive_Moment_Matching",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "expanding artistic expression",
+      "assisting content creators",
+      "generating synthetic data for research"
+    ],
+    "negative_examples": [
+      "potential misuse for deepfakes",
+      "copyright concerns",
+      "impacts on creative industries"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03607_VideoRoPE_What_Makes_for_Good_Video_Rotary_Position_Embedding",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03646_Polynomial-Delay_MAG_Listing_with_Novel_Locally_Complete_Orientation_Rules",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03814_Going_Deeper_into_Locally_Differentially_Private_Graph_Neural_Networks",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the field of privacy-preserving graph learning",
+      "Enhances the utility of private graph learning while preserving privacy",
+      "Introduces a more efficient framework for privacy-preserving graph learning"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "03973_Machine_Learning_meets_Algebraic_Combinatorics_A_Suite_of_Datasets_Capturing_Research-level_Conjecturing_Ability_in_Pure",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "04085_A_Generalization_Theory_for_Zero-Shot_Prediction",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "A comprehensive understanding of foundation models' underlying mechanisms is crucial for advancing their capabilities.",
+      "The work aims to spark rigorous research that rethinks theoretical analysis for modern learning paradigms."
+    ],
+    "negative_examples": [
+      "The impact of pre-training data and mitigating bias is a concern, indicating potential risks associated with bias amplification.",
+      "The theoretical analysis may highlight issues that could affect humanity negatively if not addressed."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "04403_Long-Form_Speech_Generation_with_Spoken_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves availability and accessibility of audio-based human-computer interfaces",
+      "Enables generation of speech with paralinguistic nuances",
+      "Stimulates use of synthetic speech in long-form creative multimedia applications"
+    ],
+    "negative_examples": [
+      "Increased proliferation of audio deepfakes",
+      "Potential for low-quality synthetic media",
+      "Risk of misuse in generating expressive speech similar to existing text media"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "04668_Beyond_Self-Repellent_Kernels_History-Driven_Target_Towards_Efficient_Nonlinear_MCMC_on_General_Graphs",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "04802_Emergent_Misalignment_Narrow_finetuning_can_produce_broadly_misaligned_LLMs",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Bringing the research community’s attention to the vulnerability of emergent misalignment in LLMs."
+    ],
+    "negative_examples": [
+      "Language models can become broadly misaligned after finetuning on narrow domain datasets.",
+      "Malicious actors might intentionally reproduce the misaligned behaviors to cause harm."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "04886_General_framework_for_online-to-nonconvex_conversion_Schedule-free_SGD_is_also_effective_for_nonconvex_optimization",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "05080_An_Online_Adaptive_Sampling_Algorithm_for_Stochastic_Difference-of-convex_Optimization_with_Time-varying_Distributions",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "05477_LoRA_Training_Provably_Converges_to_a_Low-Rank_Global_Minimum_Or_It_Fails_Loudly_But_it_Probably_Wont_Fail",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "05503_Learning_Dynamics_in_Continual_Pre-Training_for_Large_Language_Models",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enhances foundation large language models to specific downstream domains or tasks",
+      "Provides a scaling law to quantitatively describe the learning dynamics of CPT processes",
+      "Optimizes training hyper-parameters for balancing general and downstream performance",
+      "Predicts the loss curve dynamics"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "05513_SK-VQA_Synthetic_Knowledge_Generation_at_Scale_for_Training_Context-Augmented_Multimodal_LLMs",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Democratizes access to high-quality training data for researchers with limited resources.",
+      "Enables the development of competitive multimodal systems."
+    ],
+    "negative_examples": [
+      "Synthetic dataset may contain inaccuracies or reflect biases present in GPT-4.",
+      "Encourages users to validate model performance thoroughly before deployment."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "05637_DistiLLM-2_A_Contrastive_Approach_Boosts_the_Distillation_of_LLMs",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "High-performed reference model for RLHF can contribute to building safe AI.",
+      "DISTILLM-2 can enhance the performance of quantized LLMs, making them competitive with original models.",
+      "Improves inference speed of LLMs, benefiting systems that utilize diverse models."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "05792_ABKD_Pursuing_a_Proper_Allocation_of_the_Probability_Mass_in_Knowledge_Distillation_via_alpha-beta-Divergence",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the field of knowledge distillation (KD) which enables knowledge transfer between different models.",
+      "Theoretical insights into mode-covering and mode-seeking behaviors in KD can lead to more effective distillation objectives."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "05794_Strategy_Coopetition_Explains_the_Emergence_and_Transience_of_In-Context_Learning",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "06221_Neural_Discovery_in_Mathematics_Do_Machines_Dream_of_Colored_Planes",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enables researchers to explore problem spaces more broadly and deeply than traditional methods allow.",
+      "Provides tools for intuition-driven discovery that retain interpretability while accelerating progress.",
+      "Potential to transform diverse fields that require navigating hybrid discrete-continuous solution spaces, such as materials science and network optimization."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "06238_Statistical_Collusion_by_Collectives_on_Learning_Platforms",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Contributes to a deeper understanding of the risks and opportunities associated with collective interventions.",
+      "Essential for designing more robust, transparent, and socially aligned learning systems."
+    ],
+    "negative_examples": [
+      "Risks associated with collective influence and strategic behavior in algorithmic decision-making."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "06368_An_Improved_Clique-Picking_Algorithm_for_Counting_Markov_Equivalent_DAGs_via_Super_Cliques_Transfer",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Facilitates more efficient causal discovery and decision-making processes",
+      "Improves the feasibility of real-world applications such as automated causal inference in healthcare",
+      "Contributes to policy-making and artificial intelligence systems"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "06558_rStar-Math_Small_LLMs_Can_Master_Math_Reasoning_with_Self-Evolved_Deep_Thinking",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Applications in education",
+      "Automated problem-solving"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "06618_A_Generalization_Result_for_Convergence_in_Learning-to-Optimize",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "06956_Transformative_or_Conservative_Conservation_laws_for_ResNets_and_Transformers",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07212_Sanity_Checking_Causal_Representation_Learning_on_a_Simple_Real-World_System",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07217_AutoAdvExBench_Benchmarking_Autonomous_Exploitation_of_Adversarial_Example_Defenses",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Measuring the ability of LLMs to exploit vulnerabilities provides an advance warning signal to prepare for potential future harms."
+    ],
+    "negative_examples": [
+      "LLMs may be able to cause significant harm by exploiting vulnerabilities in machine learning systems and classical computer systems."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07318_Learning_Smooth_and_Expressive_Interatomic_Potentials_for_Physical_Property_Prediction",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the field of machine learning for atomistic modeling",
+      "Potential to accelerate scientific discovery in chemistry and biological sciences"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07375_Outlier_Gradient_Analysis_Efficiently_Identifying_Detrimental_Training_Samples_for_Deep_Learning_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enabling influence estimation for deep models allows practitioners to assess whether training samples are beneficial or detrimental to performance.",
+      "Can make models more interpretable and performant.",
+      "Paves the way for significant positive societal impact, especially with the increased adoption of larger and deeper neural networks such as LLMs."
+    ],
+    "negative_examples": [
+      "Outlier analysis algorithms have a fundamental limitation of how to specify the budget for outlier detection, which is a non-trivial hyperparameter optimization problem.",
+      "Outlier gradient analysis might not be as useful if the data is very high quality and there are no outlying gradient samples.",
+      "There are limitations to the proposed approaches that can be overcome in future work."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07377_Nonlinearly_Preconditioned_Gradient_Methods_under_Generalized_Smoothness",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07532_Controlling_Underestimation_Bias_in_Constrained_Reinforcement_Learning_for_Safe_Exploration",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Facilitates safer and more efficient deployment of RL in domains such as large language models, autonomous driving, and robotics."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07628_Near-Optimal_Decision_Trees_in_a_SPLIT_Second",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07693_MGD3_Mode-Guided_Dataset_Distillation_using_Diffusion_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Reduces storage and computational costs while maintaining high model performance.",
+      "Enables large-scale dataset distillation with minimal performance trade-offs.",
+      "Enhances scalability for model training in resource-constrained environments, such as mobile AI and federated learning."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07878_An_analytic_theory_of_creativity_in_convolutional_diffusion_models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances understanding of Machine Learning systems",
+      "Paves the way for future studies that enhance understanding of deep networks"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "07902_Theoretical_Limitations_of_Ensembles_in_the_Age_of_Overparameterization",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "08021_ITBench_Evaluating_AI_Agents_across_Diverse_Real-World_IT_Automation_Tasks",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enables AI-driven IT automation that is correct, safe, and fast.",
+      "Encourages mindsharing in the community and lowers the barrier to innovate in the IT domain."
+    ],
+    "negative_examples": [
+      "Security risks from executing LM-generated code/commands on the system, such as 'kubectl delete node' and 'rm -rf asset/'.",
+      "Possibility of illegitimate evaluation datasets being used to inject malicious code.",
+      "Deployment of ITBench agents could lead to the production of malicious code and libraries. "
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "08232_Generative_Social_Choice_The_Next_Generation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Advances the integration of social-choice-inspired algorithms with provable fairness guarantees.",
+      "Contributes to the methodological foundations of scalable civic participation.",
+      "Enables new paradigms in democratic decision-making."
+    ],
+    "negative_examples": [
+      "LLMs may favor or disfavor certain viewpoints, leading to distorted representation.",
+      "LLM-generated outputs are inherently opaque and may lack reliability.",
+      "Directly inputting user comments into the LLM could expose the process to adversarial attacks."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "08544_Prices_Bids_Values_One_ML-Powered_Combinatorial_Auction_to_Rule_Them_All",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enhances the practicality and efficiency of real-world auctions",
+      "Increases participation and improves resource allocation across various domains",
+      "Potential benefits for social welfare"
+    ],
+    "negative_examples": [
+      "Potential conflicts of interest between participants",
+      "Self-interested agents may lead to ethical concerns in practice"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "08786_Beyond_Matryoshka_Revisiting_Sparse_Coding_for_Adaptive_Representation",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "09286_Foundation_Model_Insights_and_a_Multi-Model_Approach_for_Superior_Fine-Grained_One-shot_Subset_Selection",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves data efficiency in machine learning by leveraging multiple foundation models for one-shot subset selection",
+      "Benefits fine-grained classification scenarios",
+      "Lowers barriers to deploying high-performing models in low-resource or underrepresented domains"
+    ],
+    "negative_examples": [
+      "Careful consideration is needed to avoid reinforcing dataset biases",
+      "Unintentionally omitting critical minority samples"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "09353_In-Context_Denoising_with_One-Layer_Transformers_Connections_between_Attention_and_Associative_Memory_Retrieval",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "09627_CodeIO_Condensing_Reasoning_Patterns_via_Code_Input-Output_Prediction",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "10381_One-Step_Generalization_Ratio_Guided_Optimization_for_Domain_Generalization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enhances domain generalization by ensuring stable and balanced updates",
+      "Mitigates overfitting, promoting flatter minima",
+      "Improves out-of-distribution (OOD) performance, contributing to more robust and generalizable models"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "10540_DeFoG_Discrete_Flow_Matching_for_Graph_Generation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Advances graph generation under a flexible framework",
+      "Applications in drug discovery and diagnostic technologies"
+    ],
+    "negative_examples": [
+      "Potential negative societal or ethical impacts in biomedical and chemical research"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11009_AffectGPT_A_New_Dataset_Model_and_Benchmark_for_Emotion_Understanding_with_Multimodal_Large_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enhances human-computer interaction experience through emotion understanding."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11083_Learning_dynamics_in_linear_recurrent_neural_networks",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11119_The_Value_of_Prediction_in_Identifying_the_Worst-Off",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Helps public agencies allocate limited resources more effectively to target the most vulnerable populations.",
+      "Encourages the incorporation of fairness, transparency, and accountability measures in predictive modeling."
+    ],
+    "negative_examples": [
+      "Formalizing complex institutional processes may omit important real-world details, risking biases or misalignments.",
+      "Small design changes in resource-constrained contexts can disproportionately affect marginalized communities."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11181_Fully_Dynamic_Euclidean_Bi-Chromatic_Matching_in_Sublinear_Update_Time",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11292_Learning_Time-Varying_Multi-Region_Brain_Communications_via_Scalable_Markovian_Gaussian_Processes",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enhances ability to analyze large-scale neural recordings",
+      "Offers insights into sensory processing, cognitive flexibility, and neural disorders",
+      "Adaptability to fields such as robotics, autonomous systems, and signal processing"
+    ],
+    "negative_examples": [
+      "Risk of overinterpretation of inferred neural dynamics",
+      "Broader implications for brain-computer interfaces and neurotechnology",
+      "Need for responsible application of machine learning models in neuroscience"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11432_Conformal_Prediction_as_Bayesian_Quadrature",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The algorithm informs deployment decisions of black-box predictive systems in safety-critical applications, potentially improving safety outcomes."
+    ],
+    "negative_examples": [
+      "If assumptions are violated, guarantees may no longer hold, leading to potential risks in deployment decisions.",
+      "Improper monitoring to detect distribution shift could result in unsafe predictions in critical applications."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11682_A_Unified_Framework_for_Entropy_Search_and_Expected_Improvement_in_Bayesian_Optimization",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "11889_Addressing_Misspecification_in_Simulation-based_Inference_through_Data-driven_Calibration",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The algorithm addresses model misspecification in simulation-based inference, which can improve the reliability of scientific research and policy decisions.",
+      "Promising properties of the algorithm include uncertainty quantification, which can enhance decision-making in scientific fields."
+    ],
+    "negative_examples": [
+      "The application of the algorithm to scientific domains may have societal or ethical implications, particularly when informing research or policy decisions.",
+      "There is a risk of over-selling the benefits of the algorithm to practitioners without fully understanding its reliability and the impact of core assumption violations."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12080_How_Do_Large_Language_Monkeys_Get_Their_Power_Laws",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Helps organizations forecast compute requirements accurately",
+      "Informs trade-offs between model size, inference costs, and performance targets",
+      "Aims to develop more efficient and reliable AI systems"
+    ],
+    "negative_examples": [
+      "Advances in language model capabilities can have broad societal impacts",
+      "Potential for misuse of language models",
+      "Risk of increased inference costs leading to resource allocation issues"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12175_Roll_the_dice_look_before_you_leap_Going_beyond_the_creative_limits_of_next-token_prediction",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the field of Machine Learning through the study of algorithmic tasks inspired by creativity.",
+      "Potential applications of AI to real-world creative endeavors."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12176_Score_Matching_with_Missing_Data",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12288_Temporal_Difference_Flows",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12577_AdaSplash_Adaptive_Sparse_Flash_Attention",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improved efficiency of ADASPLASH for large-scale NLP applications",
+      "Reduction of computational costs through adaptive sparse attention"
+    ],
+    "negative_examples": [
+      "Potential reflection of biases in training data when integrated into decision-making models",
+      "Concerns about fairness and transparency in high-stakes applications"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12593_The_dark_side_of_the_forces_assessing_non-conservative_force_models_for_atomistic_machine_learning",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the application of machine learning to simulations of molecules and materials, which can be used for many purposes."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12891_Layer_by_Layer_Uncovering_Hidden_Representations_in_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improved performance on a variety of downstream tasks through better understanding of intermediate-layer representations.",
+      "Potential for enhanced model interpretability and robustness."
+    ],
+    "negative_examples": [
+      "Amplification of latent biases in model representations.",
+      "Risk of reinforcing biases or leading to unintended disparities in real-world applications."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "12934_Cross-environment_Cooperation_Enables_Zero-shot_Multi-agent_Coordination",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves the lives of applications such as household robotics, autonomous driving, or language assistants."
+    ],
+    "negative_examples": [
+      "Potential risk of creating a machine capable of harming humans it has not seen before.",
+      "Unclear if the approach could lead to harmful AI behavior in a wide range of cases."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13037_Scaling_Collapse_Reveals_Universal_Dynamics_in_Compute-Optimally_Trained_Neural_Networks",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13125_Improving_the_Scaling_Laws_of_Synthetic_Data_with_Deliberate_Practice",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Reduces computational and environmental costs associated with training large models",
+      "Makes data generation more accessible in low-resource settings"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13159_Expected_Variational_Inequalities",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13262_Statistical_Query_Hardness_of_Multiclass_Linear_Classification_with_Random_Classification_Noise",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13314_Learning_with_Expected_Signatures_Theory_and_Applications",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13343_Auditing_f-differential_privacy_in_one_run",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves ability to evaluate privacy risks associated with machine learning and data processing systems",
+      "Contributes to the development of more trustworthy and accountable AI technologies",
+      "Equips practitioners and policymakers to assess and mitigate potential privacy harms"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13392_EmbodiedBench_Comprehensive_Benchmarking_Multi-modal_Large_Language_Models_for_Vision-Driven_Embodied_Agents",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13513_High-Dimensional_Prediction_for_Sequential_Decision_Making",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13556_Training_a_Generally_Curious_Agent",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Training large language models with better strategic exploration and decision-making capabilities."
+    ],
+    "negative_examples": [
+      "Potential impacts of agentic systems on society are uncertain and could be negative.",
+      "The paper does not specify the societal consequences, leaving room for potential misuse or unintended effects."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13597_SWE-Lancer_Can_Frontier_LLMs_Earn_1_Million_from_Real-World_Freelance_Software_Engineering",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enhances productivity in software engineering",
+      "Expands access to high-quality engineering capabilities",
+      "Reduces barriers to technological progress"
+    ],
+    "negative_examples": [
+      "Shifts labor demand for entry-level and freelance software engineers",
+      "Model autonomy risk in self-improvement",
+      "Automatically generated code may contain security flaws",
+      "Potential disruption of existing features or deviation from industry best practices"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13863_All-Purpose_Mean_Estimation_over_R_Optimal_Sub-Gaussianity_with_Outlier_Robustness_and_Low_Moments_Performance",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "13925_Statistical_Test_for_Feature_Selection_Pipelines_by_Selective_Inference",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enhances the reliability of AI",
+      "Potential to broadly influence the machine learning community"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "14095_Train_for_the_Worst_Plan_for_the_Best_Understanding_Token_Ordering_in_Masked_Diffusions",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "14649_Hierarchical_Refinement_Optimal_Transport_to_Infinity_and_Beyond",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enables the application of optimal transport (OT) to datasets with millions of points.",
+      "Paves the way for integrating OT into large-scale deep generative models and modern vision and language tasks."
+    ],
+    "negative_examples": [
+      "Potential issues with bias in training datasets.",
+      "Possibility of misuse in applications."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "14743_Emergence_in_non-neural_models_grokking_modular_arithmetic_via_average_gradient_outer_product",
+    "q1_default": true,
+    "q2_positive": false,
+    "q3_negative": false,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "14767_ConceptAttention_Diffusion_Transformers_Learn_Highly_Interpretable_Features",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves the transparency of generative models for images",
+      "Helps understand the biases present in models"
+    ],
+    "negative_examples": [
+      "Potential to spread misinformation through realistic fake images (i.e. deepfakes)",
+      "May disrupt different creative industries",
+      "Potential to reinforce existing social biases present in their training data"
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "14812_LLM-SRBench_A_New_Benchmark_for_Scientific_Equation_Discovery_with_Large_Language_Models",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Potential to significantly impact the field of artificial intelligence for science and scientific discovery."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "15148_Accelerating_LLM_Inference_with_Lossless_Speculative_Decoding_Algorithms_for_Heterogeneous_Vocabularies",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Lowers the cost of LLM inference",
+      "Reduces latency of LLM inference",
+      "Makes LLM serving cheaper and faster",
+      "Increases accessibility of LLMs to a wider range of users"
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "15222_Orthogonal_Subspace_Decomposition_for_Generalizable_AI-Generated_Image_Detection",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Advances application-driven machine learning by proposing a novel method for detecting AI-generated images.",
+      "Holds significant potential for positive social impact by effectively identifying deepfakes and curbing malicious uses of generative models."
+    ],
+    "negative_examples": [
+      "Possible misuse of the method to enhance the realism of deepfake generators.",
+      "Concerns about the potential for negative impacts that need to be minimized."
+    ],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "16013_Algorithm_Development_in_Neural_Networks_Insights_from_the_Streaming_Parity_Task",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Increases understanding of deep learning which may lead to advancements in the field of Machine Learning."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  },
+  {
+    "title": "16047_Implicit_Regularization_for_Tubal_Tensor_Factorizations_via_Gradient_Descent",
+    "q1_default": true,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Advances the theoretical understanding of implicit regularization as a tool for structured recovery problems."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2025"
+  }
+]

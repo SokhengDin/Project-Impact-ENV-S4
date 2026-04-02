@@ -1,0 +1,15 @@
+{
+  "title": "05087_Parameterized_Physics-informed_Neural_Networks_for_Parameterized_PDEs",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "significantly reduce the energy consumption in training PINNs for many equations"
+  ],
+  "negative_examples": [
+    "existing PINN methods show better efficiency when solving for a trivial equation only"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

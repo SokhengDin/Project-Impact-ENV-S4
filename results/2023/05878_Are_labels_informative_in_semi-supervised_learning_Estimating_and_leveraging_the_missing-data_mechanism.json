@@ -1,0 +1,17 @@
+{
+  "title": "05878_Are_labels_informative_in_semi-supervised_learning_Estimating_and_leveraging_the_missing-data_mechanism",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves machine learning models by leveraging unlabeled data, particularly in medical datasets where labeling is costly or risky.",
+    "Demonstrates the performance of proposed methods on medical datasets, potentially leading to better healthcare outcomes."
+  ],
+  "negative_examples": [
+    "The presence of informative labels can lead to selection bias in the sample, which may result in non-identifiable parameters in models.",
+    "If the missing-data mechanism is not accurately modeled, it could lead to inaccurate predictions, particularly for less observed classes, which may have serious implications in medical contexts."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

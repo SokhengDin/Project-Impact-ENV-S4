@@ -1,0 +1,14 @@
+{
+  "title": "03479_Cross-Modal_Fine-Tuning_Align_then_Refine",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Effective cross-modal fine-tuning could have immense impact on less-studied areas, such as physical and life sciences, healthcare, and finance.",
+    "Applying models pretrained in data-rich modalities to new problems can potentially alleviate modeling and data concerns, reducing the human effort needed to develop high-quality task-specific models."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2023"
+}

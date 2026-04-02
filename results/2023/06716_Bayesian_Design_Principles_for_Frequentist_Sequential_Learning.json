@@ -1,0 +1,14 @@
+{
+  "title": "06716_Bayesian_Design_Principles_for_Frequentist_Sequential_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed algorithms achieve 'best-of-all-worlds' empirical performance in stochastic, adversarial, and non-stationary environments, which can enhance decision-making in various applications such as personalized recommendations and control systems.",
+    "The algorithms are simple and often efficient to implement, making them accessible for practical applications in fields like healthcare and finance."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

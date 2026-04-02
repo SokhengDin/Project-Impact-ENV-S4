@@ -1,0 +1,14 @@
+{
+  "title": "04519_Challenges_in_Training_PINNs_A_Loss_Landscape_Perspective",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the field of scientific machine learning",
+    "Potential to improve modeling and simulation in various scientific domains"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

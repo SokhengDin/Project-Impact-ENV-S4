@@ -1,0 +1,17 @@
+{
+  "title": "04879_Active_Statistical_Inference",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Provides a method for valid and more powerful statistical inference compared to current baselines."
+  ],
+  "negative_examples": [
+    "If applied poorly, could lead to less powerful inferences and worse downstream decisions than classical inference.",
+    "Model’s estimate of uncertainty could be miscalibrated, leading to incorrect conclusions.",
+    "Relies on the assumption that data points are i.i.d., which may be violated in sequential data collection."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

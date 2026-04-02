@@ -1,0 +1,17 @@
+{
+  "title": "05999_Analysis_of_Error_Feedback_in_Federated_Non-Convex_Optimization_with_Biased_Compression_Fast_Convergence_and_Partial_Par",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Fed-EF achieves the same performance as the full-precision FL approach, at a substantially reduced communication cost, which can benefit applications in wireless communications and IoT.",
+    "The proposed method can be applied in various fields such as financial fraud detection, public health records, and advertising, improving efficiency in these sectors."
+  ],
+  "negative_examples": [
+    "The paper discusses a potential theoretical limitation of error feedback under partial participation, which may slow down convergence due to 'delayed error compensation' effects.",
+    "The use of biased compression could lead to divergence or worse generalization performance if not handled properly, posing risks in practical applications."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

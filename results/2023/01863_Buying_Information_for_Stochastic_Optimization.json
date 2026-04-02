@@ -1,0 +1,17 @@
+{
+  "title": "01863_Buying_Information_for_Stochastic_Optimization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The paper discusses applications in auction theory where sellers can optimize pricing by acquiring information about buyers, potentially leading to better market efficiency.",
+    "The optimal decision tree for diagnosing diseases can improve healthcare outcomes by allowing doctors to make more informed decisions based on patient symptoms."
+  ],
+  "negative_examples": [
+    "The cost of acquiring information may lead to sellers or decision-makers spending resources on irrelevant or redundant information, which could be wasteful.",
+    "The reliance on information acquisition could create disparities where only those with sufficient resources can afford to gather necessary information, potentially disadvantaging smaller players in the market."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "08983_Evaluation_of_LLMs_on_Syntax-Aware_Code_Fill-in-the-Middle_Tasks",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances the capabilities of Large Language Models (LLMs) in code generation tasks."
+  ],
+  "negative_examples": [
+    "Automated code production’s security and privacy concerns.",
+    "Risk of improved code generation capabilities being exploited for malicious purposes, such as creating software vulnerabilities or harmful software."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

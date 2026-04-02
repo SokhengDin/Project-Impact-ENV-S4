@@ -1,0 +1,11 @@
+{
+  "title": "14095_Train_for_the_Worst_Plan_for_the_Best_Understanding_Token_Ordering_in_Masked_Diffusions",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

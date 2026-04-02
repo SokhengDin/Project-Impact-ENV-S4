@@ -1,0 +1,17 @@
+{
+  "title": "11889_Addressing_Misspecification_in_Simulation-based_Inference_through_Data-driven_Calibration",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The algorithm addresses model misspecification in simulation-based inference, which can improve the reliability of scientific research and policy decisions.",
+    "Promising properties of the algorithm include uncertainty quantification, which can enhance decision-making in scientific fields."
+  ],
+  "negative_examples": [
+    "The application of the algorithm to scientific domains may have societal or ethical implications, particularly when informing research or policy decisions.",
+    "There is a risk of over-selling the benefits of the algorithm to practitioners without fully understanding its reliability and the impact of core assumption violations."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

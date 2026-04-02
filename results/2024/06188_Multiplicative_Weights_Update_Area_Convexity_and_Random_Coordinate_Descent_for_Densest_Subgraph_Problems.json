@@ -1,0 +1,13 @@
+{
+  "title": "06188_Multiplicative_Weights_Update_Area_Convexity_and_Random_Coordinate_Descent_for_Densest_Subgraph_Problems",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances optimization for Machine Learning, which can lead to improved algorithms in various applications."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

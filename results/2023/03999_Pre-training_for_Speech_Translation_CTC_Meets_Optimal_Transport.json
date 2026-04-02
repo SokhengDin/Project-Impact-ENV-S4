@@ -1,0 +1,13 @@
+{
+  "title": "03999_Pre-training_for_Speech_Translation_CTC_Meets_Optimal_Transport",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "The technology developed in this work can be used in surveillance systems, which might raise privacy concerns. Considerations should be taken when releasing or deploying these models to the public."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

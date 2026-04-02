@@ -1,0 +1,14 @@
+{
+  "title": "05565_Tighter_Information-Theoretic_Generalization_Bounds_from_Supersamples",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The paper presents tighter information-theoretic generalization bounds that can improve the understanding of generalization properties in machine learning algorithms, potentially leading to better-performing models in various applications such as healthcare and finance.",
+    "The findings may help in designing new learning algorithms or discovering novel algorithm-dependent complexity measures, which can enhance the efficiency and effectiveness of machine learning systems."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

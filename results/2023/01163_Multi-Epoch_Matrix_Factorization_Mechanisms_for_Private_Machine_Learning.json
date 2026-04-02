@@ -1,0 +1,17 @@
+{
+  "title": "01163_Multi-Epoch_Matrix_Factorization_Mechanisms_for_Private_Machine_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enables privacy-preserving machine learning with rigorous differential privacy (DP) guarantees.",
+    "Improves privacy-utility tradeoffs in machine learning settings."
+  ],
+  "negative_examples": [
+    "High computation required to generate optimal matrices may limit accessibility.",
+    "Current inability to train high-utility ML models with tight DP guarantees < 1 in many real-world settings without large amounts of public data may lead to privacy leakage."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

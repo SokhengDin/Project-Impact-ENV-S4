@@ -1,0 +1,15 @@
+{
+  "title": "01938_A_Mechanistic_Understanding_of_Alignment_Algorithms_A_Case_Study_on_DPO_and_Toxicity",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Better understanding of mechanisms of language models and fine-tuning algorithms",
+    "Aiming for safer and more trustworthy systems",
+    "Hopes for more responsible deployments of systems"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

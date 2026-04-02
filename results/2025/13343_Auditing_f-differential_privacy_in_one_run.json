@@ -1,0 +1,15 @@
+{
+  "title": "13343_Auditing_f-differential_privacy_in_one_run",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves ability to evaluate privacy risks associated with machine learning and data processing systems",
+    "Contributes to the development of more trustworthy and accountable AI technologies",
+    "Equips practitioners and policymakers to assess and mitigate potential privacy harms"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

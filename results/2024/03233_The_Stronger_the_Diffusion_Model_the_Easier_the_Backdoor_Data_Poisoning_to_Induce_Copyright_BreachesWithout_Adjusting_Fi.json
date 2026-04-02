@@ -1,0 +1,17 @@
+{
+  "title": "03233_The_Stronger_the_Diffusion_Model_the_Easier_the_Backdoor_Data_Poisoning_to_Induce_Copyright_BreachesWithout_Adjusting_Fi",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Increased awareness about the potential pitfalls of copyright protection.",
+    "Fostering the development of protection methods against misuse of text-to-image diffusion models."
+  ],
+  "negative_examples": [
+    "Potential negative societal impacts of relying on access restrictions to prevent copyright infringement.",
+    "Malicious attackers could use this method for attacking."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

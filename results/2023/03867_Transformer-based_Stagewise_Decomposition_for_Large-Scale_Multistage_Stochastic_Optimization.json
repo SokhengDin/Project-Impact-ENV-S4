@@ -1,0 +1,14 @@
+{
+  "title": "03867_Transformer-based_Stagewise_Decomposition_for_Large-Scale_Multistage_Stochastic_Optimization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "TranSDDP significantly reduces computation time while preserving solution quality, which can lead to more efficient decision-making in large-scale multistage stochastic programming problems.",
+    "The proposed models can quickly generate solutions for a family of similar problems, which is beneficial in scenarios requiring rapid responses, such as energy planning and financial management."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

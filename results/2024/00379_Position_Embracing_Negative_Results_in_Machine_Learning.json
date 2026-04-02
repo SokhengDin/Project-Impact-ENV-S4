@@ -1,0 +1,14 @@
+{
+  "title": "00379_Position_Embracing_Negative_Results_in_Machine_Learning",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Sparks discussion in the machine learning community",
+    "Improves and furthers the field of machine learning"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "05566_CompeteAI_Understanding_the_Competition_Dynamics_of_Large_Language_Model-based_Agents",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Leveraged LLM-based agents to generate plans for running a restaurant",
+    "Used LLM-based agents for writing comments"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

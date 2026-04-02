@@ -1,0 +1,17 @@
+{
+  "title": "05157_Specializing_Smaller_Language_Models_towards_Multi-Step_Reasoning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Specializing smaller models allows a larger range of researchers and practitioners to access multi-step reasoning capabilities, which were previously limited to larger models.",
+    "Improved performance on math reasoning tasks can enhance educational tools and resources, making them more effective for learners."
+  ],
+  "negative_examples": [
+    "Decreased performance on generic tasks (BigBench Hard) as a result of specialization, which may limit the model's versatility in other applications.",
+    "The specialization process may lead to overfitting on specific tasks, reducing the model's ability to generalize to new or varied tasks."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "02121_Calibrating_Multimodal_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves the reliability of multimodal learning methods, which can enhance applications in high-stakes scenarios like medical analysis and autonomous driving.",
+    "CML regularization can improve classification accuracy and model robustness, making systems more trustworthy in critical applications."
+  ],
+  "negative_examples": [
+    "Models may become overconfident based on partial modalities, leading to poor decision-making in critical applications like medical diagnosis.",
+    "The reliance on certain modalities can result in a lack of robustness when some modalities are corrupted, which can be detrimental in real-world applications."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

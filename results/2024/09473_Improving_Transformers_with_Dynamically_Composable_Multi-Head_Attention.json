@@ -1,0 +1,20 @@
+{
+  "title": "09473_Improving_Transformers_with_Dynamically_Composable_Multi-Head_Attention",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Boost performance of large language models with slight overhead",
+    "Help save pretraining cost",
+    "Reduce carbon footprint in the era of LLMs",
+    "Advance research of architecture innovation",
+    "Promote downstream application of large language models"
+  ],
+  "negative_examples": [
+    "Models are used maliciously to generate harmful contents",
+    "Negative societal impact from harmful content generation"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

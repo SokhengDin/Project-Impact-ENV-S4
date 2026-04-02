@@ -1,0 +1,18 @@
+{
+  "title": "06475_Active_Adaptive_Experimental_Design_for_Treatment_Effect_Estimation_with_Covariate_Choice",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Potential to significantly impact various sectors, including healthcare, economics, and social sciences.",
+    "Aims to advance the field of machine learning by providing a novel framework for efficient ATE estimation."
+  ],
+  "negative_examples": [
+    "Optimization techniques could lead to biased sampling or unethical manipulation of experimental conditions.",
+    "Potentially harming subjects or leading to incorrect conclusions.",
+    "May raise data privacy and consent issues, especially in sensitive fields like healthcare."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

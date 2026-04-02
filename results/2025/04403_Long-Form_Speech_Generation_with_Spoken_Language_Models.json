@@ -1,0 +1,19 @@
+{
+  "title": "04403_Long-Form_Speech_Generation_with_Spoken_Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves availability and accessibility of audio-based human-computer interfaces",
+    "Enables generation of speech with paralinguistic nuances",
+    "Stimulates use of synthetic speech in long-form creative multimedia applications"
+  ],
+  "negative_examples": [
+    "Increased proliferation of audio deepfakes",
+    "Potential for low-quality synthetic media",
+    "Risk of misuse in generating expressive speech similar to existing text media"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

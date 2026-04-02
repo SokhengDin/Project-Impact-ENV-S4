@@ -1,0 +1,17 @@
+{
+  "title": "05181_Beyond_the_Universal_Law_of_Robustness_Sharper_Laws_for_Random_Features_and_Neural_Tangent_Kernels",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The paper provides a precise and quantitative characterization of how the robustness of the solution obtained via empirical risk minimization depends on the model at hand, which can lead to more reliable machine learning applications.",
+    "The findings can help improve the robustness of machine learning models against adversarial attacks, potentially enhancing their safety in real-world applications."
+  ],
+  "negative_examples": [
+    "Machine learning models are known to be vulnerable to adversarial perturbations, which raises serious concerns about their robustness guarantees.",
+    "The paper highlights that for random features, the model is not robust for any degree of over-parameterization, which could lead to increased risks in deploying such models in sensitive applications."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

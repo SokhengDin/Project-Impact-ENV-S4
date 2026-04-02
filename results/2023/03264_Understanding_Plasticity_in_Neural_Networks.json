@@ -1,0 +1,17 @@
+{
+  "title": "03264_Understanding_Plasticity_in_Neural_Networks",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves the adaptability and robustness of deep reinforcement learning systems, which can lead to better performance in complex and constantly-changing environments.",
+    "Identifies architectural choices that can help preserve plasticity in neural networks, potentially leading to more effective AI applications."
+  ],
+  "negative_examples": [
+    "Loss of plasticity in neural networks can lead to reduced performance on new tasks, which may hinder the development of reliable AI systems.",
+    "The findings suggest that existing methods to promote trainability may not be effective across all scenarios, potentially leading to inefficiencies in AI training processes."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

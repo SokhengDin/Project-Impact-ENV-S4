@@ -1,0 +1,15 @@
+{
+  "title": "08073_Compressible_Dynamics_in_Deep_Overparameterized_Low-Rank_Learning_Adaptation",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "propagation of biases",
+    "privacy violations from data misuse",
+    "significant environmental costs due to high energy consumption"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

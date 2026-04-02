@@ -1,0 +1,17 @@
+{
+  "title": "01439_StyleGAN-T_Unlocking_the_Power_of_GANs_for_Fast_Large-Scale_Text-to-Image_Synthesis",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "StyleGAN-T significantly improves over previous GANs and outperforms distilled diffusion models in terms of sample quality and speed, enabling faster and more efficient text-to-image synthesis.",
+    "The model allows for smooth interpolations between prompts, enhancing creative applications in art and design."
+  ],
+  "negative_examples": [
+    "StyleGAN-T can struggle to bind attributes to objects and produce coherent text in images, which may lead to misinterpretations or misleading representations.",
+    "High guidance strength during training can result in image artifacts, potentially affecting the quality and reliability of generated images."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

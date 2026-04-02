@@ -1,0 +1,16 @@
+{
+  "title": "02200_Information-Theoretic_State_Space_Model_for_Multi-View_Reinforcement_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Reducing environmental waste and carbon footprint by matching performance to expensive sensor systems.",
+    "Application in autonomous driving vehicles and factory automation sensors."
+  ],
+  "negative_examples": [
+    "Potential to raise security issues by uncovering private information through inferring missing views."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

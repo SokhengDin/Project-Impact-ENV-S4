@@ -1,0 +1,14 @@
+{
+  "title": "01509_Neural_Continuous-Discrete_State_Space_Models_for_Irregularly-Sampled_Time_Series",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improved imputation and forecasting performance of NCDSSM over existing models, which can enhance predictive accuracy in various domains such as climate and biological systems.",
+    "NCDSSM enables accurate modeling of high-dimensional time series, which can benefit sectors like healthcare and environmental monitoring by providing better data insights."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

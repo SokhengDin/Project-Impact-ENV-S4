@@ -1,0 +1,14 @@
+{
+  "title": "00740_Marginalization_is_not_Marginal_No_Bad_VAE_Local_Minima_when_Learning_Optimal_Sparse_Representations",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The paper provides a formal proof that variational autoencoders (VAEs) can learn optimally sparse representations, which can be beneficial in applications like feature extraction, compression, and manifold learning.",
+    "The results can improve the performance of machine learning models in various domains, including healthcare and neuroscience, by enabling better data representation and analysis."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

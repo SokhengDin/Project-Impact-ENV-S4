@@ -1,0 +1,11 @@
+{
+  "title": "13314_Learning_with_Expected_Signatures_Theory_and_Applications",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

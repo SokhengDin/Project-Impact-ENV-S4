@@ -1,0 +1,14 @@
+{
+  "title": "01638_On_Differential_Privacy_for_Adaptively_Solving_Search_Problems_via_Sketching",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Efficiency improvement in machine learning tasks",
+    "Reduction in carbon emission"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

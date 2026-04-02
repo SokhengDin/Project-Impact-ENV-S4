@@ -1,0 +1,11 @@
+{
+  "title": "01439_What_Limits_Virtual_Agent_Application_OmniBench_A_Scalable_Multi-Dimensional_Benchmark_for_Essential_Virtual_Agent_Capab",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

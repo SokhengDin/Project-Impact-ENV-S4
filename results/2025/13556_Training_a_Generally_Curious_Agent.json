@@ -1,0 +1,16 @@
+{
+  "title": "13556_Training_a_Generally_Curious_Agent",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Training large language models with better strategic exploration and decision-making capabilities."
+  ],
+  "negative_examples": [
+    "Potential impacts of agentic systems on society are uncertain and could be negative.",
+    "The paper does not specify the societal consequences, leaving room for potential misuse or unintended effects."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "10076_Probabilistic_Inference_in_Language_Models_via_Twisted_Sequential_Monte_Carlo",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves safety through better steering of generation to human preferences",
+    "More efficient automated red-teaming",
+    "Ability to estimate or bound probabilities of rare behaviors"
+  ],
+  "negative_examples": [
+    "Techniques could be repurposed for generating samples from a harmful distribution of text",
+    "Magnifies harms in the hands of malevolent users who have access to model weights"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

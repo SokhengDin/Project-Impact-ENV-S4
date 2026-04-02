@@ -1,0 +1,14 @@
+{
+  "title": "03604_Mimetic_Initialization_of_Self-Attention_Layers",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves training efficiency of Vision Transformers on small datasets, leading to higher accuracy in image classification tasks such as CIFAR-10 and ImageNet.",
+    "Provides a learning-free initialization technique that can reduce the need for extensive pretraining, making advanced AI techniques more accessible to researchers with limited resources."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

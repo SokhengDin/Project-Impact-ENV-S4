@@ -1,0 +1,18 @@
+{
+  "title": "02325_Can_MLLMs_Reason_in_Multimodality_EMMA_An_Enhanced_MultiModal_ReAsoning_Benchmark",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improved multimodal reasoning could enhance AI applications in science, engineering, and education, enabling more effective problem-solving and decision-making.",
+    "EMMA sets a new standard for evaluating multimodal reasoning, driving future research toward more advanced AI systems."
+  ],
+  "negative_examples": [
+    "Persistent gaps in current models’ ability to perform fine-grained visual reasoning, limiting their reliability in high-stakes applications.",
+    "Manual selection may introduce unintended biases in question formulation and domain representation.",
+    "Potential for misuse in generating deceptive or misleading visual content, raising ethical concerns."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "12934_Cross-environment_Cooperation_Enables_Zero-shot_Multi-agent_Coordination",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves the lives of applications such as household robotics, autonomous driving, or language assistants."
+  ],
+  "negative_examples": [
+    "Potential risk of creating a machine capable of harming humans it has not seen before.",
+    "Unclear if the approach could lead to harmful AI behavior in a wide range of cases."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

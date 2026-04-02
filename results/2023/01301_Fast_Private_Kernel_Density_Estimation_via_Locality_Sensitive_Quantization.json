@@ -1,0 +1,17 @@
+{
+  "title": "01301_Fast_Private_Kernel_Density_Estimation_via_Locality_Sensitive_Quantization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enables efficient mechanisms for differentially private kernel density estimation (DP-KDE), making it feasible for high-dimensional data.",
+    "Improves privacy-preserving computations in medical and financial domains, which is crucial for protecting sensitive information."
+  ],
+  "negative_examples": [
+    "The mechanisms may still introduce noise that affects the accuracy of the results, leading to potential misinterpretations of sensitive data.",
+    "The trade-off between privacy and accuracy can lead to situations where the privacy-preserving noise obscures important data trends."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

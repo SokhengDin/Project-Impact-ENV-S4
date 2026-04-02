@@ -1,0 +1,15 @@
+{
+  "title": "00715_STAIR_Improving_Safety_Alignment_with_Introspective_Reasoning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances the safety alignment of LLMs, mitigating societal and ethical risks."
+  ],
+  "negative_examples": [
+    "Involves ethically sensitive issues like jailbreak attacks, which have potential societal consequences."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

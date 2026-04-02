@@ -1,0 +1,21 @@
+{
+  "title": "05341_Position_Near_to_Mid-term_Risks_and_Opportunities_of_Open-Source_Generative_AI",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Can reduce Gen AI energy consumption",
+    "Aid in resolving copyright disputes",
+    "Cater to diverse communities",
+    "Help democratize AI development"
+  ],
+  "negative_examples": [
+    "Increased potential for malicious use",
+    "Concerns about societal impact of open-source models",
+    "Open models may exacerbate the risks of misuse",
+    "Open Gen AI tends to be less trustworthy than closed ones"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

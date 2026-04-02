@@ -1,0 +1,17 @@
+{
+  "title": "07505_Theoretical_Analysis_of_Learned_Database_Operations_under_Distribution_Shift_through_Distribution_Learnability",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves trust and usability of ML in database systems",
+    "Can help reduce cost",
+    "Can lower energy consumption",
+    "Can improve usability for database systems",
+    "May lead to the creation of more data-driven applications"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "00249_Practical_and_Matching_Gradient_Variance_Bounds_for_Black-Box_Variational_Bayesian_Inference",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The paper provides upper bounds on the gradient variance of black-box variational inference (BBVI), which can lead to more reliable and efficient Bayesian inference methods in machine learning applications.",
+    "The results can improve the robustness of BBVI algorithms, making them more applicable in various fields such as statistics and machine learning, potentially benefiting sectors like healthcare, finance, and environmental modeling."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

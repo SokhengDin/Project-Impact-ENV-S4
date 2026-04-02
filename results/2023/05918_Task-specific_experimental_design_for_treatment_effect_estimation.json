@@ -1,0 +1,14 @@
+{
+  "title": "05918_Task-specific_experimental_design_for_treatment_effect_estimation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The method requires about an order-of-magnitude less data to match RCT performance on targeted marketing tasks, which can lead to more efficient resource use in marketing campaigns.",
+    "The approach can improve treatment effect estimation in clinical trials, potentially leading to better healthcare outcomes for patients."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

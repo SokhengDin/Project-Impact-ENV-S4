@@ -1,0 +1,15 @@
+{
+  "title": "10381_One-Step_Generalization_Ratio_Guided_Optimization_for_Domain_Generalization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhances domain generalization by ensuring stable and balanced updates",
+    "Mitigates overfitting, promoting flatter minima",
+    "Improves out-of-distribution (OOD) performance, contributing to more robust and generalizable models"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

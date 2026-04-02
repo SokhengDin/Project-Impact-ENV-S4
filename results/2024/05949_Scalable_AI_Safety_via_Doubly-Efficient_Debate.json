@@ -1,0 +1,14 @@
+{
+  "title": "05949_Scalable_AI_Safety_via_Doubly-Efficient_Debate",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves the factu- ality and safety in AI architectures such as Large Language Models (LLMs)",
+    "Reduces reliance on costly human feedback by employing automated provers/LLMs for verification."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

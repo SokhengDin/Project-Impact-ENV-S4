@@ -1,0 +1,16 @@
+{
+  "title": "04157_Hyena_Hierarchy_Towards_Larger_Convolutional_Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Hyena improves accuracy by more than 50 points over operators relying on state-spaces and other implicit and explicit methods.",
+    "Hyena operators are twice as fast as highly optimized attention at sequence length 8K, and 100× faster at sequence length 64K.",
+    "Hyena sets a new state-of-the-art for dense-attention-free architectures on language modeling in standard datasets (WIKITEXT103 and THE PILE).",
+    "Hyena achieves a 20% reduction in training compute required at sequence length 2K."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

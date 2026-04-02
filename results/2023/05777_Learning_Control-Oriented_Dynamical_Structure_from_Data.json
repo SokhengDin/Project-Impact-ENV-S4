@@ -1,0 +1,14 @@
+{
+  "title": "05777_Learning_Control-Oriented_Dynamical_Structure_from_Data",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed method enables effective control design for autonomous systems, improving their stability and performance in complex environments.",
+    "The learning of control-oriented structures from data can enhance the efficiency of tracking controllers, leading to better performance in applications such as robotics and aerospace."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

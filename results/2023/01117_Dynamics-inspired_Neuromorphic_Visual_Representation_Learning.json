@@ -1,0 +1,14 @@
+{
+  "title": "01117_Dynamics-inspired_Neuromorphic_Visual_Representation_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed DyN architecture demonstrates higher accuracy, lower computational complexity, and reduced parameter size compared to traditional neural networks, which can lead to more efficient computing in visual classification tasks.",
+    "The DyN models show significant improvements in accuracy, especially under lower parameter resolution, indicating better performance in real-world applications such as image classification."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

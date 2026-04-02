@@ -1,0 +1,14 @@
+{
+  "title": "01992_Learning_Signed_Distance_Functions_from_Noisy_3D_Point_Clouds_via_Noise_to_Noise_Mapping",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves surface reconstruction accuracy from noisy point clouds, which can enhance applications in virtual reality and augmented reality.",
+    "Facilitates better point cloud denoising, leading to cleaner data for various 3D applications, including autonomous driving and robotics."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

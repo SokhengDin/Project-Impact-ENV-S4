@@ -1,0 +1,19 @@
+{
+  "title": "03490_Inductive_Moment_Matching",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "expanding artistic expression",
+    "assisting content creators",
+    "generating synthetic data for research"
+  ],
+  "negative_examples": [
+    "potential misuse for deepfakes",
+    "copyright concerns",
+    "impacts on creative industries"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

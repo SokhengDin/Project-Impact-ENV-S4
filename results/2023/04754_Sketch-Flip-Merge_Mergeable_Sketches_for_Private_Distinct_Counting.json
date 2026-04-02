@@ -1,0 +1,17 @@
+{
+  "title": "04754_Sketch-Flip-Merge_Mergeable_Sketches_for_Private_Distinct_Counting",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The proposed Sketch-Flip-Merge (SFM) method provides a practical, mergeable, and differentially private approach to distinct-count sketching, enabling safe cardinality estimation over sensitive multisets without revealing individual data.",
+    "The sketches allow organizations to perform data analysis while adhering to privacy standards, thus enhancing user trust and data security."
+  ],
+  "negative_examples": [
+    "The paper acknowledges that sketching alone does not provide privacy guarantees, which can lead to potential privacy risks if the underlying data is sensitive.",
+    "The introduction of noise for privacy can degrade the accuracy of cardinality estimates, which may lead to incorrect conclusions in data analysis."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

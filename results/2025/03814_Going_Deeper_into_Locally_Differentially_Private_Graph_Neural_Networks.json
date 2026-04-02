@@ -1,0 +1,15 @@
+{
+  "title": "03814_Going_Deeper_into_Locally_Differentially_Private_Graph_Neural_Networks",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the field of privacy-preserving graph learning",
+    "Enhances the utility of private graph learning while preserving privacy",
+    "Introduces a more efficient framework for privacy-preserving graph learning"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

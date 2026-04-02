@@ -1,0 +1,14 @@
+{
+  "title": "01507_Rejuvenating_image-GPT_as_Strong_Visual_Representation_Learners",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Motivates the community to rethink and explore auto-regressive pretraining for visual representation learning.",
+    "Lays the foundation for an autoregressive framework capable of universal learning across different modalities, including vision, language, and audio."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

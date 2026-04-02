@@ -1,0 +1,18 @@
+{
+  "title": "08544_Prices_Bids_Values_One_ML-Powered_Combinatorial_Auction_to_Rule_Them_All",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances the practicality and efficiency of real-world auctions",
+    "Increases participation and improves resource allocation across various domains",
+    "Potential benefits for social welfare"
+  ],
+  "negative_examples": [
+    "Potential conflicts of interest between participants",
+    "Self-interested agents may lead to ethical concerns in practice"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

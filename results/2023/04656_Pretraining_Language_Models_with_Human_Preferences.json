@@ -1,0 +1,17 @@
+{
+  "title": "04656_Pretraining_Language_Models_with_Human_Preferences",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Pretraining with human feedback reduces the rate of undesirable content by up to an order of magnitude, leading to language models that generate text aligned with human preferences.",
+    "Conditional training maintains the downstream task performance of standard LM pretraining, ensuring that models are both capable and aligned with human values."
+  ],
+  "negative_examples": [
+    "Language models are pretrained to imitate internet text, which may include falsehoods, offensive comments, and personally identifiable information (PII).",
+    "Even the most effective safety filters fail to catch a large amount of undesirable content, which poses risks of generating harmful language."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

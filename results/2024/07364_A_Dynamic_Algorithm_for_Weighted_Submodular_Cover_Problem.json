@@ -1,0 +1,14 @@
+{
+  "title": "07364_A_Dynamic_Algorithm_for_Weighted_Submodular_Cover_Problem",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Contributes to data summarization which can improve information accessibility and decision-making in various fields.",
+    "Supports active set selection which can enhance the efficiency of machine learning algorithms."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

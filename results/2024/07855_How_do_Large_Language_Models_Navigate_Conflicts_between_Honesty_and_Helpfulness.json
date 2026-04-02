@@ -1,0 +1,14 @@
+{
+  "title": "07855_How_do_Large_Language_Models_Navigate_Conflicts_between_Honesty_and_Helpfulness",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Facilitates productive engagement over what values should be instilled in large language models",
+    "Aims to ensure transparent and equitable societal outcomes"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

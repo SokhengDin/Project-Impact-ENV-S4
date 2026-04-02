@@ -1,0 +1,14 @@
+{
+  "title": "01177_Tilted_Sparse_Additive_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed T-SpAM can achieve robust estimation and imbalanced classification, which can improve decision-making in various fields such as healthcare and finance.",
+    "The ability to handle multi-objective learning problems can lead to better performance in real-world applications, such as predicting outcomes in complex datasets."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

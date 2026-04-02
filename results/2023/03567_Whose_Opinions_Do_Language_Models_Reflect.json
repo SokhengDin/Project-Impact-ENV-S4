@@ -1,0 +1,17 @@
+{
+  "title": "03567_Whose_Opinions_Do_Language_Models_Reflect",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The framework developed for evaluating language models (LMs) can help identify whose opinions are reflected by LMs, potentially leading to more representative and fair AI systems.",
+    "The OpinionQA dataset allows for a better understanding of model behavior and can help developers improve alignment with diverse human opinions."
+  ],
+  "negative_examples": [
+    "Substantial misalignment between the views reflected by current LMs and those of US demographic groups, which can lead to misrepresentation of public opinion.",
+    "The tendency of LMs to express dominant viewpoints of certain groups (e.g., left-leaning opinions) can exacerbate polarization and create echo chambers."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

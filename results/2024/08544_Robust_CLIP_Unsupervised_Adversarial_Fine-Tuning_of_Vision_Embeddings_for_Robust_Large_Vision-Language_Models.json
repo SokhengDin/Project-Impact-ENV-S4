@@ -1,0 +1,16 @@
+{
+  "title": "08544_Robust_CLIP_Unsupervised_Adversarial_Fine-Tuning_of_Vision_Embeddings_for_Robust_Large_Vision-Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The robust models can help in making the deployment of LVLMs more safe."
+  ],
+  "negative_examples": [
+    "Transfer attacks can successfully target LVLMs, stressing the importance of having a robust vision encoder.",
+    "Attacks can be enabled even on closed-source LVLMs."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

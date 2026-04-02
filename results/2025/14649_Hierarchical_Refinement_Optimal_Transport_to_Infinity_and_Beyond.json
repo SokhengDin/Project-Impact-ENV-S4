@@ -1,0 +1,17 @@
+{
+  "title": "14649_Hierarchical_Refinement_Optimal_Transport_to_Infinity_and_Beyond",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enables the application of optimal transport (OT) to datasets with millions of points.",
+    "Paves the way for integrating OT into large-scale deep generative models and modern vision and language tasks."
+  ],
+  "negative_examples": [
+    "Potential issues with bias in training datasets.",
+    "Possibility of misuse in applications."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

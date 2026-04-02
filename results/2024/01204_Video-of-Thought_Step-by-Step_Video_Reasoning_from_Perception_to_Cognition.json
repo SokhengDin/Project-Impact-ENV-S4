@@ -1,0 +1,16 @@
+{
+  "title": "01204_Video-of-Thought_Step-by-Step_Video_Reasoning_from_Perception_to_Cognition",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "substantial energy consumption during LLM system training, leading to environmental degradation",
+    "potential for malicious actors to exploit this framework for nefarious intents",
+    "necessity for more extensive data corpora for training",
+    "need for specific licensing mechanisms to ensure responsible deployment and mitigate potential misuse"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

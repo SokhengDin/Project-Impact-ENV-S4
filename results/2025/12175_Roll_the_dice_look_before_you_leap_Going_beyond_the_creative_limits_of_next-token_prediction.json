@@ -1,0 +1,14 @@
+{
+  "title": "12175_Roll_the_dice_look_before_you_leap_Going_beyond_the_creative_limits_of_next-token_prediction",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the field of Machine Learning through the study of algorithmic tasks inspired by creativity.",
+    "Potential applications of AI to real-world creative endeavors."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

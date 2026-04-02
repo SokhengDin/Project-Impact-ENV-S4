@@ -1,0 +1,14 @@
+{
+  "title": "02190_Fourmer_An_Efficient_Global_Modeling_Paradigm_for_Image_Restoration",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Achieves competitive performance on common image restoration tasks such as image de-raining, image enhancement, image dehazing, and guided image super-resolution while requiring fewer computational resources.",
+    "Provides an alternative, efficient, and customized global modeling-based approach for image restoration, which can be used as an alternative to existing methods."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

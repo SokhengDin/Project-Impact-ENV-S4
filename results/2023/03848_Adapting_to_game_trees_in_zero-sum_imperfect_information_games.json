@@ -1,0 +1,17 @@
+{
+  "title": "03848_Adapting_to_game_trees_in_zero-sum_imperfect_information_games",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The algorithms proposed (Balanced FTRL and Adaptive FTRL) aim to learn ε-optimal strategies in zero-sum imperfect information games, which can enhance decision-making in competitive environments such as finance and strategic games.",
+    "The work contributes to the field of game theory and machine learning, potentially leading to advancements in AI applications that require strategic reasoning."
+  ],
+  "negative_examples": [
+    "The algorithms may be misused in competitive environments, leading to unethical behavior or exploitation of weaknesses in opponents' strategies.",
+    "There is a risk of bias amplification if the algorithms are trained on biased data, which could lead to unfair outcomes in applications like automated decision-making systems."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

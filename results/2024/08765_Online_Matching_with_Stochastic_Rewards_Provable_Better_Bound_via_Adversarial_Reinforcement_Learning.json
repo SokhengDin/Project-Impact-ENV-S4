@@ -1,0 +1,14 @@
+{
+  "title": "08765_Online_Matching_with_Stochastic_Rewards_Provable_Better_Bound_via_Adversarial_Reinforcement_Learning",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the theoretical understanding of online combinatorial problems via reinforcement learning.",
+    "Potential to assist in future theory studies in machine learning."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

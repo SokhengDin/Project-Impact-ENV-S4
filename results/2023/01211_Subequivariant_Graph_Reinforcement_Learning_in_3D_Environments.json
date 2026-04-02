@@ -1,0 +1,14 @@
+{
+  "title": "01211_Subequivariant_Graph_Reinforcement_Learning_in_3D_Environments",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed method significantly outperforms existing approaches on single-task, multi-task, and zero-shot generalization scenarios, indicating improved efficiency in training agents for complex tasks.",
+    "The introduction of more practical and challenging benchmarks in 3D environments allows for better exploration and learning of locomotion in agents, which can lead to advancements in robotics and AI applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "04857_NaturalSpeech_3_Zero-Shot_Speech_Synthesis_with_Factorized_Codec_and_Diffusion_Models",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "Potential risks in misuse of the model, such as spoofing voice identification or impersonating a specific speaker.",
+    "Need for a robust synthesized speech detection model to prevent misuse."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

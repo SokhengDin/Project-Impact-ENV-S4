@@ -1,0 +1,14 @@
+{
+  "title": "05722_Deja_Vu_Contextual_Sparsity_for_Efficient_LLMs_at_Inference_Time",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "DEJAVU can reduce the inference latency of large language models (LLMs) by over 2× compared to state-of-the-art implementations, making LLMs more accessible for latency-sensitive applications.",
+    "The proposed method allows for efficient inference of LLMs without compromising their quality or in-context learning ability, potentially enabling broader use in various applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

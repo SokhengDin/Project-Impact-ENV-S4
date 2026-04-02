@@ -1,0 +1,15 @@
+{
+  "title": "08128_PrE-Text_Training_Language_Models_on_Private_Federated_Data_in_the_Age_of_LLMs",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "PrE-Text does not provide privacy guarantees for the public data that was used to train these models.",
+    "The training data may not have been intended for use in language models, raising ethical questions.",
+    "It is important to ensure that the public data used to pretrain the base models has been properly audited."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

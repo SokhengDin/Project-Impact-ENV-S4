@@ -1,0 +1,11 @@
+{
+  "title": "09627_CodeIO_Condensing_Reasoning_Patterns_via_Code_Input-Output_Prediction",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

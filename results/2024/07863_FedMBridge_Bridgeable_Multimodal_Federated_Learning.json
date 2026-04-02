@@ -1,0 +1,15 @@
+{
+  "title": "07863_FedMBridge_Bridgeable_Multimodal_Federated_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Supports a wide range of user-personalization tasks",
+    "Promotes the tradeoff between large-scale model training on the server and efficient small model training on local devices",
+    "Potential applications in privacy-preserving Artificial General Intelligence (AGI)"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

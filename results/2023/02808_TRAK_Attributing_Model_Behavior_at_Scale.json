@@ -1,0 +1,17 @@
+{
+  "title": "02808_TRAK_Attributing_Model_Behavior_at_Scale",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "TRAK can improve the quality of training data, which generally enhances model performance.",
+    "TRAK is useful in applications such as explaining predictions, debugging model behavior, and detecting poisoned or mislabeled data."
+  ],
+  "negative_examples": [
+    "The reliance on large datasets for training may lead to privacy risks if sensitive data is included.",
+    "The computational demands of training models, even with TRAK's efficiency, could contribute to increased energy consumption."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

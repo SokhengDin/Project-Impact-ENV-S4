@@ -1,0 +1,14 @@
+{
+  "title": "02657_Model_Immunization_from_a_Condition_Number_Perspective",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the field of Machine Learning and Optimization",
+    "Makes AI safer through model immunization"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

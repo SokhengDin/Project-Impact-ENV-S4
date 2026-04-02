@@ -1,0 +1,17 @@
+{
+  "title": "03709_How_Bad_is_Top-K_Recommendation_under_Competing_Content_Creators",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The study shows that the top-K recommendation policy can improve user satisfaction by providing relevant content based on predicted relevance, which can enhance user engagement and welfare.",
+    "The results indicate that content creation competitions can be efficient under properly set incentives, aligning with the 'invisible hand' concept of market efficiency."
+  ],
+  "negative_examples": [
+    "The competition among content creators can lead to a loss of social welfare, as creators may focus on homogeneous content that does not cater to diverse user interests, potentially harming niche content creators.",
+    "If creators are incentivized to maximize user exposure rather than engagement, it can lead to worse welfare outcomes, as seen in the constructed game instances where user welfare can be very low."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

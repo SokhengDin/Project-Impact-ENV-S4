@@ -1,0 +1,15 @@
+{
+  "title": "03525_A_Touch_Vision_and_Language_Dataset_for_Multimodal_Alignment",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Could benefit future large generative models considering touch as a sensing modality",
+    "Useful for researchers studying pseudo-label-based learning methods",
+    "Contributes to achieving a better digitalization of touch and the use of touch in robotics"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

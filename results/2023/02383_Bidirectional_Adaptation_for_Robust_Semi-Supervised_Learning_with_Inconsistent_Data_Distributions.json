@@ -1,0 +1,14 @@
+{
+  "title": "02383_Bidirectional_Adaptation_for_Robust_Semi-Supervised_Learning_with_Inconsistent_Data_Distributions",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed Bidirectional Adaptation framework enhances the performance of semi-supervised learning (SSL) algorithms, which can lead to better outcomes in various applications such as image classification, object detection, and text classification.",
+    "The framework aims to effectively utilize unlabeled data from inconsistent distributions, thereby expanding the scope and value of SSL in real-world applications."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

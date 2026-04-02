@@ -1,0 +1,16 @@
+{
+  "title": "06238_Statistical_Collusion_by_Collectives_on_Learning_Platforms",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Contributes to a deeper understanding of the risks and opportunities associated with collective interventions.",
+    "Essential for designing more robust, transparent, and socially aligned learning systems."
+  ],
+  "negative_examples": [
+    "Risks associated with collective influence and strategic behavior in algorithmic decision-making."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "00643_From_Weight-Based_to_State-Based_Fine-Tuning_Further_Memory_Reduction_on_LoRA_with_Parallel_Control",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

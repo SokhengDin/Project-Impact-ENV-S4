@@ -1,0 +1,14 @@
+{
+  "title": "03801_Semi_Bandit_dynamics_in_Congestion_Games_Convergence_to_Nash_Equilibrium_and_No-Regret_Guarantees",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed algorithm, Semi-Bandit Gradient Descent with Caratheodory Exploration (SBGD-CE), provides no-regret guarantees, which can lead to more efficient resource allocation in congestion games, potentially improving traffic flow and reducing congestion in real-world applications.",
+    "The algorithm converges to Nash Equilibria, which can enhance the stability of multi-agent systems in various applications, such as network routing and resource management."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "03906_Same_Pre-training_Loss_Better_Downstream_Implicit_Bias_Matters_for_Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves performance of various downstream tasks by better understanding the implicit bias in language models.",
+    "Identifies ways to produce models with the same pre-training loss but different downstream performance, potentially leading to more effective language models."
+  ],
+  "negative_examples": [
+    "The implicit bias in pre-training algorithms may lead to models that perform poorly on certain downstream tasks despite having similar pre-training losses.",
+    "Models trained with adversarial algorithms or improper regularization can have worse downstream performance, indicating a risk of suboptimal model deployment."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

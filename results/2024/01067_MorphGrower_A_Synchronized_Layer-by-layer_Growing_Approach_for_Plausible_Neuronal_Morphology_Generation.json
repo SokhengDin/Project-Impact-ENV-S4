@@ -1,0 +1,15 @@
+{
+  "title": "01067_MorphGrower_A_Synchronized_Layer-by-layer_Growing_Approach_for_Plausible_Neuronal_Morphology_Generation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Streamlining the acquisition of neuron morphology data crucial for advancements in neuroscience",
+    "Providing the data infrastructure essential for simulating neural circuits",
+    "Generating foundational data pivotal for brain science investigations"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

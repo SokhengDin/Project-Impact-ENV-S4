@@ -1,0 +1,19 @@
+{
+  "title": "01940_CollabLLM_From_Passive_Responders_to_Active_Collaborators",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Makes AI more user- and human-centric, yielding a positive societal impact.",
+    "Increases the adoption of AI in safety-critical scenarios, such as medical decision-making tasks.",
+    "COLLABLLM seeks to clarify user intent, creating opportunities to detect misuse."
+  ],
+  "negative_examples": [
+    "Concerns may arise regarding users with malevolent goals.",
+    "Malicious users might obscure their true intentions to bypass safeguards.",
+    "Potential for misuse if the AI fails to accurately identify unsafe behavior."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

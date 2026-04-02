@@ -1,0 +1,14 @@
+{
+  "title": "04632_RankMe_Assessing_the_Downstream_Performance_of_Pretrained_Self-Supervised_Representations_by_Their_Rank",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "RankMe allows practitioners to assess the performance of Joint-Embedding Self-Supervised Learning (JE-SSL) representations without requiring labels, facilitating deployment in domains with limited labeled data.",
+    "RankMe can improve hyperparameter selection for JE-SSL methods, leading to better model performance on unseen datasets, which can enhance the applicability of self-supervised learning in various fields."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

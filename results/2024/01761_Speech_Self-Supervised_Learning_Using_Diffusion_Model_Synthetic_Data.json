@@ -1,0 +1,14 @@
+{
+  "title": "01761_Speech_Self-Supervised_Learning_Using_Diffusion_Model_Synthetic_Data",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves performance of speech processing systems for low-resource languages",
+    "Extends AI processing capabilities to low-resource languages"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

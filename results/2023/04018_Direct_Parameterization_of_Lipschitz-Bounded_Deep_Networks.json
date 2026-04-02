@@ -1,0 +1,15 @@
+{
+  "title": "04018_Direct_Parameterization_of_Lipschitz-Bounded_Deep_Networks",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The new parameterization can control a model’s sensitivity to adversarial inputs, which is critical in applications requiring certifiable robustness.",
+    "Lipschitz-bounded networks can stabilize the learning of generative adversarial networks, improving their reliability in generating data.",
+    "The proposed method can enhance the robustness of neural networks in robotics applications, ensuring safe learning and control."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

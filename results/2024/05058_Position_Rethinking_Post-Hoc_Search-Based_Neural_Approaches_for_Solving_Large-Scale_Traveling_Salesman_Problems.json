@@ -1,0 +1,14 @@
+{
+  "title": "05058_Position_Rethinking_Post-Hoc_Search-Based_Neural_Approaches_for_Solving_Large-Scale_Traveling_Salesman_Problems",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advancing the field of ML and OR in complex problem-solving like logistics and network design.",
+    "Leading to more sustainable and effective solutions in various industries."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

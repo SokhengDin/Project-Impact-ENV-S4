@@ -1,0 +1,17 @@
+{
+  "title": "12891_Layer_by_Layer_Uncovering_Hidden_Representations_in_Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improved performance on a variety of downstream tasks through better understanding of intermediate-layer representations.",
+    "Potential for enhanced model interpretability and robustness."
+  ],
+  "negative_examples": [
+    "Amplification of latent biases in model representations.",
+    "Risk of reinforcing biases or leading to unintended disparities in real-world applications."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

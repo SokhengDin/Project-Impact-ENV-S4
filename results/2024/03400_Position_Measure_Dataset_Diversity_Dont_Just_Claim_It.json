@@ -1,0 +1,14 @@
+{
+  "title": "03400_Position_Measure_Dataset_Diversity_Dont_Just_Claim_It",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhancing ML dataset collection by leveraging measurement theory principles",
+    "Improving transparency and reproducibility within ML research"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "00982_Memory-Based_Dual_Gaussian_Processes_for_Sequential_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves learning in sequential decision-making tasks such as Bayesian optimization and active learning, which can enhance efficiency in various applications.",
+    "Demonstrates effectiveness in real-world applications like the lunar landing problem and hotspot modeling for schistosomiasis, potentially leading to better outcomes in these critical areas."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

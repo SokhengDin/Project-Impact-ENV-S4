@@ -1,0 +1,14 @@
+{
+  "title": "02882_Interventional_Causal_Representation_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The paper explores how interventional data can facilitate causal representation learning, which can improve the adaptability of AI models to new situations and tasks, similar to human learning capabilities.",
+    "The findings can enhance applications in fields like robotics and genomics, where understanding causal relationships is crucial for advancements."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

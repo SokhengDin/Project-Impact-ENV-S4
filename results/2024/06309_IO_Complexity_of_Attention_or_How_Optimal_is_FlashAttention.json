@@ -1,0 +1,15 @@
+{
+  "title": "06309_IO_Complexity_of_Attention_or_How_Optimal_is_FlashAttention",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "FlashAttention is optimal for certain ranges of memory, improving scalability of Transformers for practical applications.",
+    "The better algorithm for small fast memory can have a huge impact when resources are low.",
+    "Techniques introduced can be utilized beyond attention and Transformers, potentially advancing the field of Machine Learning."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

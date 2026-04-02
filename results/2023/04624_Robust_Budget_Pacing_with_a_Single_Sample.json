@@ -1,0 +1,17 @@
+{
+  "title": "04624_Robust_Budget_Pacing_with_a_Single_Sample",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The paper improves budget management for advertisers, allowing them to effectively manage their ad spending in a non-stationary environment, which can lead to more efficient advertising strategies.",
+    "By requiring only one sample per distribution for budget pacing, the proposed method reduces the data storage and operational challenges associated with historical data."
+  ],
+  "negative_examples": [
+    "The algorithm's performance is fragile to slight deviations between sampling and request distributions, which can lead to linear regret, potentially causing advertisers to overspend or underspend their budgets.",
+    "If the algorithm is misapplied or if the assumptions about the distributions are incorrect, it could lead to inefficient ad spending, harming advertisers' financial outcomes."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

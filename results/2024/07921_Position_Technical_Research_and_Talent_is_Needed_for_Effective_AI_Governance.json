@@ -1,0 +1,15 @@
+{
+  "title": "07921_Position_Technical_Research_and_Talent_is_Needed_for_Effective_AI_Governance",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Motivating the AI research community to engage with AI governance efforts",
+    "Increasing governance capacity to anticipate and respond to challenges posed by AI systems",
+    "Creating and advancing research necessary for effective oversight"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

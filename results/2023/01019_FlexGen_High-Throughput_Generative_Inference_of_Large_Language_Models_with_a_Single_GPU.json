@@ -1,0 +1,14 @@
+{
+  "title": "01019_FlexGen_High-Throughput_Generative_Inference_of_Large_Language_Models_with_a_Single_GPU",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "FlexGen enables high-throughput generative inference of large language models (LLMs) on commodity hardware, making advanced AI capabilities more accessible to a wider range of users and applications.",
+    "The ability to run LLMs with limited resources can facilitate various latency-insensitive tasks such as benchmarking, information extraction, and data wrangling, which can improve efficiency in many industries."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

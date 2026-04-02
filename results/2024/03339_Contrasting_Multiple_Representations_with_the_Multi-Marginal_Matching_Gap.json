@@ -1,0 +1,11 @@
+{
+  "title": "03339_Contrasting_Multiple_Representations_with_the_Multi-Marginal_Matching_Gap",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

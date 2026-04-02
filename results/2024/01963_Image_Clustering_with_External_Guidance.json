@@ -1,0 +1,17 @@
+{
+  "title": "01963_Image_Clustering_with_External_Guidance",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Clustering has a wide range of applications, such as anomaly detection, person re-identification, community detection."
+  ],
+  "negative_examples": [
+    "Performance depends on data bias and cannot be guaranteed in more complex real-world applications.",
+    "Might bring disturbances in decision-making, especially in areas such as health care, autonomous vehicles.",
+    "Requires manually setting the target cluster number, which can be problematic in real-world applications."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

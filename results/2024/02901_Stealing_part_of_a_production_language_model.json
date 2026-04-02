@@ -1,0 +1,17 @@
+{
+  "title": "02901_Stealing_part_of_a_production_language_model",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Openly discussing vulnerabilities that have practical impact is an important strategy for ensuring safe machine learning.",
+    "Mitigating near-term potential harms of this research by working closely with affected products."
+  ],
+  "negative_examples": [
+    "Successful attacks on production models could lead to security vulnerabilities.",
+    "Malicious actors are likely to discover the same vulnerability whether or not it is reported."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

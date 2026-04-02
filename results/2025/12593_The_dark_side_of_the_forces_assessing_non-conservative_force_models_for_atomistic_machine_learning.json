@@ -1,0 +1,13 @@
+{
+  "title": "12593_The_dark_side_of_the_forces_assessing_non-conservative_force_models_for_atomistic_machine_learning",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the application of machine learning to simulations of molecules and materials, which can be used for many purposes."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

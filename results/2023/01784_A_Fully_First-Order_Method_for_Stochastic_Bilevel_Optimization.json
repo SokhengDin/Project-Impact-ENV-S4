@@ -1,0 +1,14 @@
+{
+  "title": "01784_A_Fully_First-Order_Method_for_Stochastic_Bilevel_Optimization",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed Fully First-order Stochastic Approximation (F2SA) method can be applied to important applications such as meta-learning, hyper-parameter optimization, and model selection, which can enhance the performance of machine learning models in various domains.",
+    "Demonstrated superior practical performance of F2SA over existing second-order based approaches on MNIST data-hypercleaning experiments, potentially improving data cleaning processes in machine learning."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

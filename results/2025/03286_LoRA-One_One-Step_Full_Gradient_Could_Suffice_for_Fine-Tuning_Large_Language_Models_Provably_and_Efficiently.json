@@ -1,0 +1,13 @@
+{
+  "title": "03286_LoRA-One_One-Step_Full_Gradient_Could_Suffice_for_Fine-Tuning_Large_Language_Models_Provably_and_Efficiently",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances the field of Machine Learning through theoretical understanding of low-rank adapters and parameter-efficient fine-tuning."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

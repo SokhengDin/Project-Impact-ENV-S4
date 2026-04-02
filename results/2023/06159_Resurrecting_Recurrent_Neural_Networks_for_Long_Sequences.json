@@ -1,0 +1,14 @@
+{
+  "title": "06159_Resurrecting_Recurrent_Neural_Networks_for_Long_Sequences",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The introduction of the Linear Recurrent Unit (LRU) allows for efficient modeling of long sequences, which can enhance applications in natural language processing and other sequential data tasks.",
+    "The improvements in training speed and performance of RNNs can lead to more accessible and faster AI solutions in various fields, such as healthcare and finance."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

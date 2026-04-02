@@ -1,0 +1,14 @@
+{
+  "title": "01758_ODS_Test-Time_Adaptation_in_the_Presence_of_Open-World_Data_Shift",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed ODS framework can significantly improve test-time performance in machine learning applications, which can lead to better decision-making in critical areas such as healthcare and autonomous systems.",
+    "By effectively adapting to changing covariate and label distributions, the framework enhances the robustness of models in real-world applications, potentially improving outcomes in fields like computer vision and speech recognition."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "05503_SOmegaI_Score-based_O-INFORMATION_Estimation",
+  "q1_default": true,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves methods to compute information measures of complex systems",
+    "Applications in multi-modal machine learning, neuroscience, and climate modeling"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

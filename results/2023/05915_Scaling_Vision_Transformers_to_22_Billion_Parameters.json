@@ -1,0 +1,17 @@
+{
+  "title": "05915_Scaling_Vision_Transformers_to_22_Billion_Parameters",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Increases performance for all subgroups while minimizing disparities among them.",
+    "Human raters assisted in removing offensive content from the dataset."
+  ],
+  "negative_examples": [
+    "Should not be used for detecting demographic human features for non-ethical purposes.",
+    "Not approved for use in applications like surveillance, law enforcement, healthcare, or hiring and employment without ethical risk mitigation measures."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

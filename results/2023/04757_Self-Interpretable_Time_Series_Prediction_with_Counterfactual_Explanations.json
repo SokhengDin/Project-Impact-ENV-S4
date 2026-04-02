@@ -1,0 +1,17 @@
+{
+  "title": "04757_Self-Interpretable_Time_Series_Prediction_with_Counterfactual_Explanations",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves interpretability of time series predictions in safety-critical areas such as healthcare and autonomous driving.",
+    "Generates actionable counterfactual explanations that help users understand how to achieve desired outcomes in predictions."
+  ],
+  "negative_examples": [
+    "Counterfactual explanations may suggest changes to immutable variables (e.g., age, gender) that are infeasible and could lead to misunderstandings.",
+    "The reliance on deep learning models may introduce biases if the underlying data is biased, potentially affecting decision-making in critical areas."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

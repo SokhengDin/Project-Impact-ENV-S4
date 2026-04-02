@@ -1,0 +1,15 @@
+{
+  "title": "00020_Cones_Concept_Neurons_in_Diffusion_Models_for_Customized_Generation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Reduces storage consumption by 90% compared to previous customized generation methods, making it environmentally friendly for large-scale applications.",
+    "Enables the generation of multiple subjects in a single image, enhancing creative possibilities in art and design.",
+    "Improves interpretability and manipulation of diffusion models, which can lead to better user experiences in applications like personalized content generation."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

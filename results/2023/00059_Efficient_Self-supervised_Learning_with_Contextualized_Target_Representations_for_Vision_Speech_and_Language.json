@@ -1,0 +1,15 @@
+{
+  "title": "00059_Efficient_Self-supervised_Learning_with_Contextualized_Target_Representations_for_Vision_Speech_and_Language",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "data2vec 2.0 achieves a top-1 accuracy of 83.7% after pre-training for just over 3 hours vs. 83.6% after 50.7 hours for MAE - a 16.4x speed-up at slightly improved accuracy.",
+    "data2vec 2.0 can train well with a relatively small batch size of just 512 images, compared to 4,096 images in the case of MAE, or 2,048 images for data2vec and most other self-supervised algorithms for computer vision.",
+    "data2vec 2.0 improves the compute efficiency of self-supervised learning, allowing for faster training and potentially broader accessibility to advanced AI models."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "01892_Instant_Soup_Cheap_Pruning_Ensembles_in_A_Single_Pass_Can_Draw_Lottery_Tickets_from_Large_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Reduces computational and memory footprints of large pre-trained models, making them more accessible for fine-tuning without industry-standard hardware.",
+    "Improves fine-tuning performance comparable to model soups at marginal training cost, thus enhancing the efficiency of model training and deployment."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

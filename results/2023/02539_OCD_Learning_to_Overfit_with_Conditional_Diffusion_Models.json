@@ -1,0 +1,14 @@
+{
+  "title": "02539_OCD_Learning_to_Overfit_with_Conditional_Diffusion_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves accuracy in image classification tasks, achieving state-of-the-art results in datasets like CIFAR10 and TinyImageNet.",
+    "Enhances performance in diverse applications such as image synthesis, speech separation, and few-shot natural language processing, benefiting various fields including healthcare and education."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

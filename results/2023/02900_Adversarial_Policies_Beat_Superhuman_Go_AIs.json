@@ -1,0 +1,17 @@
+{
+  "title": "02900_Adversarial_Policies_Beat_Superhuman_Go_AIs",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The adversarial policies can uncover vulnerabilities in AI systems, leading to improved robustness in future AI designs.",
+    "The research highlights the need for robust training and adversarial defense techniques, which can enhance the reliability of AI systems in safety-critical applications."
+  ],
+  "negative_examples": [
+    "The findings suggest that even superhuman AI systems may harbor serious vulnerabilities, which could be exploited in real-world applications.",
+    "Failures in AI systems like those discussed could have dire consequences in safety-critical systems such as automated financial trading or autonomous vehicles."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

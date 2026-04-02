@@ -1,0 +1,18 @@
+{
+  "title": "04151_Offline_Actor-Critic_Reinforcement_Learning_Scales_to_Large_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Training generalist agents for control applications including robotic manipulation",
+    "Potential for safety via value alignment to human preferences"
+  ],
+  "negative_examples": [
+    "Safety concerns related to self-improvement loops",
+    "Risks associated with BC-style self-improvement",
+    "No learning happens while interacting with real-world systems, indicating potential risks if deployed improperly"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

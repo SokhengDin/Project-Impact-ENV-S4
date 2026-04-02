@@ -1,0 +1,19 @@
+{
+  "title": "09943_Position_Open-Endedness_is_Essential_for_Artificial_Superhuman_Intelligence",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "accelerating scientific and technological breakthroughs",
+    "enhancing human creativity through a collaborative feedback loop",
+    "acting as an engine for general knowledge expansion across many fields"
+  ],
+  "negative_examples": [
+    "potential risks and societal impacts",
+    "misuse of open-ended foundation models",
+    "ethical concerns in the development of ASI"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

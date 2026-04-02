@@ -1,0 +1,14 @@
+{
+  "title": "04789_Position_Do_pretrained_Transformers_Learn_In-Context_by_Gradient_Descent",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Understanding the nuances of in-context learning (ICL) can lead to more reliable use of large language models (LLMs) in various applications.",
+    "Theoretical expressivity of transformers to simulate gradient descent can enhance the capabilities of LLMs."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "06079_All-in-one_simulation-based_inference",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances the accuracy and flexibility of simulation-based inference (SBI) for scientific applications.",
+    "Allows scientists to apply SBI to previously unattainable simulators and inference problems."
+  ],
+  "negative_examples": [
+    "Potential for application in less desirable contexts that may have ethical implications.",
+    "Need for careful consideration of ethical implications to ensure responsible use."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

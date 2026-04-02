@@ -1,0 +1,14 @@
+{
+  "title": "05736_Towards_Optimal_Adversarial_Robust_Q-learning_with_Bellman_Infinity-error",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Reinforcing the robustness of Deep Reinforcement Learning agents is crucial for commercial and industrial applications.",
+    "This study uncovers the inherent robustness of the Bellman optimal policy under adversarial attack scenarios, potentially driving advancements in related applications."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

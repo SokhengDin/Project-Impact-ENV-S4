@@ -1,0 +1,2376 @@
+[
+  {
+    "title": "00020_Cones_Concept_Neurons_in_Diffusion_Models_for_Customized_Generation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Reduces storage consumption by 90% compared to previous customized generation methods, making it environmentally friendly for large-scale applications.",
+      "Enables the generation of multiple subjects in a single image, enhancing creative possibilities in art and design.",
+      "Improves interpretability and manipulation of diffusion models, which can lead to better user experiences in applications like personalized content generation."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00032_Learning-Rate-Free_Learning_by_D-Adaptation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "D-Adaptation matches or exceeds the performance of hand-tuned learning rates across a broad range of machine learning problems, including large-scale vision and language problems.",
+      "The method is highly effective across diverse machine learning applications, improving the efficiency of training models without the need for hyper-parameter tuning."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00042_Learning_GFlowNets_From_Partial_Episodes_For_Improved_Convergence_And_Stability",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "SubTB(𝜆) improves convergence of GFlowNets in previously studied environments, allowing for faster learning and better performance in tasks such as molecule generation and sequence generation.",
+      "SubTB(𝜆) enables training of GFlowNets in environments with longer action sequences and sparser reward landscapes, which can lead to advancements in fields like drug discovery and biological sequence design."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00059_Efficient_Self-supervised_Learning_with_Contextualized_Target_Representations_for_Vision_Speech_and_Language",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "data2vec 2.0 achieves a top-1 accuracy of 83.7% after pre-training for just over 3 hours vs. 83.6% after 50.7 hours for MAE - a 16.4x speed-up at slightly improved accuracy.",
+      "data2vec 2.0 can train well with a relatively small batch size of just 512 images, compared to 4,096 images in the case of MAE, or 2,048 images for data2vec and most other self-supervised algorithms for computer vision.",
+      "data2vec 2.0 improves the compute efficiency of self-supervised learning, allowing for faster training and potentially broader accessibility to advanced AI models."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00108_ProtST_Multi-Modality_Learning_of_Protein_Sequences_and_Biomedical_Texts",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enhances protein sequence pre-training and understanding by biomedical texts, which can improve drug discovery and healthcare applications.",
+      "Enables zero-shot protein classification and functional protein retrieval from large-scale databases without any function annotation, increasing efficiency in biomedical research."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00237_Fundamental_Limits_of_Two-layer_Autoencoders_and_Achieving_Them_with_Gradient_Methods",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Autoencoders achieve remarkable success in lossy data compression, outperforming classical methods such as JPEG, which can lead to more efficient data storage and transmission.",
+      "The paper provides a theoretical understanding of the fundamental limits of two-layer autoencoders, which can improve the design and application of machine learning models in various fields."
+    ],
+    "negative_examples": [
+      "The paper indicates that two-layer autoencoders cannot achieve the rate-distortion limit on Gaussian data, which suggests limitations in their effectiveness for certain applications.",
+      "The results imply that while two-layer autoencoders can be effective, they may not be suitable for all types of data compression tasks, potentially leading to suboptimal performance in critical applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00249_Practical_and_Matching_Gradient_Variance_Bounds_for_Black-Box_Variational_Bayesian_Inference",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper provides upper bounds on the gradient variance of black-box variational inference (BBVI), which can lead to more reliable and efficient Bayesian inference methods in machine learning applications.",
+      "The results can improve the robustness of BBVI algorithms, making them more applicable in various fields such as statistics and machine learning, potentially benefiting sectors like healthcare, finance, and environmental modeling."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00308_Brauers_Group_Equivariant_Neural_Networks",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper provides a full characterization of group equivariant neural networks, which can lead to simpler, more interpretable models that generalize better to unseen data, potentially improving machine learning applications in various fields such as physics and image processing.",
+      "The results could enhance the efficiency of learning from high-dimensional data that exhibit symmetry, which is common in physical processes."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00575_AdaptDiffuser_Diffusion_Models_as_Adaptive_Self-evolving_Planners",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "AdaptDiffuser improves the performance of diffusion-based planners in offline reinforcement learning, enhancing adaptability to unseen tasks without additional expert data.",
+      "The method generates high-quality synthetic data, which can lead to better decision-making in robotics and other applications, potentially improving efficiency in various industries."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00636_Delayed_Feedback_in_Kernel_Bandits",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves the efficiency of recommendation systems by allowing for delayed feedback handling, which can enhance user experience and satisfaction.",
+      "Facilitates better optimization in clinical trials by managing delayed feedback, potentially leading to more effective treatments and faster medical advancements."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00725_Random_Classification_Noise_does_not_defeat_All_Convex_Potential_Boosters_Irrespective_of_Model_Choice",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The introduction of a new convex booster (MODABOOST) that can learn Bayes optimal predictors regardless of noise level when applied to certain model classes, which can enhance the robustness of machine learning algorithms in real-world applications.",
+      "MODABOOST can be applied to learn decision trees and nearest neighbor classifiers, potentially improving their performance in noisy environments."
+    ],
+    "negative_examples": [
+      "The paper discusses the limitations of linear models in the presence of noise, which could lead to misclassifications and unreliable predictions, potentially causing harm in critical applications like healthcare or finance.",
+      "The findings suggest that many existing boosting algorithms are highly sensitive to noise, which could lead to poor decision-making if these algorithms are deployed in real-world scenarios without addressing their vulnerabilities."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00730_Gaussian_Process_Priors_for_Systems_of_Linear_Partial_Differential_Equations_with_Constant_Coefficients",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed EPGP method allows for the incorporation of physical knowledge into machine learning models, which can lead to more accurate predictions in various physical systems.",
+      "The method improves upon existing techniques in terms of computation time and precision, potentially leading to more efficient simulations in fields like physics and engineering."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00740_Marginalization_is_not_Marginal_No_Bad_VAE_Local_Minima_when_Learning_Optimal_Sparse_Representations",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper provides a formal proof that variational autoencoders (VAEs) can learn optimally sparse representations, which can be beneficial in applications like feature extraction, compression, and manifold learning.",
+      "The results can improve the performance of machine learning models in various domains, including healthcare and neuroscience, by enabling better data representation and analysis."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00877_Reparameterized_Policy_Learning_for_Multimodal_Trajectory_Optimization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The method can help agents evade local optima in tasks with dense rewards and solve challenging sparse-reward environments by incorporating an object-centric intrinsic reward.",
+      "RPG consistently outperforms previous approaches across a range of tasks, demonstrating its effectiveness in exploration and optimization in continuous control problems."
+    ],
+    "negative_examples": [
+      "The intrinsic reward design relies on assumptions regarding the recognition of objects and their spatial positioning, which may be unsuitable in environments with unidentified objects.",
+      "Learning the world model typically results in a slower pace of gradient updates, which could hinder performance in real-time applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00900_BPipe_Memory-Balanced_Pipeline_Parallelism_for_Training_Large_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "BPIPE enhances the training efficiency of large language models like GPT-3 by eliminating redundant recomputations or increasing the micro-batch size, leading to faster training times.",
+      "BPIPE can execute configurations that are not feasible without it, thus enabling the training of larger models and potentially advancing AI capabilities."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00973_AdaBoost_is_not_an_Optimal_Weak_to_Strong_Learner",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper contributes to the understanding of sample complexity in machine learning, which can lead to more efficient algorithms that require fewer data samples, potentially reducing data collection costs and improving accessibility to machine learning technologies."
+    ],
+    "negative_examples": [
+      "The findings indicate that AdaBoost and its variants are sub-optimal, which could lead to the continued use of less efficient algorithms, resulting in wasted computational resources and energy consumption.",
+      "The paper suggests that the weaknesses in AdaBoost could be exploited in adversarial settings, leading to potential misuse in applications where robust performance is critical, such as in security or financial systems."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "00982_Memory-Based_Dual_Gaussian_Processes_for_Sequential_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves learning in sequential decision-making tasks such as Bayesian optimization and active learning, which can enhance efficiency in various applications.",
+      "Demonstrates effectiveness in real-world applications like the lunar landing problem and hotspot modeling for schistosomiasis, potentially leading to better outcomes in these critical areas."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01019_FlexGen_High-Throughput_Generative_Inference_of_Large_Language_Models_with_a_Single_GPU",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "FlexGen enables high-throughput generative inference of large language models (LLMs) on commodity hardware, making advanced AI capabilities more accessible to a wider range of users and applications.",
+      "The ability to run LLMs with limited resources can facilitate various latency-insensitive tasks such as benchmarking, information extraction, and data wrangling, which can improve efficiency in many industries."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01026_The_Dormant_Neuron_Phenomenon_in_Deep_Reinforcement_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Aids in the development of more capable autonomous agents."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "01046_Hiera_A_Hierarchical_Vision_Transformer_without_the_Bells-and-Whistles",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Hiera is significantly faster both at inference and during training, which can lead to reduced energy consumption in computational tasks.",
+      "Hiera outperforms state-of-the-art models on various image and video recognition tasks, potentially improving the efficiency of applications in fields like healthcare and security.",
+      "The simplicity of Hiera allows for easier deployment in real-world applications, making advanced vision transformer technology more accessible."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01117_Dynamics-inspired_Neuromorphic_Visual_Representation_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed DyN architecture demonstrates higher accuracy, lower computational complexity, and reduced parameter size compared to traditional neural networks, which can lead to more efficient computing in visual classification tasks.",
+      "The DyN models show significant improvements in accuracy, especially under lower parameter resolution, indicating better performance in real-world applications such as image classification."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01163_Multi-Epoch_Matrix_Factorization_Mechanisms_for_Private_Machine_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enables privacy-preserving machine learning with rigorous differential privacy (DP) guarantees.",
+      "Improves privacy-utility tradeoffs in machine learning settings."
+    ],
+    "negative_examples": [
+      "High computation required to generate optimal matrices may limit accessibility.",
+      "Current inability to train high-utility ML models with tight DP guarantees < 1 in many real-world settings without large amounts of public data may lead to privacy leakage."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "01177_Tilted_Sparse_Additive_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed T-SpAM can achieve robust estimation and imbalanced classification, which can improve decision-making in various fields such as healthcare and finance.",
+      "The ability to handle multi-objective learning problems can lead to better performance in real-world applications, such as predicting outcomes in complex datasets."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01211_Subequivariant_Graph_Reinforcement_Learning_in_3D_Environments",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed method significantly outperforms existing approaches on single-task, multi-task, and zero-shot generalization scenarios, indicating improved efficiency in training agents for complex tasks.",
+      "The introduction of more practical and challenging benchmarks in 3D environments allows for better exploration and learning of locomotion in agents, which can lead to advancements in robotics and AI applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01219_Sequential_Underspecified_Instrument_Selection_for_Cause-Effect_Estimation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The proposed methods can help in understanding cause-effect relationships in high-dimensional systems, such as the influence of gut microbiome on health and disease, which can lead to improved healthcare outcomes.",
+      "The algorithm developed for sequential instrument selection can maximize information gain from experiments, potentially leading to more efficient and effective scientific research."
+    ],
+    "negative_examples": [
+      "The reliance on instrumental variable techniques may lead to misinterpretation of causal relationships if the assumptions are not met, which could result in misguided healthcare decisions.",
+      "The paper highlights the challenge of unobserved confounding, which if not properly addressed, could lead to biased conclusions in scientific studies, impacting public health policies."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01301_Fast_Private_Kernel_Density_Estimation_via_Locality_Sensitive_Quantization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Enables efficient mechanisms for differentially private kernel density estimation (DP-KDE), making it feasible for high-dimensional data.",
+      "Improves privacy-preserving computations in medical and financial domains, which is crucial for protecting sensitive information."
+    ],
+    "negative_examples": [
+      "The mechanisms may still introduce noise that affects the accuracy of the results, leading to potential misinterpretations of sensitive data.",
+      "The trade-off between privacy and accuracy can lead to situations where the privacy-preserving noise obscures important data trends."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01439_StyleGAN-T_Unlocking_the_Power_of_GANs_for_Fast_Large-Scale_Text-to-Image_Synthesis",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "StyleGAN-T significantly improves over previous GANs and outperforms distilled diffusion models in terms of sample quality and speed, enabling faster and more efficient text-to-image synthesis.",
+      "The model allows for smooth interpolations between prompts, enhancing creative applications in art and design."
+    ],
+    "negative_examples": [
+      "StyleGAN-T can struggle to bind attributes to objects and produce coherent text in images, which may lead to misinterpretations or misleading representations.",
+      "High guidance strength during training can result in image artifacts, potentially affecting the quality and reliability of generated images."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01458_BEATs_Audio_Pre-Training_with_Acoustic_Tokenizers",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Achieves state-of-the-art results across various audio classification benchmarks, improving audio understanding capabilities.",
+      "Facilitates future work of audio pre-training and multi-modality pre-training, potentially benefiting various applications in audio processing."
+    ],
+    "negative_examples": [
+      "The iterative pre-training process results in a linear increase in computational overhead, which could limit accessibility for some researchers.",
+      "Relies solely on the AudioSet-2M dataset for pre-training, which is limited in terms of audio and speech coverage, potentially leading to biases in model performance."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01509_Neural_Continuous-Discrete_State_Space_Models_for_Irregularly-Sampled_Time_Series",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improved imputation and forecasting performance of NCDSSM over existing models, which can enhance predictive accuracy in various domains such as climate and biological systems.",
+      "NCDSSM enables accurate modeling of high-dimensional time series, which can benefit sectors like healthcare and environmental monitoring by providing better data insights."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01631_Returning_The_Favour_When_Regression_Benefits_From_Probabilistic_Causal_Knowledge",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves predictive performance in regression tasks by incorporating probabilistic causal knowledge from directed acyclic graphs (DAGs).",
+      "Demonstrates performance gains in climate science applications, particularly in estimating aerosol radiative forcing, which is critical for understanding climate change."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01675_Difference_of_submodular_minimization_via_DC_programming",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed algorithms outperform existing baselines on applications such as speech corpus selection and feature selection, which can enhance machine learning applications in speech recognition and data analysis.",
+      "The work contributes to the field of machine learning by providing efficient algorithms for minimizing the difference of submodular functions, which can lead to better decision-making processes in various applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01740_Patch-level_Routing_in_Mixture-of-Experts_is_Provably_Sample-efficient_for_Convolutional_Neural_Networks",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "pMoE reduces training and inference costs while maintaining test accuracy, leading to more efficient use of computational resources in deep learning applications.",
+      "pMoE can avoid learning spurious correlations, which enhances the robustness of models in real-world applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01749_Simplex_Random_Features",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves kernel approximation in machine learning tasks, leading to better performance in nonparametric classification tasks.",
+      "Enhances the efficiency of Transformer architectures, allowing for scalable attention mechanisms in models like the SimRFs-Performer."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01758_ODS_Test-Time_Adaptation_in_the_Presence_of_Open-World_Data_Shift",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed ODS framework can significantly improve test-time performance in machine learning applications, which can lead to better decision-making in critical areas such as healthcare and autonomous systems.",
+      "By effectively adapting to changing covariate and label distributions, the framework enhances the robustness of models in real-world applications, potentially improving outcomes in fields like computer vision and speech recognition."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01784_A_Fully_First-Order_Method_for_Stochastic_Bilevel_Optimization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed Fully First-order Stochastic Approximation (F2SA) method can be applied to important applications such as meta-learning, hyper-parameter optimization, and model selection, which can enhance the performance of machine learning models in various domains.",
+      "Demonstrated superior practical performance of F2SA over existing second-order based approaches on MNIST data-hypercleaning experiments, potentially improving data cleaning processes in machine learning."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01820_Sharper_Bounds_for_ell_p_Sensitivity_Sampling",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves sample complexity for structured matrices in machine learning, which can lead to more efficient algorithms in various applications such as regression and clustering.",
+      "Sensitivity sampling techniques can enhance the performance of machine learning models by ensuring that important data points are retained, thus improving prediction accuracy."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01841_Fast_Inference_from_Transformers_via_Speculative_Decoding",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The method can accelerate existing off-the-shelf models without retraining or architecture changes, leading to faster inference times for applications such as translation and summarization.",
+      "Demonstrated a 2X-3X acceleration in inference speed for large autoregressive models, which can improve user experience in real-time applications.",
+      "The approach is easy to implement in production settings, making advanced AI capabilities more accessible."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01863_Buying_Information_for_Stochastic_Optimization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper discusses applications in auction theory where sellers can optimize pricing by acquiring information about buyers, potentially leading to better market efficiency.",
+      "The optimal decision tree for diagnosing diseases can improve healthcare outcomes by allowing doctors to make more informed decisions based on patient symptoms."
+    ],
+    "negative_examples": [
+      "The cost of acquiring information may lead to sellers or decision-makers spending resources on irrelevant or redundant information, which could be wasteful.",
+      "The reliance on information acquisition could create disparities where only those with sufficient resources can afford to gather necessary information, potentially disadvantaging smaller players in the market."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01892_Instant_Soup_Cheap_Pruning_Ensembles_in_A_Single_Pass_Can_Draw_Lottery_Tickets_from_Large_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Reduces computational and memory footprints of large pre-trained models, making them more accessible for fine-tuning without industry-standard hardware.",
+      "Improves fine-tuning performance comparable to model soups at marginal training cost, thus enhancing the efficiency of model training and deployment."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01965_Over-parametrization_via_Lifting_for_Low-rank_Matrix_Sensing_Conversion_of_Spurious_Solutions_to_Strict_Saddle_Points",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The proposed method improves the scalability of solving low-rank matrix sensing problems, which can benefit applications like collaborative filtering and power system state estimation.",
+      "The lifting technique can help convert spurious solutions to strict saddle points, making optimization more efficient and reliable."
+    ],
+    "negative_examples": [
+      "The paper discusses the challenges of spurious local minima in non-convex optimization, which can lead to unreliable outcomes in practical applications.",
+      "If the proposed methods are misapplied, they could exacerbate issues in sensitive areas like power system state estimation, potentially leading to failures or inefficiencies."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "01992_Learning_Signed_Distance_Functions_from_Noisy_3D_Point_Clouds_via_Noise_to_Noise_Mapping",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves surface reconstruction accuracy from noisy point clouds, which can enhance applications in virtual reality and augmented reality.",
+      "Facilitates better point cloud denoising, leading to cleaner data for various 3D applications, including autonomous driving and robotics."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02121_Calibrating_Multimodal_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves the reliability of multimodal learning methods, which can enhance applications in high-stakes scenarios like medical analysis and autonomous driving.",
+      "CML regularization can improve classification accuracy and model robustness, making systems more trustworthy in critical applications."
+    ],
+    "negative_examples": [
+      "Models may become overconfident based on partial modalities, leading to poor decision-making in critical applications like medical diagnosis.",
+      "The reliance on certain modalities can result in a lack of robustness when some modalities are corrupted, which can be detrimental in real-world applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02137_Denoising_MCMC_for_Accelerating_Diffusion-Based_Generative_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Reduction in resource consumption during diffusion sampling due to DMCMC's efficiency."
+    ],
+    "negative_examples": [
+      "Potential use of diffusion models to produce Deepfakes or fake information, which may require regulation."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "02177_Diffusion_Models_as_Artists_Are_we_Closing_the_Gap_between_Humans_and_Machines",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Diffusion models have significantly improved the quality of machine-generated drawings, providing a better approximation of human drawing ability compared to previous models like VAEs and GANs.",
+      "The study suggests that these models can be used in clinical settings for evaluating emotional trauma and developmental disorders, leveraging drawing as a diagnostic tool."
+    ],
+    "negative_examples": [
+      "The remaining gap between human and machine-generated drawings may lead to a lack of originality in machine outputs, potentially stifling creativity in artistic fields.",
+      "There is a risk that the technology could be misused to create deceptive or misleading content that could be indistinguishable from human-created art."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02190_Fourmer_An_Efficient_Global_Modeling_Paradigm_for_Image_Restoration",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Achieves competitive performance on common image restoration tasks such as image de-raining, image enhancement, image dehazing, and guided image super-resolution while requiring fewer computational resources.",
+      "Provides an alternative, efficient, and customized global modeling-based approach for image restoration, which can be used as an alternative to existing methods."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02194_Continuation_Path_Learning_for_Homotopy_Optimization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed model can generate solutions for any intermediate subproblem in real time, which is desirable for many real-world applications.",
+      "CPL can achieve promising performances on various problems, including non-convex optimization, noisy regression, and neural combinatorial optimization.",
+      "CPL can improve the generalization performance for a neural combinatorial optimization solver, such as in the traveling salesman problem."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02200_Information-Theoretic_State_Space_Model_for_Multi-View_Reinforcement_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Reducing environmental waste and carbon footprint by matching performance to expensive sensor systems.",
+      "Application in autonomous driving vehicles and factory automation sensors."
+    ],
+    "negative_examples": [
+      "Potential to raise security issues by uncovering private information through inferring missing views."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "02243_On_the_Power_of_Pre-training_for_Generalization_in_RL_Provable_Benefits_and_Hardness",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves generalization in reinforcement learning (RL) which can enhance applications in autonomous driving, robotics, and healthcare, leading to better performance in dynamic environments.",
+      "Reduces the demand for real-world data by enabling agents to learn meaningful skills in simulated environments, thus improving test-time performance."
+    ],
+    "negative_examples": [
+      "The theoretical results indicate that pre-training may not significantly improve performance in certain hard cases, which could lead to overconfidence in RL systems that are not adequately tested in real environments.",
+      "Without test-time interactions, achieving near-optimal performance in unseen environments is statistically intractable, which could result in deploying ineffective RL policies in critical applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02261_Settling_the_Reward_Hypothesis",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper aims to clarify the reward hypothesis, which could lead to more effective reinforcement learning systems that better achieve goals and purposes in various applications, potentially improving AI systems' alignment with human values.",
+      "The introduction of a new axiom (Temporal γ-Indifference) could enhance the expressivity of reward functions in reinforcement learning, leading to more sophisticated AI applications."
+    ],
+    "negative_examples": [
+      "The paper discusses challenges to the reward hypothesis, including human irrationality and the limitations of Markov rewards, which could lead to AI systems that do not align with human preferences or values.",
+      "The exploration of multiple objectives and constrained MDPs may introduce complexities that could result in unintended consequences in AI decision-making, such as prioritizing certain objectives over others in ways that are not aligned with societal values."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02383_Bidirectional_Adaptation_for_Robust_Semi-Supervised_Learning_with_Inconsistent_Data_Distributions",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed Bidirectional Adaptation framework enhances the performance of semi-supervised learning (SSL) algorithms, which can lead to better outcomes in various applications such as image classification, object detection, and text classification.",
+      "The framework aims to effectively utilize unlabeled data from inconsistent distributions, thereby expanding the scope and value of SSL in real-world applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02496_Dynamic_Regularized_Sharpness_Aware_Minimization_in_Federated_Learning_Approaching_Global_Consistency_and_Smooth_Landsca",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed FedSMOO algorithm improves the performance of federated learning (FL) by ensuring global consistency and generalization, which can enhance the effectiveness of collaborative machine learning across diverse datasets.",
+      "FedSMOO achieves a faster convergence rate and higher generalization accuracy, particularly in scenarios with high data heterogeneity, which can lead to better model performance in real-world applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02539_OCD_Learning_to_Overfit_with_Conditional_Diffusion_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves accuracy in image classification tasks, achieving state-of-the-art results in datasets like CIFAR10 and TinyImageNet.",
+      "Enhances performance in diverse applications such as image synthesis, speech separation, and few-shot natural language processing, benefiting various fields including healthcare and education."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02569_Human-Timescale_Adaptation_in_an_Open-Ended_Task_Space",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "AdA demonstrates human-timescale adaptation, which could enhance the efficiency of AI systems in real-world applications, such as robotics and automation.",
+      "The ability of AdA to adapt quickly to new tasks can lead to more effective AI agents in various fields, including healthcare, where rapid adaptation to new medical data can improve patient outcomes."
+    ],
+    "negative_examples": [
+      "The potential for misuse of adaptive AI agents in harmful ways, such as in surveillance or autonomous weapons.",
+      "The risk of job displacement as AI agents become capable of performing tasks traditionally done by humans, particularly in sectors like manufacturing and service industries."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02640_Generalized_Teacher_Forcing_for_Learning_Chaotic_Dynamics",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed method allows for faithful reconstruction of chaotic dynamical systems, which can lead to better predictions in fields such as climate dynamics and epidemiology.",
+      "The algorithm is highly interpretable, enabling rigorous scientific and mathematical analysis of complex systems like the brain and social networks."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02744_Equivariant_Architectures_for_Learning_in_Deep_Weight_Spaces",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "DWSNets can adapt pre-trained networks to new domains, improving their applicability in various tasks.",
+      "The architecture shows advantages in tasks such as INR classification and adapting networks to new domains, indicating potential for broader applications in machine learning."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02792_On_the_Statistical_Benefits_of_Temporal_Difference_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Temporal difference learning (TD) can vastly outperform direct estimation methods like Monte Carlo (MC), leading to more accurate predictions in reinforcement learning applications.",
+      "TD's benefits are enhanced for advantage estimation, which can significantly improve decision-making processes in various fields such as healthcare and robotics."
+    ],
+    "negative_examples": [
+      "If the conversion probability among users who visit the checkout page depends strongly on which page design they saw, the Markov property does not hold and TD is biased, leading to potential misestimations.",
+      "The choice of state representation can lead to severe approximation errors if too much past information is retained, negating the benefits of TD."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02808_TRAK_Attributing_Model_Behavior_at_Scale",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "TRAK can improve the quality of training data, which generally enhances model performance.",
+      "TRAK is useful in applications such as explaining predictions, debugging model behavior, and detecting poisoned or mislabeled data."
+    ],
+    "negative_examples": [
+      "The reliance on large datasets for training may lead to privacy risks if sensitive data is included.",
+      "The computational demands of training models, even with TRAK's efficiency, could contribute to increased energy consumption."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02819_DetectGPT_Zero-Shot_Machine-Generated_Text_Detection_using_Probability_Curvature",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "DetectGPT improves detection of fake news articles generated by large language models, increasing confidence in the human origin of text consumed by readers and teachers.",
+      "The method provides a zero-shot approach to detecting machine-generated text, which can help in educational settings by ensuring fair student assessments."
+    ],
+    "negative_examples": [
+      "The use of LLMs for generating content can lead to substantial factual errors in articles, impairing the quality of information available to the public.",
+      "LLMs may replace human labor in contexts like student essay writing and journalism, making fair assessment difficult and potentially leading to job displacement."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02841_A_Watermark_for_Large_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The watermark can mitigate potential harms of large language models by embedding signals into generated text that are algorithmically detectable, thus helping to combat malicious uses such as social engineering and election manipulation.",
+      "The watermarking framework allows for the detection of machine-generated text, which can help in identifying and reducing the spread of fake news and misinformation."
+    ],
+    "negative_examples": [
+      "The paper discusses the risk of large language models being used for malicious purposes, including social engineering and election manipulation campaigns.",
+      "The proliferation of synthetic data complicates future dataset creation efforts, as synthetic data is often inferior to human content and must be detected and excluded before model training."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02882_Interventional_Causal_Representation_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper explores how interventional data can facilitate causal representation learning, which can improve the adaptability of AI models to new situations and tasks, similar to human learning capabilities.",
+      "The findings can enhance applications in fields like robotics and genomics, where understanding causal relationships is crucial for advancements."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02897_Why_does_Throwing_Away_Data_Improve_Worst-Group_Error",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves worst-group-error in classification tasks, which can lead to better performance for minority groups in applications like medical diagnosis and credit fraud detection.",
+      "The use of subsampling to balance data can enhance fairness in machine learning models, ensuring that classifiers do not favor majority groups over minority groups."
+    ],
+    "negative_examples": [
+      "Potential for misuse in applications where biased classifiers could lead to unfair treatment of individuals from minority groups.",
+      "The reliance on data subsampling may inadvertently lead to loss of valuable information from the majority class, which could affect the overall performance of the model."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02900_Adversarial_Policies_Beat_Superhuman_Go_AIs",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The adversarial policies can uncover vulnerabilities in AI systems, leading to improved robustness in future AI designs.",
+      "The research highlights the need for robust training and adversarial defense techniques, which can enhance the reliability of AI systems in safety-critical applications."
+    ],
+    "negative_examples": [
+      "The findings suggest that even superhuman AI systems may harbor serious vulnerabilities, which could be exploited in real-world applications.",
+      "Failures in AI systems like those discussed could have dire consequences in safety-critical systems such as automated financial trading or autonomous vehicles."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "02902_Generalization_on_the_Unseen_Logic_Reasoning_and_Degree_Curriculum",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The introduction of the Degree-Curriculum algorithm which improves the efficiency of learning monomials by incrementing supports, potentially leading to better educational tools in AI.",
+      "The paper addresses the challenge of out-of-distribution generalization, which can enhance the robustness of AI systems in real-world applications."
+    ],
+    "negative_examples": [
+      "The min-degree bias may impede the learning of symmetric solutions, which could limit the effectiveness of AI in tasks requiring symmetry or compositionality.",
+      "The paper suggests that the min-degree bias can make length generalization difficult, which may hinder the performance of AI systems in tasks that require understanding of longer or more complex inputs."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03008_Delving_into_Noisy_Label_Detection_with_Clean_Data",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "BHN achieves state-of-the-art performance in noisy label detection, improving the accuracy of models trained on noisy datasets, which can lead to better decision-making in applications like healthcare and autonomous driving.",
+      "The method leverages clean data to enhance the detection of noisy labels, potentially leading to more reliable AI systems that can be used in critical areas such as medical diagnosis and safety systems."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03136_Subsample_Ridge_Ensembles_Equivalences_and_Generalized_Cross-Validation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper provides a method for tuning ridge regression models using generalized cross-validation (GCV), which can lead to more accurate predictions in various applications such as healthcare and finance.",
+      "The findings can improve the performance of ensemble methods in machine learning, potentially leading to better decision-making in critical areas."
+    ],
+    "negative_examples": [
+      "The paper discusses the limitations of split cross-validation, which can introduce randomness and reduce sample size, potentially leading to less reliable predictions.",
+      "The inconsistency of GCV for finite ensembles, particularly when the ensemble size is small, may lead to suboptimal model performance in real-world applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03264_Understanding_Plasticity_in_Neural_Networks",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves the adaptability and robustness of deep reinforcement learning systems, which can lead to better performance in complex and constantly-changing environments.",
+      "Identifies architectural choices that can help preserve plasticity in neural networks, potentially leading to more effective AI applications."
+    ],
+    "negative_examples": [
+      "Loss of plasticity in neural networks can lead to reduced performance on new tasks, which may hinder the development of reliable AI systems.",
+      "The findings suggest that existing methods to promote trainability may not be effective across all scenarios, potentially leading to inefficiencies in AI training processes."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03276_Tight_Data_Access_Bounds_for_Private_Top-k_Selection",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The algorithm provides a sublinear data access cost for private top-k selection, which can enhance the efficiency of data analytics systems while maintaining client privacy.",
+      "The work contributes to the field of differential privacy, which is crucial for protecting sensitive data in various applications such as healthcare and finance."
+    ],
+    "negative_examples": [
+      "The paper discusses the potential for misuse of differential privacy techniques, which could lead to privacy risks if not implemented correctly.",
+      "There is a risk that the algorithms could be used in ways that compromise individual privacy, especially if the privacy parameters are not set appropriately."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03363_Learning_Mixtures_of_Markov_Chains_and_MDPs",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The algorithm can efficiently cluster a mixture of time series data, which has applications in various fields such as psychology, economics, automobile sensing, biology, and neuroscience.",
+      "The method provides end-to-end performance guarantees, achieving high accuracy in clustering MDPs, which can improve decision-making processes in real-world applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03479_Cross-Modal_Fine-Tuning_Align_then_Refine",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Effective cross-modal fine-tuning could have immense impact on less-studied areas, such as physical and life sciences, healthcare, and finance.",
+      "Applying models pretrained in data-rich modalities to new problems can potentially alleviate modeling and data concerns, reducing the human effort needed to develop high-quality task-specific models."
+    ],
+    "negative_examples": [],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "03480_Nonparametric_Extensions_of_Randomized_Response_for_Private_Confidence_Sets",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The methods can be used to conduct private online A/B tests, which allows for meaningful population-level information extraction while preserving individual privacy.",
+      "The introduction of a nonparametric and sequentially interactive generalization of Warner’s randomized response mechanism enhances privacy in data collection."
+    ],
+    "negative_examples": [
+      "The paper discusses the challenges of calculating confidence intervals under local differential privacy constraints, which may introduce uncertainty in statistical inference.",
+      "The stronger privacy guarantees of local differential privacy (LDP) require more noise to be added, potentially leading to less accurate data analysis."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03567_Whose_Opinions_Do_Language_Models_Reflect",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The framework developed for evaluating language models (LMs) can help identify whose opinions are reflected by LMs, potentially leading to more representative and fair AI systems.",
+      "The OpinionQA dataset allows for a better understanding of model behavior and can help developers improve alignment with diverse human opinions."
+    ],
+    "negative_examples": [
+      "Substantial misalignment between the views reflected by current LMs and those of US demographic groups, which can lead to misrepresentation of public opinion.",
+      "The tendency of LMs to express dominant viewpoints of certain groups (e.g., left-leaning opinions) can exacerbate polarization and create echo chambers."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03603_Uncertain_Evidence_in_Probabilistic_Models_and_Stochastic_Simulators",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves Bayesian inference methods by providing guidelines on how to account for uncertain evidence, which can enhance decision-making in various fields such as physics and astronomy.",
+      "Facilitates better interpretation of uncertain evidence in probabilistic models, potentially leading to more accurate scientific measurements and predictions."
+    ],
+    "negative_examples": [
+      "Misinterpretations of uncertain evidence can lead to vastly different inference results, which may result in incorrect conclusions in scientific research.",
+      "The paper highlights that practitioners outside the field of statistics may misinterpret uncertain evidence, leading to erroneous applications in real-world scenarios."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03604_Mimetic_Initialization_of_Self-Attention_Layers",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves training efficiency of Vision Transformers on small datasets, leading to higher accuracy in image classification tasks such as CIFAR-10 and ImageNet.",
+      "Provides a learning-free initialization technique that can reduce the need for extensive pretraining, making advanced AI techniques more accessible to researchers with limited resources."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03617_Data_Feedback_Loops_Model-driven_Amplification_of_Dataset_Biases",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Proposes an intervention to help mitigate and stabilize unstable feedback systems in machine learning models.",
+      "Demonstrates that models exhibiting sampling-like behavior are more stable and faithful, potentially leading to better model performance."
+    ],
+    "negative_examples": [
+      "Data feedback loops can selectively amplify certain biases, making it harder to tune models to be unbiased.",
+      "The utility of the internet as a data source may decrease rapidly as model outputs replace human annotations, leading to a degradation of data quality.",
+      "Bias amplification in model predictions can exacerbate existing societal biases, such as gender bias in visual role-labeling tasks."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03692_When_Personalization_Harms_Performance_Reconsidering_the_Use_of_Group_Attributes_in_Prediction",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Formal conditions to ensure the fair use of group attributes in prediction tasks can improve model performance for specific groups.",
+      "The study highlights the need to evaluate fair use when personalizing models, which can lead to better health outcomes in clinical applications."
+    ],
+    "negative_examples": [
+      "Personalization with group attributes can inadvertently reduce performance at a group level, leading to worse decisions and health outcomes.",
+      "Inaccurate predictions due to fair use violations may inflict harm, especially in clinical applications where they can lead to worse health outcomes."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03706_Arithmetic_Sampling_Parallel_Diverse_Decoding_for_Large_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves diversity of outputs in language models, which can enhance applications like machine translation and summarization.",
+      "Reduces estimation variance for BLEU and ROUGE scores, leading to more reliable performance metrics in natural language processing tasks.",
+      "Compatible with existing inference methods, allowing for broader application in various NLP tasks."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03709_How_Bad_is_Top-K_Recommendation_under_Competing_Content_Creators",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The study shows that the top-K recommendation policy can improve user satisfaction by providing relevant content based on predicted relevance, which can enhance user engagement and welfare.",
+      "The results indicate that content creation competitions can be efficient under properly set incentives, aligning with the 'invisible hand' concept of market efficiency."
+    ],
+    "negative_examples": [
+      "The competition among content creators can lead to a loss of social welfare, as creators may focus on homogeneous content that does not cater to diverse user interests, potentially harming niche content creators.",
+      "If creators are incentivized to maximize user exposure rather than engagement, it can lead to worse welfare outcomes, as seen in the constructed game instances where user welfare can be very low."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03753_Equivariant_Polynomials_for_Graph_Neural_Networks",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Enhances the expressivity of common GNN architectures leading to state-of-the-art results in graph learning benchmarks.",
+      "Provides tools for evaluating the expressiveness of GNNs, which can lead to improved model designs and applications in various fields such as molecular property prediction."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03790_Differentially_Private_Hierarchical_Clustering_with_Provable_Approximation_Guarantees",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The algorithms proposed provide differentially private hierarchical clustering, which can protect sensitive user data in applications like social networks and bioinformatics.",
+      "The work addresses the need for privacy-preserving algorithms in hierarchical clustering, which is crucial for handling sensitive data."
+    ],
+    "negative_examples": [
+      "The algorithms may still exhibit significant additive error, which could lead to inaccurate clustering results, potentially affecting decision-making processes.",
+      "The strong lower bounds on the performance of differentially private algorithms indicate that there may be limitations in their effectiveness, which could lead to privacy risks if not properly managed."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03801_Semi_Bandit_dynamics_in_Congestion_Games_Convergence_to_Nash_Equilibrium_and_No-Regret_Guarantees",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed algorithm, Semi-Bandit Gradient Descent with Caratheodory Exploration (SBGD-CE), provides no-regret guarantees, which can lead to more efficient resource allocation in congestion games, potentially improving traffic flow and reducing congestion in real-world applications.",
+      "The algorithm converges to Nash Equilibria, which can enhance the stability of multi-agent systems in various applications, such as network routing and resource management."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03818_Mu2SLAM_Multitask_Multilingual_Speech_and_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Establishes a new state-of-the-art for models trained on public datasets, improving translation accuracy by 1.9 BLEU points on xx-en and 1.1 BLEU points on en-xx, which can enhance communication across languages.",
+      "Improves performance on multilingual text understanding tasks, getting closer to the performance of existing models, thus potentially benefiting global communication and understanding."
+    ],
+    "negative_examples": [
+      "Potential for misuse in generating misleading or harmful content due to the capabilities of the model in understanding and generating text and speech.",
+      "Risk of bias amplification if the model is trained on biased datasets, which could lead to unfair treatment of certain language groups or demographics."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03848_Adapting_to_game_trees_in_zero-sum_imperfect_information_games",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The algorithms proposed (Balanced FTRL and Adaptive FTRL) aim to learn ε-optimal strategies in zero-sum imperfect information games, which can enhance decision-making in competitive environments such as finance and strategic games.",
+      "The work contributes to the field of game theory and machine learning, potentially leading to advancements in AI applications that require strategic reasoning."
+    ],
+    "negative_examples": [
+      "The algorithms may be misused in competitive environments, leading to unethical behavior or exploitation of weaknesses in opponents' strategies.",
+      "There is a risk of bias amplification if the algorithms are trained on biased data, which could lead to unfair outcomes in applications like automated decision-making systems."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03867_Transformer-based_Stagewise_Decomposition_for_Large-Scale_Multistage_Stochastic_Optimization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "TranSDDP significantly reduces computation time while preserving solution quality, which can lead to more efficient decision-making in large-scale multistage stochastic programming problems.",
+      "The proposed models can quickly generate solutions for a family of similar problems, which is beneficial in scenarios requiring rapid responses, such as energy planning and financial management."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03868_Facial_Expression_Recognition_with_Adaptive_Frame_Rate_based_on_Multiple_Testing_Correction",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improvement of trustworthiness in decision-making by maintaining only one hyper-parameter (false acceptance rate)",
+      "Faster decision-making in facial expression recognition (2-40 times lower running time)",
+      "Applicability with arbitrary neural network models without the need to re-train these models"
+    ],
+    "negative_examples": [
+      "Potential misuse in surveillance or privacy invasion due to facial recognition technology",
+      "Dependence on the number of frames T to predict facial expressions, which may limit adaptability in real-time scenarios",
+      "Risk of bias in emotion recognition due to ambiguous labeling in datasets"
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03906_Same_Pre-training_Loss_Better_Downstream_Implicit_Bias_Matters_for_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves performance of various downstream tasks by better understanding the implicit bias in language models.",
+      "Identifies ways to produce models with the same pre-training loss but different downstream performance, potentially leading to more effective language models."
+    ],
+    "negative_examples": [
+      "The implicit bias in pre-training algorithms may lead to models that perform poorly on certain downstream tasks despite having similar pre-training losses.",
+      "Models trained with adversarial algorithms or improper regularization can have worse downstream performance, indicating a risk of suboptimal model deployment."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "03999_Pre-training_for_Speech_Translation_CTC_Meets_Optimal_Transport",
+    "q1_default": false,
+    "q2_positive": false,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [
+      "The technology developed in this work can be used in surveillance systems, which might raise privacy concerns. Considerations should be taken when releasing or deploying these models to the public."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "04007_Towards_Theoretical_Understanding_of_Inverse_Reinforcement_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper aims to improve the understanding of inverse reinforcement learning (IRL), which can lead to better interpretability of expert behavior in various applications, such as healthcare and autonomous systems.",
+      "The ability to retrieve a representation of the expert's reward can enhance the training of artificial agents, making them more effective in real-world tasks."
+    ],
+    "negative_examples": [
+      "The ambiguity in the choice of the reward function in IRL can lead to misinterpretations of expert behavior, potentially resulting in harmful decisions in critical applications like healthcare or autonomous driving.",
+      "The paper discusses the risk of multiple reward functions explaining the same behavior, which could lead to inconsistent or biased outcomes in AI systems."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04018_Direct_Parameterization_of_Lipschitz-Bounded_Deep_Networks",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The new parameterization can control a model’s sensitivity to adversarial inputs, which is critical in applications requiring certifiable robustness.",
+      "Lipschitz-bounded networks can stabilize the learning of generative adversarial networks, improving their reliability in generating data.",
+      "The proposed method can enhance the robustness of neural networks in robotics applications, ensuring safe learning and control."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04043_HETAL_Efficient_Privacy-preserving_Transfer_Learning_with_Homomorphic_Encryption",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "HETAL protects the client’s privacy in training tasks for transfer learning by encrypting the client data using homomorphic encryption, which addresses data privacy concerns in machine learning as a service settings.",
+      "The proposed method achieves almost the same accuracy as non-encrypted training while ensuring data privacy, which can enhance trust in machine learning applications."
+    ],
+    "negative_examples": [
+      "The server may attempt to learn all possible information from legitimately received messages, posing a risk of data leakage despite encryption.",
+      "The reliance on homomorphic encryption may lead to increased computational costs and energy consumption, which could be a concern in large-scale applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04066_Unifying_Nesterovs_Accelerated_Gradient_Methods_for_Convex_and_Strongly_Convex_Objective_Functions",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The unified AGM algorithm provides superior convergence guarantees for non-strongly convex objective functions, which can improve optimization efficiency in various applications such as machine learning and data analysis.",
+      "The framework developed in this paper can be applied to ill-conditioned strongly convex functions, which are common in real-world optimization problems, thus enhancing the performance of algorithms used in these contexts."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04138_GibbsDDRM_A_Partially_Collapsed_Gibbs_Sampler_for_Solving_Blind_Inverse_Problems_with_Denoising_Diffusion_Restoration",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "GibbsDDRM achieves high performance on blind image deblurring, which can enhance image quality in various applications such as photography and medical imaging.",
+      "The method also performs well in vocal dereverberation, improving audio quality for applications in music and communication."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04157_Hyena_Hierarchy_Towards_Larger_Convolutional_Language_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Hyena improves accuracy by more than 50 points over operators relying on state-spaces and other implicit and explicit methods.",
+      "Hyena operators are twice as fast as highly optimized attention at sequence length 8K, and 100× faster at sequence length 64K.",
+      "Hyena sets a new state-of-the-art for dense-attention-free architectures on language modeling in standard datasets (WIKITEXT103 and THE PILE).",
+      "Hyena achieves a 20% reduction in training compute required at sequence length 2K."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04173_Flipping_Coins_to_Estimate_Pseudocounts_for_Exploration_in_Reinforcement_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed method significantly outperforms existing approaches on challenging exploration tasks, which can lead to better performance in reinforcement learning applications such as robotics and gaming.",
+      "The method can be flexibly applied to a variety of observation spaces, potentially enhancing the effectiveness of AI systems in diverse real-world scenarios."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04219_Structure-informed_Language_Models_Are_Protein_Designers",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "LM-DESIGN improves the state-of-the-art results in protein design, leading to accuracy gains of 4% to 12% in sequence recovery on benchmarks.",
+      "The approach can synthesize diverse and structurally valid sequences, which is crucial for drug design and other biomedical applications.",
+      "LM-DESIGN can generalize to other proteins, including antibodies and de novo proteins, enhancing the potential for novel therapeutic developments."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04280_Bayes-optimal_Learning_of_Deep_Random_Networks_of_Extensive-width",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper proposes a closed-form expression for the Bayes-optimal test error, which can improve the performance of machine learning models in various applications such as healthcare and finance by providing a theoretical foundation for better learning algorithms.",
+      "The findings suggest that optimally regularized ridge regression and kernel regression achieve Bayes-optimal performances, which can enhance the accuracy of predictive models."
+    ],
+    "negative_examples": [
+      "The assumptions made in the study, such as the use of Gaussian input data and specific target functions, may not reflect real-world scenarios, leading to potential misapplications of the theoretical results in practical settings.",
+      "The reliance on deep learning methods may lead to increased computational costs and energy consumption, raising concerns about the environmental impact of deploying such models."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04332_Pythia_A_Suite_for_Analyzing_Large_Language_Models_Across_Training_and_Scaling",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Facilitates research in areas such as reducing gender bias in language models.",
+      "Provides public access to a suite of language models for scientific research, enabling novel insights into LLMs and their training dynamics."
+    ],
+    "negative_examples": [
+      "Potential for bias amplification as language models may reflect and amplify biases present in their training data.",
+      "Risk of misuse in generating misleading or harmful content due to the capabilities of large language models."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04334_Hierarchies_of_Reward_Machines",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Hierarchies of Reward Machines (HRMs) enable faster convergence in reinforcement learning tasks, which can lead to more efficient AI systems that can be applied in various domains such as robotics and automation.",
+      "The proposed curriculum-based method for learning HRMs from traces allows for the decomposition of complex tasks into simpler subtasks, making it easier to tackle long-horizon and sparse reward tasks."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04491_SparseProp_Efficient_Sparse_Backpropagation_for_Faster_Training_of_Neural_Networks_at_the_Edge",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "SparseProp can lead to end-to-end sparse transfer speedups of up to 1.85x, at similar accuracies, relative to CPU-based finetuning of dense models.",
+      "The algorithm provides practical runtime improvements for both from-scratch training and sparse transfer, making it viable for edge training scenarios.",
+      "The implementation supports pruning-during training methods, which can enhance model efficiency."
+    ],
+    "negative_examples": [
+      "The algorithm may lead to moderate accuracy loss during training, which could affect the performance of deployed models.",
+      "There is a risk of over-reliance on sparsity techniques that may not generalize well across different tasks or datasets, potentially leading to suboptimal model performance."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04497_Mastering_the_Unsupervised_Reinforcement_Learning_Benchmark_from_Pixels",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed method achieves 93.59% overall normalized performance on the Unsupervised RL Benchmark (URLB), indicating significant advancements in reinforcement learning capabilities.",
+      "The approach shows robust performance on the Real-World RL benchmark, hinting at resiliency to environment perturbations during adaptation, which can be beneficial for real-world applications.",
+      "The research aims to develop agents that can adapt with considerably less data to more complex and realistic tasks, potentially accelerating the deployment of AI in various fields."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04512_Spherical_Inducing_Features_for_Orthogonally-Decoupled_Gaussian_Processes",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves predictive performance in Gaussian processes, which can enhance decision-making in fields like healthcare and finance.",
+      "Provides a more scalable approach to Gaussian processes, making them applicable to larger datasets and real-world problems."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04556_Do_Perceptually_Aligned_Gradients_Imply_Robustness",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Promoting Perceptually Aligned Gradients (PAG) leads to more robust models, which can improve the safety of AI systems in real-world applications that affect human lives.",
+      "The findings can potentially pave the way for standard training methods for obtaining robust classifiers without adversarial training, making AI systems more reliable."
+    ],
+    "negative_examples": [
+      "The sensitivity of neural networks to minor corruptions raises significant safety concerns when deployed in real-world applications.",
+      "The paper discusses the potential for adversarial attacks, which can be exploited to cause misclassification in critical applications, posing risks to safety and security."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04585_Multicalibration_as_Boosting_for_Regression",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The algorithm can be analyzed as a boosting algorithm for regression that ensures multicalibration, which is a recent learning objective that has emerged from the algorithmic fairness literature, potentially improving fairness in predictions.",
+      "The empirical performance of the algorithm was evaluated on real Census derived data, which could lead to better income prediction models that benefit society."
+    ],
+    "negative_examples": [
+      "The algorithm is more prone to overfitting when allowed, which could lead to inaccurate predictions and potential misuse in sensitive applications.",
+      "If the weak learning condition is not satisfied, it could lead to models that are multicalibrated but not Bayes optimal, resulting in poor decision-making in critical areas."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04600_Evaluating_Self-Supervised_Learning_via_Risk_Decomposition",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The proposed SSL risk decomposition provides valuable insights for designing and using self-supervised learning models, which can lead to improved performance in various applications such as computer vision tasks.",
+      "The analysis of 169 pretrained SSL models and the effect of 30 design choices helps researchers and practitioners make informed decisions, potentially leading to advancements in the field."
+    ],
+    "negative_examples": [
+      "The paper highlights that some design choices trade off components, which could lead to suboptimal performance in specific settings, potentially causing inefficiencies in model deployment.",
+      "The findings suggest that the most important source of error in modern SSL is probe generalization, which could lead to models that do not generalize well in real-world applications, raising concerns about reliability."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04619_Efficient_RL_via_Disentangled_Environment_and_Agent_Representations",
+    "q1_default": false,
+    "q2_positive": false,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [],
+    "negative_examples": [
+      "SEAR's performance on learning representations for multi-task learning is not fully clear, indicating potential limitations in its application.",
+      "SEAR has not yet been tested on real-world environments, which raises concerns about its practical applicability and effectiveness.",
+      "SEAR does not provide any benefit over other approaches when the robot is not visible in the input image, which could limit its usability in certain scenarios."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "04622_SparseGPT_Massive_Language_Models_Can_be_Accurately_Pruned_in_One-Shot",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "SparseGPT allows for the pruning of large language models to at least 50% sparsity without retraining, which reduces computational costs and energy consumption during inference.",
+      "The method enables the use of massive language models on less powerful hardware, making advanced AI technologies more accessible to a wider audience.",
+      "By reducing the size of models, SparseGPT can facilitate faster deployment and lower the environmental impact associated with running large AI models."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04624_Robust_Budget_Pacing_with_a_Single_Sample",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper improves budget management for advertisers, allowing them to effectively manage their ad spending in a non-stationary environment, which can lead to more efficient advertising strategies.",
+      "By requiring only one sample per distribution for budget pacing, the proposed method reduces the data storage and operational challenges associated with historical data."
+    ],
+    "negative_examples": [
+      "The algorithm's performance is fragile to slight deviations between sampling and request distributions, which can lead to linear regret, potentially causing advertisers to overspend or underspend their budgets.",
+      "If the algorithm is misapplied or if the assumptions about the distributions are incorrect, it could lead to inefficient ad spending, harming advertisers' financial outcomes."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04632_RankMe_Assessing_the_Downstream_Performance_of_Pretrained_Self-Supervised_Representations_by_Their_Rank",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "RankMe allows practitioners to assess the performance of Joint-Embedding Self-Supervised Learning (JE-SSL) representations without requiring labels, facilitating deployment in domains with limited labeled data.",
+      "RankMe can improve hyperparameter selection for JE-SSL methods, leading to better model performance on unseen datasets, which can enhance the applicability of self-supervised learning in various fields."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04656_Pretraining_Language_Models_with_Human_Preferences",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Pretraining with human feedback reduces the rate of undesirable content by up to an order of magnitude, leading to language models that generate text aligned with human preferences.",
+      "Conditional training maintains the downstream task performance of standard LM pretraining, ensuring that models are both capable and aligned with human values."
+    ],
+    "negative_examples": [
+      "Language models are pretrained to imitate internet text, which may include falsehoods, offensive comments, and personally identifiable information (PII).",
+      "Even the most effective safety filters fail to catch a large amount of undesirable content, which poses risks of generating harmful language."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04695_Diffusion_Models_are_Minimax_Optimal_Distribution_Estimators",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper establishes that diffusion models can achieve nearly minimax optimal estimation rates, which can enhance the accuracy of generative models in various applications such as image, video, and audio generation.",
+      "The results advance theoretical understandings of diffusion modeling, potentially leading to better generative models that can create more realistic outputs."
+    ],
+    "negative_examples": [
+      "The paper does not explicitly address the potential misuse of diffusion models, which could lead to the generation of misleading or harmful content.",
+      "There is a risk of privacy violations if diffusion models are used to generate data that resembles real individuals without consent."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04724_Quantile_Credit_Assignment",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "QCA and HQCA significantly outperform prior state-of-the-art methods on a range of extremely difficult credit assignment problems, leading to faster policy improvement in reinforcement learning.",
+      "The proposed algorithms improve data efficiency in high-variance environments, enabling agents to have robust performance."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04738_Second-Order_Optimization_with_Lazy_Hessians",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed lazy Hessian updates significantly reduce the overall arithmetic complexity of second-order optimization schemes, making them more efficient for solving difficult ill-conditioned problems.",
+      "The methods developed can be applied to a wide range of convex and non-convex optimization problems, potentially benefiting various fields such as machine learning and operations research."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04754_Sketch-Flip-Merge_Mergeable_Sketches_for_Private_Distinct_Counting",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The proposed Sketch-Flip-Merge (SFM) method provides a practical, mergeable, and differentially private approach to distinct-count sketching, enabling safe cardinality estimation over sensitive multisets without revealing individual data.",
+      "The sketches allow organizations to perform data analysis while adhering to privacy standards, thus enhancing user trust and data security."
+    ],
+    "negative_examples": [
+      "The paper acknowledges that sketching alone does not provide privacy guarantees, which can lead to potential privacy risks if the underlying data is sensitive.",
+      "The introduction of noise for privacy can degrade the accuracy of cardinality estimates, which may lead to incorrect conclusions in data analysis."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04757_Self-Interpretable_Time_Series_Prediction_with_Counterfactual_Explanations",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves interpretability of time series predictions in safety-critical areas such as healthcare and autonomous driving.",
+      "Generates actionable counterfactual explanations that help users understand how to achieve desired outcomes in predictions."
+    ],
+    "negative_examples": [
+      "Counterfactual explanations may suggest changes to immutable variables (e.g., age, gender) that are infeasible and could lead to misunderstandings.",
+      "The reliance on deep learning models may introduce biases if the underlying data is biased, potentially affecting decision-making in critical areas."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04828_Adversarial_Example_Does_Good_Preventing_Painting_Imitation_from_Diffusion_Models_via_Adversarial_Examples",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The proposed method can protect human artists' copyrights against unauthorized use of their artworks by diffusion models.",
+      "Adversarial examples can effectively hinder diffusion models from extracting features and imitating art styles, thus preserving the integrity of original artworks."
+    ],
+    "negative_examples": [
+      "The paper highlights that copyright violations can occur when infringers use unauthorized paintings to train diffusion models, leading to potential legal issues for artists.",
+      "There is a risk that the technology could be misused by infringers to create unauthorized imitations of artworks, undermining the rights of original creators."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04836_Refining_Generative_Process_with_Discriminator_Guidance_in_Score-based_Diffusion_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Achieves state-of-the-art results on image generation tasks, improving sample quality and diversity in datasets like ImageNet, CIFAR-10, and CelebA/FFHQ.",
+      "The proposed Discriminator Guidance method enhances the realism of generated samples, making them indistinguishable from real data, which can benefit applications in creative industries."
+    ],
+    "negative_examples": [
+      "Potential for misuse in generating deepfake images, which can lead to misinformation and privacy violations.",
+      "The computational cost associated with training the discriminator and generating samples may contribute to increased energy consumption."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "04897_Exponential_Smoothing_for_Off-Policy_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed exponential smoothing method improves the performance of off-policy learning (OPL) in decision-making tasks, which can lead to better recommendations in various applications such as online advertising and personalized content delivery.",
+      "The paper demonstrates favorable performance through a set of learning tasks, indicating potential improvements in systems that rely on off-policy learning."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05032_Towards_Reliable_Neural_Specifications",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Advances in deep neural networks (DNNs) have brought a wide societal impact in many domains such as transportation, healthcare, finance, e-commerce, and education.",
+      "Achieving trustworthy AI has attracted much attention of the research community, which can lead to safer AI systems."
+    ],
+    "negative_examples": [
+      "Concerns about errors in AI software and their susceptibility to cyber-attacks.",
+      "The challenge of verification and validation of AI systems raises risks regarding AI system safety."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "05157_Specializing_Smaller_Language_Models_towards_Multi-Step_Reasoning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Specializing smaller models allows a larger range of researchers and practitioners to access multi-step reasoning capabilities, which were previously limited to larger models.",
+      "Improved performance on math reasoning tasks can enhance educational tools and resources, making them more effective for learners."
+    ],
+    "negative_examples": [
+      "Decreased performance on generic tasks (BigBench Hard) as a result of specialization, which may limit the model's versatility in other applications.",
+      "The specialization process may lead to overfitting on specific tasks, reducing the model's ability to generalize to new or varied tasks."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05169_Tighter_Lower_Bounds_for_Shuffling_SGD_Random_Permutations_and_Beyond",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper presents tighter lower bounds for without-replacement stochastic gradient descent (SGD), which can lead to faster convergence rates in machine learning applications, potentially improving efficiency in various fields such as healthcare and finance.",
+      "By optimizing SGD algorithms, the research can enhance the performance of machine learning models, which can be applied to improve decision-making processes in critical areas like climate modeling and resource management."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05181_Beyond_the_Universal_Law_of_Robustness_Sharper_Laws_for_Random_Features_and_Neural_Tangent_Kernels",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper provides a precise and quantitative characterization of how the robustness of the solution obtained via empirical risk minimization depends on the model at hand, which can lead to more reliable machine learning applications.",
+      "The findings can help improve the robustness of machine learning models against adversarial attacks, potentially enhancing their safety in real-world applications."
+    ],
+    "negative_examples": [
+      "Machine learning models are known to be vulnerable to adversarial perturbations, which raises serious concerns about their robustness guarantees.",
+      "The paper highlights that for random features, the model is not robust for any degree of over-parameterization, which could lead to increased risks in deploying such models in sensitive applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05270_Transformers_Learn_In-Context_by_Gradient_Descent",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Transformers demonstrate their superiority in numerous benchmarks and various fields of modern machine learning, potentially leading to advancements in AI applications.",
+      "The paper provides insights into in-context learning mechanisms, which could enhance the performance of AI systems in real-world tasks."
+    ],
+    "negative_examples": [
+      "The findings suggest that common architecture choices like softmax and LayerNorm may be suboptimal for in-context learning, which could lead to less effective AI systems.",
+      "The paper acknowledges that the mechanisms of in-context learning in Transformers are not fully understood, which raises concerns about their reliability and potential misuse."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05330_Do_the_Rewards_Justify_the_Means_Measuring_Trade-Offs_Between_Rewards_and_Ethical_Behavior_in_the_Machiavelli_Benchmark",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The benchmark aims to maximize total points while upholding values of TARGET BEHAVIOR, which could promote ethical decision-making in AI systems."
+    ],
+    "negative_examples": [
+      "The game setup implies that actions may have long-term consequences, which could lead to unethical behavior if players prioritize points over ethical considerations.",
+      "The focus on maximizing power and influence could encourage Machiavellian tactics, potentially leading to harmful societal impacts."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "05565_Tighter_Information-Theoretic_Generalization_Bounds_from_Supersamples",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper presents tighter information-theoretic generalization bounds that can improve the understanding of generalization properties in machine learning algorithms, potentially leading to better-performing models in various applications such as healthcare and finance.",
+      "The findings may help in designing new learning algorithms or discovering novel algorithm-dependent complexity measures, which can enhance the efficiency and effectiveness of machine learning systems."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05570_Representation_Learning_with_Multi-Step_Inverse_Kinematics_An_Efficient_and_Optimal_Approach_to_Rich-Observation_RL",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The algorithm MusIK is designed to be sample-efficient, which can lead to faster learning in reinforcement learning applications, potentially benefiting fields like robotics and autonomous systems.",
+      "MusIK can effectively navigate unknown environments using high-dimensional sensory inputs, which can improve the capabilities of robotic systems in real-world applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05582_Weighted_Flow_Diffusion_for_Local_Graph_Clustering_with_Node_Attributes_an_Algorithm_and_Statistical_Guarantees",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed algorithm improves local graph clustering performance by incorporating node attributes, leading to better community detection in large-scale graphs.",
+      "Empirical results show that incorporating node attributes improves F1 scores by an average of 4.3% over 20 clusters from two academic co-authorship networks."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05600_Inferring_Relational_Potentials_in_Interacting_Systems",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Understanding interactions across agents in a trajectory is fundamental to explain their present behavior and predict their future.",
+      "Applications such as molecular dynamics modeling or autonomous vehicles, which have a huge impact on our lives."
+    ],
+    "negative_examples": [
+      "Our approach may capture the implicit biases present in data.",
+      "Potential threat of attacks to systems that rely on interpretable models, which can be more easily targeted than those which are opaque."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "05669_Best_of_Both_Worlds_Policy_Optimization",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper presents a policy optimization algorithm that achieves better computational efficiency and robustness in reinforcement learning, which can lead to advancements in various applications such as robotics, healthcare, and autonomous systems.",
+      "The algorithm is designed to handle adversarial losses, making it more reliable in real-world scenarios where data may be corrupted or misleading."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05702_Reinforcement_Learning_from_Passive_Data_via_Latent_Intentions",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The approach learns from passive data by modeling intentions, which can lead to more efficient learning for RL agents.",
+      "The ability to learn from diverse passive data sources, such as human videos and YouTube videos, can enhance the generalization of RL agents in various applications, including human-assistive robots and dialogue agents."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05722_Deja_Vu_Contextual_Sparsity_for_Efficient_LLMs_at_Inference_Time",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "DEJAVU can reduce the inference latency of large language models (LLMs) by over 2× compared to state-of-the-art implementations, making LLMs more accessible for latency-sensitive applications.",
+      "The proposed method allows for efficient inference of LLMs without compromising their quality or in-context learning ability, potentially enabling broader use in various applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05728_Inflow_Outflow_and_Reciprocity_in_Machine_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The framework proposed can help ensure that individuals contributing data to machine learning models also benefit from them, promoting fairness in data usage.",
+      "In healthcare applications, models built from pooled data can predict disease risks, benefiting individuals who contribute their health data."
+    ],
+    "negative_examples": [
+      "In federated learning, entities may worry that contributing data will benefit competitors who do not contribute as much, leading to potential unfairness.",
+      "The paper discusses that individuals with large outflows and small inflows could be compensated, which implies a risk of creating inequities in data contribution and benefit."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05746_Rockmate_an_Efficient_Fast_Automatic_and_Generic_Tool_for_Re-materialization_in_PyTorch",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Rockmate reduces memory consumption for training deep neural networks by a factor of 2 to 5, allowing for larger models to be trained on limited hardware resources.",
+      "The tool is open source, promoting accessibility and collaboration in the AI research community, which can lead to broader societal benefits."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05760_A_Study_of_Global_and_Episodic_Bonuses_for_Exploration_in_Contextual_MDPs",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Efficient exploration reduces sample complexity, making real-world application more feasible.",
+      "Applications in video games, virtual reality, autonomous driving, robotics, and healthcare."
+    ],
+    "negative_examples": [
+      "Exploration methods can potentially cause harm if deployed in the real world without appropriate safety measures.",
+      "Seeking out novel states may lead to unpredicted behavior."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "05767_Robustly_Learning_a_Single_Neuron_via_Sharpness",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The algorithm provides a constant-factor approximate learner for the problem of agnostically learning a single neuron, which can improve machine learning applications in various fields such as healthcare and finance.",
+      "The results apply to a broad family of monotone activations, potentially enhancing the performance of neural networks in real-world applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05777_Learning_Control-Oriented_Dynamical_Structure_from_Data",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed method enables effective control design for autonomous systems, improving their stability and performance in complex environments.",
+      "The learning of control-oriented structures from data can enhance the efficiency of tracking controllers, leading to better performance in applications such as robotics and aerospace."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05871_Graphically_Structured_Diffusion_Models",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The framework automates the reasoning required to create approximate solutions to tasks such as sorting, Sudoku solving, and binary-continuous matrix factorization, which can enhance efficiency in algorithm development.",
+      "GSDM can generalize well to larger problem sizes than it was trained on, indicating its potential for scalability in real-world applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05878_Are_labels_informative_in_semi-supervised_learning_Estimating_and_leveraging_the_missing-data_mechanism",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Improves machine learning models by leveraging unlabeled data, particularly in medical datasets where labeling is costly or risky.",
+      "Demonstrates the performance of proposed methods on medical datasets, potentially leading to better healthcare outcomes."
+    ],
+    "negative_examples": [
+      "The presence of informative labels can lead to selection bias in the sample, which may result in non-identifiable parameters in models.",
+      "If the missing-data mechanism is not accurately modeled, it could lead to inaccurate predictions, particularly for less observed classes, which may have serious implications in medical contexts."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05915_Scaling_Vision_Transformers_to_22_Billion_Parameters",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Increases performance for all subgroups while minimizing disparities among them.",
+      "Human raters assisted in removing offensive content from the dataset."
+    ],
+    "negative_examples": [
+      "Should not be used for detecting demographic human features for non-ethical purposes.",
+      "Not approved for use in applications like surveillance, law enforcement, healthcare, or hiring and employment without ethical risk mitigation measures."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "05918_Task-specific_experimental_design_for_treatment_effect_estimation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The method requires about an order-of-magnitude less data to match RCT performance on targeted marketing tasks, which can lead to more efficient resource use in marketing campaigns.",
+      "The approach can improve treatment effect estimation in clinical trials, potentially leading to better healthcare outcomes for patients."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "05999_Analysis_of_Error_Feedback_in_Federated_Non-Convex_Optimization_with_Biased_Compression_Fast_Convergence_and_Partial_Par",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Fed-EF achieves the same performance as the full-precision FL approach, at a substantially reduced communication cost, which can benefit applications in wireless communications and IoT.",
+      "The proposed method can be applied in various fields such as financial fraud detection, public health records, and advertising, improving efficiency in these sectors."
+    ],
+    "negative_examples": [
+      "The paper discusses a potential theoretical limitation of error feedback under partial participation, which may slow down convergence due to 'delayed error compensation' effects.",
+      "The use of biased compression could lead to divergence or worse generalization performance if not handled properly, posing risks in practical applications."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06009_Spherical_Fourier_Neural_Operators_Learning_Stable_Dynamics_on_the_Sphere",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The SFNO has important implications for machine learning-based simulation of climate dynamics that could eventually help accelerate our response to climate change.",
+      "The proposed method enables long-term weather forecasting significantly more accessible, allowing predictions for an entire year to be computed within 13 minutes on a single GPU.",
+      "The SFNO architecture has predictive skill comparable to state-of-the-art models in numerical weather prediction, which can improve climate prediction and adaptation efforts."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06033_The_Price_of_Differential_Privacy_under_Continual_Observation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper discusses the application of differential privacy in continual release models, which can enhance privacy in systems like COVID-19 dashboards and recommendation systems, thereby protecting individual data while providing useful statistics.",
+      "The mechanisms developed can improve the accuracy of data analysis in sensitive applications, such as public health and machine learning, while ensuring privacy."
+    ],
+    "negative_examples": [
+      "The continual release model may lead to increased error rates in data outputs compared to batch models, which could mislead users relying on these statistics for decision-making.",
+      "The complexity of ensuring privacy in adaptive settings may lead to potential misuse or misunderstanding of the privacy guarantees, especially if users are not aware of the limitations."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06102_Warm-Start_Actor-Critic_From_Approximation_Error_to_Sub-optimality_Gap",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "Warm-Start reinforcement learning can significantly accelerate online learning, improving efficiency in applications like portfolio management and vehicle control.",
+      "The findings can enhance the performance of reinforcement learning algorithms, potentially leading to better decision-making systems in various fields."
+    ],
+    "negative_examples": [
+      "Approximation errors in the Actor and Critic updates can lead to slower convergence and degraded learning performance, which may hinder the effectiveness of the algorithms in real-world applications.",
+      "The potential for biased approximation errors to propagate through the learning process, leading to sub-optimal policies even with a good warm-start policy."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06159_Resurrecting_Recurrent_Neural_Networks_for_Long_Sequences",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The introduction of the Linear Recurrent Unit (LRU) allows for efficient modeling of long sequences, which can enhance applications in natural language processing and other sequential data tasks.",
+      "The improvements in training speed and performance of RNNs can lead to more accessible and faster AI solutions in various fields, such as healthcare and finance."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06238_Which_Features_are_Learnt_by_Contrastive_Learning_On_the_Role_of_Simplicity_Bias_in_Class_Collapse_and_Feature_Suppressi",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "The paper provides a unified theoretical framework to understand feature learning in contrastive learning, which can lead to improved representation quality in machine learning models, potentially benefiting various applications such as image classification and natural language processing.",
+      "The findings suggest practical solutions to feature suppression, such as increasing embedding dimensionality and improving data augmentations, which can enhance the performance of machine learning systems."
+    ],
+    "negative_examples": [
+      "The paper highlights the risk of class collapse in supervised contrastive learning, where subclasses within a class may become indistinguishable, leading to poor classification performance at the subclass level.",
+      "Feature suppression in unsupervised contrastive learning can occur, where easier but class-irrelevant features suppress the learning of harder class-relevant features, deteriorating the generalizability of the obtained representations."
+    ],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06282_Active_Ranking_of_Experts_Based_on_their_Performances_in_Many_Tasks",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The paper discusses applications in recommender systems, which can enhance user experience by providing personalized recommendations for films, music, and books.",
+      "The ranking of experts based on their performance can lead to better decision-making in various fields, such as sports analytics, improving the quality of player evaluations."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06337_Self-Repellent_Random_Walks_on_General_Graphs_-_Achieving_Minimal_Sampling_Variance_via_Nonlinear_Markov_Chains",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The Self-Repellent Random Walk (SRRW) method improves the efficiency of Markov Chain Monte Carlo (MCMC) sampling, which can enhance statistical inference and learning in various applications such as distributed optimization and unbiased graph sampling.",
+      "The paper demonstrates that larger values of the self-repellence parameter α lead to smaller asymptotic sampling variance, which can improve the accuracy of estimators in practical applications."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06436_Tractable_Control_for_Autoregressive_Language_Generation",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "GeLaTo achieves state-of-the-art performance on challenging benchmarks for constrained text generation, ensuring that generated text satisfies complex lexical constraints, which can improve the quality of automated content generation in various applications such as summarization and creative writing.",
+      "The framework opens up new avenues for controlling large language models, potentially leading to more reliable and contextually appropriate text generation in applications like customer service and content creation."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06534_Using_Large_Language_Models_to_Simulate_Multiple_Humans_and_Replicate_Human_Subject_Studies",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": true,
+    "q4_more_positive": false,
+    "positive_examples": [
+      "TEs may inform the design of costly experiments, potentially leading to more efficient research methodologies.",
+      "TEs provide insight into human behaviors captured in AI systems, which can improve the understanding of AI's capabilities."
+    ],
+    "negative_examples": [
+      "Unrealistic models of human numerical knowledge and accuracy may lead to misinterpretations of AI capabilities.",
+      "Ethical considerations, limitations, and risks associated with TEs are discussed, indicating potential negative implications."
+    ],
+    "impact_found": true,
+    "year": "2023"
+  },
+  {
+    "title": "06548_H-Likelihood_Approach_to_Deep_Neural_Networks_with_Temporal-Spatial_Random_Effects_for_High-Cardinality_Categorical_Feat",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed h-likelihood approach provides exact maximum likelihood estimators (MLEs) for both mean and dispersion parameters, enhancing predictive performance in various applications such as income prediction and air quality analysis.",
+      "The method outperforms existing methods, improving the accuracy of predictions in real-world datasets, which can lead to better decision-making in public health and environmental policies."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06664_Provably_Learning_Object-Centric_Representations",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves generalization abilities of machine learning models by learning object-centric representations, which can enhance cognitive abilities such as compositional generalization and causal reasoning.",
+      "Lays the groundwork for developing more effective learning methods in unsupervised object-centric representation learning."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06673_JAWS-X_Addressing_Efficiency_Bottlenecks_of_Conformal_Prediction_Under_Standard_and_Feedback_Covariate_Shift",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Improves predictive uncertainty quantification in high-stakes decision-making scenarios, such as biomolecular design and active learning tasks.",
+      "Demonstrates practical performance improvements in real-world datasets, leading to better model performance and sharper predictive intervals."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06684_Pix2Struct_Screenshot_Parsing_as_Pretraining_for_Visual_Language_Understanding",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Pix2Struct achieves state-of-the-art results in six out of nine tasks across four domains: documents, illustrations, user interfaces, and natural images, which can enhance accessibility and understanding of visual information.",
+      "The model simplifies the process of visually-situated language understanding, potentially benefiting applications in education, user interface design, and accessibility for visually impaired users."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06716_Bayesian_Design_Principles_for_Frequentist_Sequential_Learning",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "The proposed algorithms achieve 'best-of-all-worlds' empirical performance in stochastic, adversarial, and non-stationary environments, which can enhance decision-making in various applications such as personalized recommendations and control systems.",
+      "The algorithms are simple and often efficient to implement, making them accessible for practical applications in fields like healthcare and finance."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  },
+  {
+    "title": "06792_Taming_graph_kernels_with_random_features",
+    "q1_default": false,
+    "q2_positive": true,
+    "q3_negative": false,
+    "q4_more_positive": true,
+    "positive_examples": [
+      "Substantial computational gains for smaller graphs, improving efficiency in graph kernel applications.",
+      "Facilitates the use of graph kernels in larger networks, making advanced machine learning techniques more accessible."
+    ],
+    "negative_examples": [],
+    "impact_found": false,
+    "year": "2023"
+  }
+]

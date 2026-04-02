@@ -1,0 +1,19 @@
+{
+  "title": "08232_Generative_Social_Choice_The_Next_Generation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances the integration of social-choice-inspired algorithms with provable fairness guarantees.",
+    "Contributes to the methodological foundations of scalable civic participation.",
+    "Enables new paradigms in democratic decision-making."
+  ],
+  "negative_examples": [
+    "LLMs may favor or disfavor certain viewpoints, leading to distorted representation.",
+    "LLM-generated outputs are inherently opaque and may lack reliability.",
+    "Directly inputting user comments into the LLM could expose the process to adversarial attacks."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

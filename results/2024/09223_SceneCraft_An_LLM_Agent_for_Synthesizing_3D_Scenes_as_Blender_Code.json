@@ -1,0 +1,14 @@
+{
+  "title": "09223_SceneCraft_An_LLM_Agent_for_Synthesizing_3D_Scenes_as_Blender_Code",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Advances text-to-3D scene synthesis for gaming, cinematic, and design industries.",
+    "Benefits industries by providing a non-parametric skill library from synthetic queries without using private information."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

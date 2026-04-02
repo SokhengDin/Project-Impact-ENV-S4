@@ -1,0 +1,15 @@
+{
+  "title": "01274_Multi-agent_Architecture_Search_via_Agentic_Supernet",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enables fine-grained resource allocation tailored to query difficulty and domain",
+    "Significantly improves efficiency while maintaining high-quality outputs",
+    "Potential to democratize access to intelligent automation across diverse applications, including education, research, and industry"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

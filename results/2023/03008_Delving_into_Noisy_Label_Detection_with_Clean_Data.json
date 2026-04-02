@@ -1,0 +1,14 @@
+{
+  "title": "03008_Delving_into_Noisy_Label_Detection_with_Clean_Data",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "BHN achieves state-of-the-art performance in noisy label detection, improving the accuracy of models trained on noisy datasets, which can lead to better decision-making in applications like healthcare and autonomous driving.",
+    "The method leverages clean data to enhance the detection of noisy labels, potentially leading to more reliable AI systems that can be used in critical areas such as medical diagnosis and safety systems."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "04219_Structure-informed_Language_Models_Are_Protein_Designers",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "LM-DESIGN improves the state-of-the-art results in protein design, leading to accuracy gains of 4% to 12% in sequence recovery on benchmarks.",
+    "The approach can synthesize diverse and structurally valid sequences, which is crucial for drug design and other biomedical applications.",
+    "LM-DESIGN can generalize to other proteins, including antibodies and de novo proteins, enhancing the potential for novel therapeutic developments."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

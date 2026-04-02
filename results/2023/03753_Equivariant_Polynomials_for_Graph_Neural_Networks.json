@@ -1,0 +1,14 @@
+{
+  "title": "03753_Equivariant_Polynomials_for_Graph_Neural_Networks",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Enhances the expressivity of common GNN architectures leading to state-of-the-art results in graph learning benchmarks.",
+    "Provides tools for evaluating the expressiveness of GNNs, which can lead to improved model designs and applications in various fields such as molecular property prediction."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

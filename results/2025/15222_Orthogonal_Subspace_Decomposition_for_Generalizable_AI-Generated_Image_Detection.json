@@ -1,0 +1,17 @@
+{
+  "title": "15222_Orthogonal_Subspace_Decomposition_for_Generalizable_AI-Generated_Image_Detection",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Advances application-driven machine learning by proposing a novel method for detecting AI-generated images.",
+    "Holds significant potential for positive social impact by effectively identifying deepfakes and curbing malicious uses of generative models."
+  ],
+  "negative_examples": [
+    "Possible misuse of the method to enhance the realism of deepfake generators.",
+    "Concerns about the potential for negative impacts that need to be minimized."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

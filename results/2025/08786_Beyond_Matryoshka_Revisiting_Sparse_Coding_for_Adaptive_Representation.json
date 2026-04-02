@@ -1,0 +1,11 @@
+{
+  "title": "08786_Beyond_Matryoshka_Revisiting_Sparse_Coding_for_Adaptive_Representation",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

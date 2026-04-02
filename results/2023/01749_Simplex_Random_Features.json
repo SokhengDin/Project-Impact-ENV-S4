@@ -1,0 +1,14 @@
+{
+  "title": "01749_Simplex_Random_Features",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves kernel approximation in machine learning tasks, leading to better performance in nonparametric classification tasks.",
+    "Enhances the efficiency of Transformer architectures, allowing for scalable attention mechanisms in models like the SimRFs-Performer."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

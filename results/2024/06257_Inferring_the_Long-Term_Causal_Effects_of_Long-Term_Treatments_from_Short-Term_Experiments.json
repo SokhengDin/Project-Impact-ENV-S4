@@ -1,0 +1,11 @@
+{
+  "title": "06257_Inferring_the_Long-Term_Causal_Effects_of_Long-Term_Treatments_from_Short-Term_Experiments",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

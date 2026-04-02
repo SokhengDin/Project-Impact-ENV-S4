@@ -1,0 +1,18 @@
+{
+  "title": "00469_GPTSwarm_Language_Agents_as_Optimizable_Graphs",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "advancements in the efficiency and effectiveness of machine learning systems"
+  ],
+  "negative_examples": [
+    "ethical and employment concerns due to increased capability and automation of LLM agents",
+    "job displacement",
+    "potential for misuse of advanced AI technologies",
+    "need for rigorous oversight and ethical guidelines to prevent biased or unethical AI behaviors"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

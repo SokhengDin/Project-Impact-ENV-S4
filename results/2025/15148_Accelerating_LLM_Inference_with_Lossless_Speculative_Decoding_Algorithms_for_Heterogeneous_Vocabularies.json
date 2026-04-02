@@ -1,0 +1,16 @@
+{
+  "title": "15148_Accelerating_LLM_Inference_with_Lossless_Speculative_Decoding_Algorithms_for_Heterogeneous_Vocabularies",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Lowers the cost of LLM inference",
+    "Reduces latency of LLM inference",
+    "Makes LLM serving cheaper and faster",
+    "Increases accessibility of LLMs to a wider range of users"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

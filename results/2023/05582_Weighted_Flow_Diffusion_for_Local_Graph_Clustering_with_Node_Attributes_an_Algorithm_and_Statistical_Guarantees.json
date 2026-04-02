@@ -1,0 +1,14 @@
+{
+  "title": "05582_Weighted_Flow_Diffusion_for_Local_Graph_Clustering_with_Node_Attributes_an_Algorithm_and_Statistical_Guarantees",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed algorithm improves local graph clustering performance by incorporating node attributes, leading to better community detection in large-scale graphs.",
+    "Empirical results show that incorporating node attributes improves F1 scores by an average of 4.3% over 20 clusters from two academic co-authorship networks."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

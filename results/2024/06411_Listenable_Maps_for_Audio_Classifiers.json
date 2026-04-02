@@ -1,0 +1,15 @@
+{
+  "title": "06411_Listenable_Maps_for_Audio_Classifiers",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves neural network interpretability",
+    "Facilitates socially beneficial applications of machine learning-based audio processing",
+    "Enhances human trust in neural network decisions"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

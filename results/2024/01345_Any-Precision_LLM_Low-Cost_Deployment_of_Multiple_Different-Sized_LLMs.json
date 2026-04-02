@@ -1,0 +1,11 @@
+{
+  "title": "01345_Any-Precision_LLM_Low-Cost_Deployment_of_Multiple_Different-Sized_LLMs",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

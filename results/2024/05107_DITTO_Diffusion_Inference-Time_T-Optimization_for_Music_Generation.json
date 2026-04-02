@@ -1,0 +1,15 @@
+{
+  "title": "05107_DITTO_Diffusion_Inference-Time_T-Optimization_for_Music_Generation",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improving controllability for artists to interface with TTM systems through more musically-aligned controls."
+  ],
+  "negative_examples": [
+    "Concern of negatively impacting current working musicians and creators and their own livelihoods."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

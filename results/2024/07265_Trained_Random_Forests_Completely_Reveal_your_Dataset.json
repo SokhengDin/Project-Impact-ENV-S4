@@ -1,0 +1,17 @@
+{
+  "title": "07265_Trained_Random_Forests_Completely_Reveal_your_Dataset",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Raises awareness against the privacy vulnerabilities of ensemble methods",
+    "Provides promising research paths to stress test privacy-preserving mechanisms"
+  ],
+  "negative_examples": [
+    "Models may jeopardize their training data even when accessed in a black-box manner",
+    "Trained RF can reconstruct most (if not all) of its training data, exposing personal or private information"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "02889_Debating_with_More_Persuasive_LLMs_Leads_to_More_Truthful_Answers",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Methods to allow humans to supervise models effectively",
+    "Focus on improving the detection of truthful answers in LLMs"
+  ],
+  "negative_examples": [
+    "Incorrect application of supervision can make detecting malicious behaviour harder",
+    "Potential for misuse of superhuman models leading to harmful outcomes"
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

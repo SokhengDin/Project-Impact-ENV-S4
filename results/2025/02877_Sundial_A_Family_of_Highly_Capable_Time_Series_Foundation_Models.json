@@ -1,0 +1,15 @@
+{
+  "title": "02877_Sundial_A_Family_of_Highly_Capable_Time_Series_Foundation_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Facilitates out-of-the-box forecasting for various applications such as energy planning, weather forecasting, and financial risk prevention.",
+    "Enhances the reliability of decision-making and streamlines the forecasting pipeline for practitioners.",
+    "Provides a trillion-level time series dataset (TimeBench) beneficial to the research community."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "04520_Chain_of_Code_Reasoning_with_a_Language_Model-Augmented_Code_Emulator",
+  "q1_default": false,
+  "q2_positive": false,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [
+    "Chain of Code executes the output of LLMs using the Python interpreter as if they are always benign code, which poses a risk if the code is maliciously prompted.",
+    "Chain of Code will need to install additional safeguards against potentially harmful code from LLMs."
+  ],
+  "impact_found": true,
+  "year": "2024"
+}

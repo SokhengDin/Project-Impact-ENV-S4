@@ -1,0 +1,17 @@
+{
+  "title": "02243_On_the_Power_of_Pre-training_for_Generalization_in_RL_Provable_Benefits_and_Hardness",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Improves generalization in reinforcement learning (RL) which can enhance applications in autonomous driving, robotics, and healthcare, leading to better performance in dynamic environments.",
+    "Reduces the demand for real-world data by enabling agents to learn meaningful skills in simulated environments, thus improving test-time performance."
+  ],
+  "negative_examples": [
+    "The theoretical results indicate that pre-training may not significantly improve performance in certain hard cases, which could lead to overconfidence in RL systems that are not adequately tested in real environments.",
+    "Without test-time interactions, achieving near-optimal performance in unseen environments is statistically intractable, which could result in deploying ineffective RL policies in critical applications."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

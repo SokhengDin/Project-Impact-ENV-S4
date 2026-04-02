@@ -1,0 +1,14 @@
+{
+  "title": "04173_Flipping_Coins_to_Estimate_Pseudocounts_for_Exploration_in_Reinforcement_Learning",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The proposed method significantly outperforms existing approaches on challenging exploration tasks, which can lead to better performance in reinforcement learning applications such as robotics and gaming.",
+    "The method can be flexibly applied to a variety of observation spaces, potentially enhancing the effectiveness of AI systems in diverse real-world scenarios."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

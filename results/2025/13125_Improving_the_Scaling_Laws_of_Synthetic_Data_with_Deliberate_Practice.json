@@ -1,0 +1,14 @@
+{
+  "title": "13125_Improving_the_Scaling_Laws_of_Synthetic_Data_with_Deliberate_Practice",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Reduces computational and environmental costs associated with training large models",
+    "Makes data generation more accessible in low-resource settings"
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2025"
+}

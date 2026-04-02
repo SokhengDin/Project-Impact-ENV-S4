@@ -1,0 +1,11 @@
+{
+  "title": "03299_Candidate_Pseudolabel_Learning_Enhancing_Vision-Language_Models_by_Prompt_Tuning_with_Unlabeled_Data",
+  "q1_default": true,
+  "q2_positive": false,
+  "q3_negative": false,
+  "q4_more_positive": false,
+  "positive_examples": [],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

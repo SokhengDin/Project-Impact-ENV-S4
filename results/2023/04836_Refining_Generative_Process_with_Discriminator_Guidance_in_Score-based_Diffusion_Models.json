@@ -1,0 +1,17 @@
+{
+  "title": "04836_Refining_Generative_Process_with_Discriminator_Guidance_in_Score-based_Diffusion_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Achieves state-of-the-art results on image generation tasks, improving sample quality and diversity in datasets like ImageNet, CIFAR-10, and CelebA/FFHQ.",
+    "The proposed Discriminator Guidance method enhances the realism of generated samples, making them indistinguishable from real data, which can benefit applications in creative industries."
+  ],
+  "negative_examples": [
+    "Potential for misuse in generating deepfake images, which can lead to misinformation and privacy violations.",
+    "The computational cost associated with training the discriminator and generating samples may contribute to increased energy consumption."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

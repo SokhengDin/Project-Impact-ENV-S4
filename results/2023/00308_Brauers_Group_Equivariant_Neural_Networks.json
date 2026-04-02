@@ -1,0 +1,14 @@
+{
+  "title": "00308_Brauers_Group_Equivariant_Neural_Networks",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "The paper provides a full characterization of group equivariant neural networks, which can lead to simpler, more interpretable models that generalize better to unseen data, potentially improving machine learning applications in various fields such as physics and image processing.",
+    "The results could enhance the efficiency of learning from high-dimensional data that exhibit symmetry, which is common in physical processes."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

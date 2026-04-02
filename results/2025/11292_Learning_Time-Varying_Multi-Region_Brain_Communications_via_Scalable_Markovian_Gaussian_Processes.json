@@ -1,0 +1,19 @@
+{
+  "title": "11292_Learning_Time-Varying_Multi-Region_Brain_Communications_via_Scalable_Markovian_Gaussian_Processes",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Enhances ability to analyze large-scale neural recordings",
+    "Offers insights into sensory processing, cognitive flexibility, and neural disorders",
+    "Adaptability to fields such as robotics, autonomous systems, and signal processing"
+  ],
+  "negative_examples": [
+    "Risk of overinterpretation of inferred neural dynamics",
+    "Broader implications for brain-computer interfaces and neurotechnology",
+    "Need for responsible application of machine learning models in neuroscience"
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

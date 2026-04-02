@@ -1,0 +1,14 @@
+{
+  "title": "08463_GaLore_Memory-Efficient_LLM_Training_by_Gradient_Low-Rank_Projection",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves memory efficiency of training LLMs to reduce environmental impact.",
+    "Minimizes energy consumption and carbon footprint associated with training LLMs."
+  ],
+  "negative_examples": [],
+  "impact_found": true,
+  "year": "2024"
+}

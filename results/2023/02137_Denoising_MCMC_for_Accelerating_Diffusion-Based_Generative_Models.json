@@ -1,0 +1,15 @@
+{
+  "title": "02137_Denoising_MCMC_for_Accelerating_Diffusion-Based_Generative_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Reduction in resource consumption during diffusion sampling due to DMCMC's efficiency."
+  ],
+  "negative_examples": [
+    "Potential use of diffusion models to produce Deepfakes or fake information, which may require regulation."
+  ],
+  "impact_found": true,
+  "year": "2023"
+}

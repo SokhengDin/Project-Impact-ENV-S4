@@ -1,0 +1,14 @@
+{
+  "title": "06673_JAWS-X_Addressing_Efficiency_Bottlenecks_of_Conformal_Prediction_Under_Standard_and_Feedback_Covariate_Shift",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "Improves predictive uncertainty quantification in high-stakes decision-making scenarios, such as biomolecular design and active learning tasks.",
+    "Demonstrates practical performance improvements in real-world datasets, leading to better model performance and sharper predictive intervals."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "04556_Do_Perceptually_Aligned_Gradients_Imply_Robustness",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Promoting Perceptually Aligned Gradients (PAG) leads to more robust models, which can improve the safety of AI systems in real-world applications that affect human lives.",
+    "The findings can potentially pave the way for standard training methods for obtaining robust classifiers without adversarial training, making AI systems more reliable."
+  ],
+  "negative_examples": [
+    "The sensitivity of neural networks to minor corruptions raises significant safety concerns when deployed in real-world applications.",
+    "The paper discusses the potential for adversarial attacks, which can be exploited to cause misclassification in critical applications, posing risks to safety and security."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

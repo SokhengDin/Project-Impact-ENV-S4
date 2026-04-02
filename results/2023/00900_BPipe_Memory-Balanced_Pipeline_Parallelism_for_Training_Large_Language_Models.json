@@ -1,0 +1,14 @@
+{
+  "title": "00900_BPipe_Memory-Balanced_Pipeline_Parallelism_for_Training_Large_Language_Models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": false,
+  "q4_more_positive": true,
+  "positive_examples": [
+    "BPIPE enhances the training efficiency of large language models like GPT-3 by eliminating redundant recomputations or increasing the micro-batch size, leading to faster training times.",
+    "BPIPE can execute configurations that are not feasible without it, thus enabling the training of larger models and potentially advancing AI capabilities."
+  ],
+  "negative_examples": [],
+  "impact_found": false,
+  "year": "2023"
+}

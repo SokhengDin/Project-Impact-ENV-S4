@@ -1,0 +1,15 @@
+{
+  "title": "01904_Blink_of_an_eye_a_simple_theory_for_feature_localization_in_generative_models",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "Insights about jailbreaks could lead to better alignment strategies and training methods."
+  ],
+  "negative_examples": [
+    "Describes a theory for jailbreaks which could impact model safety in the future."
+  ],
+  "impact_found": true,
+  "year": "2025"
+}

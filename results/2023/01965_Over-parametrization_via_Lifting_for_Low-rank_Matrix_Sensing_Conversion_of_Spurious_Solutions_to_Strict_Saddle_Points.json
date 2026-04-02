@@ -1,0 +1,17 @@
+{
+  "title": "01965_Over-parametrization_via_Lifting_for_Low-rank_Matrix_Sensing_Conversion_of_Spurious_Solutions_to_Strict_Saddle_Points",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The proposed method improves the scalability of solving low-rank matrix sensing problems, which can benefit applications like collaborative filtering and power system state estimation.",
+    "The lifting technique can help convert spurious solutions to strict saddle points, making optimization more efficient and reliable."
+  ],
+  "negative_examples": [
+    "The paper discusses the challenges of spurious local minima in non-convex optimization, which can lead to unreliable outcomes in practical applications.",
+    "If the proposed methods are misapplied, they could exacerbate issues in sensitive areas like power system state estimation, potentially leading to failures or inefficiencies."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}

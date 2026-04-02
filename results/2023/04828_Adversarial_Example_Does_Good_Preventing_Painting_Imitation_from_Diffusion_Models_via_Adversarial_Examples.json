@@ -1,0 +1,17 @@
+{
+  "title": "04828_Adversarial_Example_Does_Good_Preventing_Painting_Imitation_from_Diffusion_Models_via_Adversarial_Examples",
+  "q1_default": false,
+  "q2_positive": true,
+  "q3_negative": true,
+  "q4_more_positive": false,
+  "positive_examples": [
+    "The proposed method can protect human artists' copyrights against unauthorized use of their artworks by diffusion models.",
+    "Adversarial examples can effectively hinder diffusion models from extracting features and imitating art styles, thus preserving the integrity of original artworks."
+  ],
+  "negative_examples": [
+    "The paper highlights that copyright violations can occur when infringers use unauthorized paintings to train diffusion models, leading to potential legal issues for artists.",
+    "There is a risk that the technology could be misused by infringers to create unauthorized imitations of artworks, undermining the rights of original creators."
+  ],
+  "impact_found": false,
+  "year": "2023"
+}
