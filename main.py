@@ -26,6 +26,8 @@ _openai_key = os.getenv("OPENAI_API_KEY")
 if _openai_key:
     os.environ["OPENAI_API_KEY"] = _openai_key
 
+# Alternative open-source : décommenter les lignes Ollama et commenter les lignes OpenAI
+# Nécessite Ollama installé localement (https://ollama.com) avec le modèle téléchargé
 # llm = ChatOllama(model="qwen3.5:4b", temperature=0)
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0) if _openai_key else None
 
@@ -112,6 +114,7 @@ prompt = ChatPromptTemplate.from_messages([
 chain = (prompt | llm.with_structured_output(ImpactAnalysis)) if llm else None
 
 
+# Cherche et retourne le texte de la section d'impact dans le PDF (bloc par bloc)
 def extract_impact_section(pdf_path: Path) -> str:
     doc          = fitz.open(str(pdf_path))
     text_results = ""
@@ -133,6 +136,7 @@ def extract_impact_section(pdf_path: Path) -> str:
     return text_results.strip()
 
 
+# Extrait tout le texte brut du PDF, utilisé en dernier recours
 def extract_full_text(pdf_path: Path) -> str:
     doc = fitz.open(str(pdf_path))
     return "\n".join(
@@ -143,6 +147,7 @@ def extract_full_text(pdf_path: Path) -> str:
     )
 
 
+# Découpe le PDF en chunks, filtre ceux liés à l'impact, puis retourne les plus pertinents via FAISS
 def build_rag_context(pdf_path: Path, title: str) -> str:
     loader   = PyPDFLoader(str(pdf_path))
     pages    = loader.load()
@@ -163,6 +168,7 @@ def build_rag_context(pdf_path: Path, title: str) -> str:
     return "\n\n".join(r.page_content for r in results)
 
 
+# Orchestre l'extraction puis envoie le texte au LLM pour obtenir les 4 réponses structurées
 def analyse_paper(pdf_path: Path) -> dict:
     impact_section = extract_impact_section(pdf_path)
     rag_context    = build_rag_context(pdf_path, pdf_path.stem) if not impact_section else ""
@@ -190,6 +196,7 @@ def analyse_paper(pdf_path: Path) -> dict:
     }
 
 
+# Parcourt tous les PDFs par année, saute ceux déjà traités, et agrège les résultats en JSON
 def analyse_folder(papers_dir: Path, output_dir: Path) -> List[dict]:
     year_dirs = sorted([d for d in papers_dir.iterdir() if d.is_dir() and d.name.isdigit()])
 
