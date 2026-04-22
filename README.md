@@ -81,6 +81,16 @@ projet/
   OPENAI_API_KEY=sk-...
   ```
 
+> **Alternative open-source (sans clé API)** — Il est possible de remplacer GPT-4o-mini par un modèle local via [Ollama](https://ollama.com). Dans `main.py`, décommenter les lignes `ChatOllama` / `OllamaEmbeddings` et commenter les lignes OpenAI. Modèles compatibles :
+> - `qwen3.5:4b`, `qwen3:8b` — Qwen3 (Alibaba)
+> - `gemma3:4b`, `gemma3:12b` — Gemma 3 (Google)
+> - `gemma4:12b` — Gemma 4 (Google, dernière génération)
+>
+> ```bash
+> ollama pull qwen3.5:4b
+> ollama pull gemma4:12b
+> ```
+
 **Windows :**
 ```bash
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
