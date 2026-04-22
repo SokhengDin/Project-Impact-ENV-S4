@@ -23,13 +23,15 @@ from langchain_community.vectorstores import FAISS
 
 load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+_openai_key = os.getenv("OPENAI_API_KEY")
+if _openai_key:
+    os.environ["OPENAI_API_KEY"] = _openai_key
 
 # llm = ChatOllama(model="qwen3:latest", temperature=0)
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0) if _openai_key else None
 
 # embeddings = OllamaEmbeddings(model="qwen3:latest")
-embeddings = OpenAIEmbeddings()
+embeddings = OpenAIEmbeddings() if _openai_key else None
 
 splitter = RecursiveCharacterTextSplitter(
     chunk_size    = 1000,
@@ -93,7 +95,7 @@ prompt = ChatPromptTemplate.from_messages([
     ),
 ])
 
-chain = prompt | llm.with_structured_output(ImpactAnalysis)
+chain = (prompt | llm.with_structured_output(ImpactAnalysis)) if llm else None
 
 
 def extract_impact_section(pages: List[Document]) -> str:
@@ -121,7 +123,7 @@ def build_rag_context(pages: List[Document], title: str) -> str:
         if any(re.search(p, c.page_content.lower()) for p in IMPACT_PATTERNS)
     ]
 
-    if not relevant:
+    if not relevant or embeddings is None:
         return ""
 
     store   = FAISS.from_documents(relevant, embeddings)
@@ -140,6 +142,9 @@ def analyse_paper(pdf_path: Path) -> dict:
     rag_context    = build_rag_context(pages, pdf_path.stem)
     impact_text    = impact_section or rag_context or "No impact statement found."
     found          = bool(impact_section or rag_context)
+
+    if chain is None:
+        raise RuntimeError("OPENAI_API_KEY is not set — cannot analyse papers.")
 
     result = chain.invoke({
         "title"      : pdf_path.stem,

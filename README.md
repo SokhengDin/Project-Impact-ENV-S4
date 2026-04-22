@@ -51,11 +51,51 @@ Le modèle produit également des listes concrètes d'exemples positifs et néga
 
 ---
 
+## Mode alternatif — `agent.py` (téléchargement + visualisation locale)
+
+`agent.py` est une version autonome du pipeline qui ajoute deux fonctionnalités supplémentaires par rapport à `main.py` :
+
+### Téléchargement automatique depuis OpenReview (`download_from_openreview`)
+
+Au lieu de placer les PDFs manuellement, `agent.py` se connecte directement à l'API **OpenReview** et télécharge les soumissions d'une conférence donnée via son `venue_id` :
+
+```bash
+# Télécharger 50 articles de NeurIPS 2023
+python agent.py download NeurIPS.cc/2023/Conference --output papers/ --limit 50
+
+# Télécharger puis analyser en une seule commande
+python agent.py run NeurIPS.cc/2023/Conference --papers papers/ --output results/ --limit 50
+
+# Analyser des PDFs déjà téléchargés
+python agent.py analyse papers/ --output results/
+```
+
+Le script extrait le titre de chaque article depuis les métadonnées OpenReview, nettoie le nom de fichier, et ignore les articles déjà téléchargés (reprise possible).
+
+Exemples de `venue_id` :
+- `ICML.cc/2023/Conference`
+- `NeurIPS.cc/2023/Conference`
+- `ICLR.cc/2024/Conference`
+
+---
+
+### Visualisation locale avec Matplotlib (`visualize`)
+
+Après l'analyse, `agent.py` peut générer un graphique PNG avec deux panneaux :
+
+- **Panneau gauche** — Barres agrégées : nombre total d'articles répondant OUI à chaque question (Q1 à Q4)
+- **Panneau droit** — Détail par article : grille de réponses OUI/NON pour chaque article analysé
+
+Le graphique est sauvegardé localement en image haute résolution (150 dpi).
+
+---
+
 ## Architecture du projet
 
 ```
 projet/
-├── main.py              # Pipeline complet + API FastAPI
+├── main.py              # Pipeline complet + API FastAPI (PDFs locaux)
+├── agent.py             # Pipeline alternatif : téléchargement OpenReview + visualisation matplotlib
 ├── extract_statement.py # Prototype initial d'extraction (développement)
 ├── index.html           # Tableau de bord de visualisation (charts, KPIs)
 ├── papers/
@@ -157,5 +197,7 @@ python main.py papers/ --output results/
 | Orchestration | LangChain |
 | Sortie structurée | Pydantic + `with_structured_output` |
 | API | FastAPI |
-| Visualisation | HTML/JS vanilla (uPlot, Chart.js) |
+| Visualisation web | HTML/JS vanilla (uPlot, Chart.js) |
+| Visualisation locale | Matplotlib (via `agent.py`) |
+| Source des articles | OpenReview API (via `agent.py`) |
 | Déploiement | Docker + uv |
