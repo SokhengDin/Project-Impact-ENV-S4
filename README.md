@@ -138,6 +138,8 @@ curl -X POST http://localhost:8000/run \
 | `GET`   | `/data` | Résultats JSON globaux |
 | `POST`  | `/run` | Lancer l'analyse des PDFs |
 
+La documentation interactive de l'API (Swagger UI) est accessible sur [http://localhost:8000/docs](http://localhost:8000/docs).
+
 ---
 
 ## Technologies utilisées
